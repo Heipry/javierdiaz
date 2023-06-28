@@ -34,7 +34,7 @@ CREATE TABLE `jdg_titulos` (
   `foto` varchar(255) NOT NULL,
   `categoria` varchar(255) NOT NULL,
   `visible` int(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `jdg_titulos`
@@ -176,7 +176,7 @@ INSERT INTO `jdg_titulos` (`id`, `titulo`, `descripcion`, `foto`, `categoria`, `
 CREATE TABLE `jdg_usuarios` (
   `nombre` varchar(255) NOT NULL,
   `pass` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `jdg_usuarios`
