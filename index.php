@@ -1,3 +1,4 @@
+<?php session_start(); $_SESSION["num1"] = rand(0,10); $_SESSION["num2"] = rand(0,10); ?>
 <!DOCTYPE html>
 <html lang=es>
 <head>
@@ -24,11 +25,6 @@
 <link rel=apple-touch-icon-precomposed href=assets/images/ico/apple-touch-icon-57-precomposed.png>
 </head>
 <body>
-<!--  <div id=tt-preloader>
-<div id=pre-status>
- <div class=preload-placeholder></div> 
-</div>
-</div>-->
 <section id=home class=tt-fullHeight data-stellar-vertical-offset=50 data-stellar-background-ratio=0.2>
 <div class=intro>
 <div class=intro-sub>Yo Soy Javier</div>
@@ -36,7 +32,7 @@
 <p>Profesional dedicado a la gestión y creación de proyectos web<br> También administrador de eCommerce y desarrollador PHP especializado en PrestaShop.</p>
 <div class=social-icons>
 <ul class=list-inline>
-<li><a href=https://www.facebook.com/javier.diaz.garrido target=_blank><i class="fa fa-facebook"></i></a></li>
+<li><a href=https://www.linkedin.com/in/javier-diaz-garrido/ target=_blank><i class="fa fa-linkedin"></i></a></li>
 <li><a href=https://twitter.com/heipry target=_blank><i class="fa fa-twitter"></i></a></li>
 
 <li><a href="https://wa.me/34627496505?text=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target=_blank><i class="fa fa-whatsapp"></i></a></li>
@@ -75,43 +71,29 @@
 </div>
 </nav>
 </header>
+<!-- About -->
 <section id=about class="about-section section-padding">
 <div class=container>
 <h2 class="section-title wow fadeInUp">Sobre mi</h2>
 <div class=row>
-<div class="col-md-4 col-md-push-8">
-<div class=biography>
-<div class=myphoto>
-<img src=assets/images/myphoto.jpg alt>
-</div>
-<ul>
-<li><strong>Nombre:</strong> Javier Díaz Garrido</li>
-<li><strong>Fecha de nacimiento:</strong> 24 de mayo de 1981</li>
-<li><strong>Localidad:</strong> Arnedo (La Rioja)</li>
-<li><strong>Nacionalidad:</strong> España</li>
-<li><strong>Email:</strong> heipry@gmail.com</li>
-<li>
-    <table>
-        <tr>
-            <td style="font-family:Verdana; width:140px; padding-top:6px; padding-left:0; padding-right:0; text-align:center; vertical-align:middle;" valign="middle" >
-            <span><a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon" style="border:0; height:16px; width:16px" src="http://javierdiaz.com.es/assets/firma/gh.png"></a></span> 
-            </td>
-
-            <td style="font-family:Verdana; width:140px; padding-top:6px; padding-left:0; padding-right:0; text-align:center; vertical-align:middle;" valign="middle" >
-            <span><a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" style="border:0; height:16px; width:16px" src="http://javierdiaz.com.es/assets/firma/cp.png"></a></span>
-            </td>
-    
-            <td style="font-family:Verdana; width:140px; padding-top:6px; padding-left:0; padding-right:0; text-align:center; vertical-align:middle;" valign="middle" >
-            <span><a href="https://gitlab.com/Heipry" target="_blank"><img border="0" width="16" alt="GitLab icon" style="border:0; height:16px; width:16px" src="http://javierdiaz.com.es/assets/firma/gl.png"></a></span> 
-            </td>
-        </tr>
-    </table>
-</li>
-
-</ul>
+<div class="col-md-5 col-md-push-8">
+<div class="about">
+        <div class="inner">          
+          
+          <div class="about-con">
+            <ul>
+              <li>Javier Díaz</li>
+              <li>Email: <a href="mailto:heipry@gmail.com">heipry@gmail.com</a></li>
+              <li>Whatsapp: &nbsp;<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank"><i class="fa fa-whatsapp"></i> </a> </li>
+              <li>Fecha de nacimiento: 24 de Mayo de 1981</li>
+              <li>Localidad: Arnedo (La Rioja)</li>
+              <li>Nacionalidad: Española</li>
+            </ul>            
+            <a href="https://javierdiaz.com.es/assets/images/Javier_Diaz_CV.pdf" class="bbutton">DESCARGAR MI CV</a> </div>
+        </div>
 </div>
 </div>
-<div class="col-md-8 col-md-pull-4">
+<div class="col-md-7 col-md-pull-4">
 <div class="short-info wow fadeInUp">
 <h3>HOY EN DÍA</h3>
 <p>Me siento comodo en la gestión de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos.<p><br>
@@ -129,7 +111,6 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <li>Amplios conocimientos de desarrollo web: HTML5, CSS3, JavaScript, PHP</li>
 <li>Gestión de plantillas de personal</li>
 <li>Experiencia en atención al cliente</li>
-
 
 </ul>
 </div>
@@ -171,6 +152,8 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </div>
 </div>
 </section>
+
+<!-- Resume-->
 <section id=resume class="resume-section section-padding">
 <div class=container>
 <h2 class="section-title wow fadeInUp">Resumen</h2>
@@ -181,39 +164,6 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </div>
 <div class=resume>
 <ul class=timeline>
-<li><!--
-<div class=posted-date>
-<span class=month>1998-2000</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Bachillerato tecnológico - <a class="image-link importante" href="assets/images/bachillerato.jpg"><i class="fa fa-search-plus"></i></a></h3>
-<span><a href="http://www.iesvirgendevico.org/" target="_blank">Instituto Virgen de Vico, Arnedo, La Rioja</a></span>
-</div>
-<div class=timeline-body>
-<p>Terminé el Bachillerato Tecnológico para conseguir el acceso a la Prueba de Acceso a Selectividad que decidí realizar en su rama de tecnología con un resultado excelente.</p>
-</div>
-</div>
-</div>
-</li>
-<li class=timeline-inverted>
-<div class=posted-date>
-<span class=month>2000-2003</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Ingeniería Informática Superior</h3>
-<span><a href="https://www.ehu.eus/es/" target="_blank">Universidad del País Vasco (EHU), San Sebastían, País Vasco</a></span>
-</div>
-<div class=timeline-body>
-<p>Comencé la carrera de Ingeniería Informática aunque la tuve que dejar el tercer año sin haber finalizado completamente los estudios.</p>
-</div>
-</div>
-</div>
-</li>-->
-
 <li>
 <div class=posted-date>
 <span class=month>2015-2017</span>
@@ -287,143 +237,159 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=row>
 <div class=col-md-12>
 <div class=resume-title>
+
+
 <h3>Experiencia</h3>
 </div>
 <div class=resume>
-<ul class=timeline><!--
-<li class=timeline-inverted>
-<div class=posted-date>
-<span class=month>2003-2005</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Operario del sector metal</h3>
-<span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p> Leía planos y programas de producción para determinar con precisión las instrucciones y las especificaciones del trabajo. También realizaba operaciones de mantenimiento en equipos en función de las necesidades y observaba que las máquinas funcionaran correctamente.</p>
-</div>
-</div>
-</div>
-</li>-->
-<li>
-<div class=posted-date>
-<span class=month>2003-2008</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Responsable oficina</h3>
-<span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>En esta empresa llegué a dirigir un grupo de 10 personas. Planificaba y ejecutaba el trabajo a partir de bocetos, dibujos, especificaciones y pedidos de trabajo. Aqui empecé a dedicarme a la atención al público ya que el puesto tenía un marcado perfil de ventas, tanto en persona como por medios telemáticos. Adicionalmente debía cuidar la red e instalaciones informáticas de la oficina.</p>
-</div>
-</div>
-</div>
-</li>
-<li class=timeline-inverted>
-<div class=posted-date>
-<span class=month>2008-2012</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Gerente de empresa</h3>
-<span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>Tras la jubilación del antiguo gerente asumí la dirección completa de la empresa. En esta etapa modernizamos los procesos de la empresa y conseguimos la inclusión de la etiqueta CE de nuestros productos. Además la empresa inició una emergente aunque agresiva campaña en Internet y redes sociales de la que debí ocuparme personalmente. </p>
-</div>
-</div>
-</div>
-</li>
-<li class=posted-date>
-<div class=posted-date>
-<span class=month>2012-2015</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Propietario de empresa</h3>
-<span>Carpintería Caraldiaz SLU, Arnedo, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>Monté mi propia empresa. Pivoté el modelo de negocio desde la fabricación y montaje local a la venta en internet. La joven empresa tuvo que fabricar una infraestructura digital desde cero con la que adquirí una experiencia en aplicaciones web, marketing digital y legislación en la red que me dio la oportunidad de conocer el mundo del desarrollo web de manera profesional.
-</p>
-</div>
-</div>
-</div>
-</li>
-<li class=timeline-inverted>
-<div class=posted-date>
-<span class=month>2015-2017</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Diseñador y gestor web</h3>
-<span>Jadigar Web Services, Arnedo, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>En paralelo a la empresa de venta por internet, empecé a ofrecer mis servicios como diseñador de páginas web y gestor de redes sociales a otras empresas, convirtiéndome en autónomo bajo la marca Jadigar Web Services. En este momento consideré necesario ampliar mi formación online. Así me convirtí en partner de Google para Adwords y publicidad para móviles así como socio certificado de Google Analytics.</p>
-</div>
-</div>
-</div>
-</li>
-<li class=posted-date>
-<div class=posted-date>
-<span class=month>2017</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Desarrollador Web</h3>
-<span>Procesyva SL, Calahorra, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>En 2017 pasé a trabajar en una agencia digital como desarrollador web independiente. El trabajo comprendía todo lo que se puede esperar de este puesto: manejo de lenguajes de marcas, HTML y CSS, lenguajes de programación, sobre todo PHP y JavaScript, manejo de CMSs como WordPress y PrestaShop, así como la gestión de bases de datos, de servidores o la administración de DNS y dominios.
-</p>
-</div>
-</div>
-</div>
-</li>
-<li class=timeline-inverted>
-<div class=posted-date>
+    <ul class=timeline>
+        <li class=posted-date>
+            <div class=posted-date>
+                <span class=month>2021-Actualidad</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Web Development Project Manager</h3>
+                        <span>Proyecto Online, Logroño, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>Actualemte soy gerente de desarrollo web. Me encargo de liderar un equipo de desarrolladores
+                            web. Las responsabilidades de un gerente de desarrollo web incluyen supervisar los
+                            proyectos, diseñar la arquitectura web, brindar orientación sobre cuestiones técnicas y
+                            gestionar la comunicación con el cliente. Estamos especializados en el desarrollo
+                            personalizado bajo PrestaShop, WordPress y otros CMSs con diseño de marca, desarrollo de
+                            módulos, etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class=timeline-inverted>
+            <div class=posted-date>
 
-<span class=month>2018-2021</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Ecommerce Manager</h3>
-<span>TapasRioja (Berlin Packaging), Rincón de Soto, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>En esta etapa estuve administrando, actualizando y gestionando un ecommerce que solo en web tenía un volumen de ventas de más de 100 pedidos diarios. Hay que tener en cuenta que una tienda web con este volumen necesita un rediseño y actualización continuo. Entre mis funciones también se incluía el soporte técnico a los usuarios, la gestion de la presencia en redes sociales y la venta en Marketplaces de la empresa. Mi etapa aquí comprendía también las funciones de director de tecnología de la delegación, con gestión de la red interna, servidor y un ERP distribuido entre varios puestos de trabajo.</p>
-</div>
-</div>
-</div>
-</li>
-<li class=posted-date>
-<div class=posted-date>
-<span class=month>2021-Actualidad</span>
-</div>
-<div class="timeline-panel wow fadeInUp">
-<div class=timeline-content>
-<div class=timeline-heading>
-<h3>Web Development Project Manager</h3>
-<span>Proyecto Online, Logroño, La Rioja</span>
-</div>
-<div class=timeline-body>
-<p>Actualemte soy gerente de desarrollo web. Me encargo de liderar un equipo de desarrolladores web. Las responsabilidades de un gerente de desarrollo web incluyen supervisar los proyectos, diseñar la arquitectura web, brindar orientación sobre cuestiones técnicas y gestionar la comunicación con el cliente. Estamos especializados en el desarrollo personalizado bajo PrestaShop, WordPress y otros CMSs con diseño de marca, desarrollo de módulos, etc.
-</p>
-</div>
-</div>
-</div>
-</li>
-</ul>
+                <span class=month>2018-2021</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Ecommerce Manager</h3>
+                        <span>TapasRioja (Berlin Packaging), Rincón de Soto, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>En esta etapa estuve administrando, actualizando y gestionando un ecommerce que solo en web
+                            tenía un volumen de ventas de más de 100 pedidos diarios. Hay que tener en cuenta que una
+                            tienda web con este volumen necesita un rediseño y actualización continuo. Entre mis
+                            funciones también se incluía el soporte técnico a los usuarios, la gestion de la presencia
+                            en redes sociales y la venta en Marketplaces de la empresa. Mi etapa aquí comprendía también
+                            las funciones de director de tecnología de la delegación, con gestión de la red interna,
+                            servidor y un ERP distribuido entre varios puestos de trabajo.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class=posted-date>
+            <div class=posted-date>
+                <span class=month>2017</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Desarrollador Web</h3>
+                        <span>Procesyva SL, Calahorra, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>En 2017 pasé a trabajar en una agencia digital como desarrollador web independiente. El
+                            trabajo comprendía todo lo que se puede esperar de este puesto: manejo de lenguajes de
+                            marcas, HTML y CSS, lenguajes de programación, sobre todo PHP y JavaScript, manejo de CMSs
+                            como WordPress y PrestaShop, así como la gestión de bases de datos, de servidores o la
+                            administración de DNS y dominios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class=timeline-inverted>
+            <div class=posted-date>
+                <span class=month>2015-2017</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Diseñador y gestor web</h3>
+                        <span>Jadigar Web Services, Arnedo, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>En paralelo a la empresa de venta por internet, empecé a ofrecer mis servicios como diseñador
+                            de páginas web y gestor de redes sociales a otras empresas, convirtiéndome en autónomo bajo
+                            la marca Jadigar Web Services. En este momento consideré necesario ampliar mi formación
+                            online. Así me convirtí en partner de Google para Adwords y publicidad para móviles así como
+                            socio certificado de Google Analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class=posted-date>
+            <div class=posted-date>
+                <span class=month>2012-2015</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Propietario de empresa</h3>
+                        <span>Carpintería Caraldiaz SLU, Arnedo, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>Monté mi propia empresa. Pivoté el modelo de negocio desde la fabricación y montaje local a
+                            la venta en internet. La joven empresa tuvo que fabricar una infraestructura digital desde
+                            cero con la que adquirí una experiencia en aplicaciones web, marketing digital y legislación
+                            en la red que me dio la oportunidad de conocer el mundo del desarrollo web de manera
+                            profesional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class=timeline-inverted>
+            <div class=posted-date>
+                <span class=month>2008-2012</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Gerente de empresa</h3>
+                        <span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>Tras la jubilación del antiguo gerente asumí la dirección completa de la empresa. En esta
+                            etapa modernizamos los procesos de la empresa y conseguimos la inclusión de la etiqueta CE
+                            de nuestros productos. Además la empresa inició una emergente aunque agresiva campaña en
+                            Internet y redes sociales de la que debí ocuparme personalmente. </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class=posted-date>
+                <span class=month>2003-2008</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Responsable oficina</h3>
+                        <span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>En esta empresa llegué a dirigir un grupo de 10 personas. Planificaba y ejecutaba el trabajo
+                            a partir de bocetos, dibujos, especificaciones y pedidos de trabajo. Aqui empecé a dedicarme
+                            a la atención al público ya que el puesto tenía un marcado perfil de ventas, tanto en
+                            persona como por medios telemáticos. Adicionalmente debía cuidar la red e instalaciones
+                            informáticas de la oficina.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
 </div>
 </div>
 </div>
@@ -435,7 +401,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <ul class=list-inline id=filter>
     <?php
     include_once 'back/conexion/conexion.inc.php';
-    $categorias = ['front', 'back', 'e-com', 'edu', 'otros'];
+    $categorias = ['front', 'back', 'e-com', 'dire', 'otros'];
     ?>
 
 <!-- <li><a data-group=google>Google Partner</a></li> -->
@@ -443,7 +409,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <li><a data-group=<?php echo $categorias[1] ?>>Back End</a></li>
 <li><a data-group=<?php echo $categorias[2] ?>>E-commerce</a></li>
 <!-- <li><a data-group=idiomas>Idiomas</a></li> -->
-<li><a data-group=<?php echo $categorias[3] ?>>Docencia</a></li>
+<li><a data-group=<?php echo $categorias[3] ?>>Gestión</a></li>
 <li><a data-group=<?php echo $categorias[4] ?>>Otros</a></li>
 <li><a data-group=todos>Todos</a></li>
 </ul>
@@ -456,7 +422,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=row>
 <div id=grid>
     <?php foreach ($resultado as $dato): ?>
-    <div class="portfolio-item col-xs-4 col-sm-2 col-md-1" data-groups='["<?php echo $dato['categoria']; ?>","todos"]'>
+    <div class="portfolio-item col-xs-4 col-sm-2 col-md-2" data-groups='["<?php echo $dato['categoria']; ?>","todos"]'>
     <div class=portfolio-bg>
     <div class=portfolio>
     <div class=tt-overlay></div>
@@ -472,7 +438,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </div>
 
 <div class=row>
-<div class="col-md-2 col-md-offset-5" >
+<div class="col-xs-6 col-md-2 col-md-offset-5 col-xs-offset-3" >
     <button type=button class="btn btn-primary" data-toggle=modal data-target=#lista>Ver lista completa</button>
 </div>
 </div>
@@ -532,7 +498,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=skill-progress>
 <div class=skill-title><h3>Marketing digital</h3></div>
 <div class=progress>
-<div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=75 aria-valuemin=0 aria-valuemax=100><span>75%</span>
+<div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=70 aria-valuemin=0 aria-valuemax=100><span>70%</span>
 </div>
 </div>
 </div>
@@ -553,9 +519,9 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </div>
 </div>
 <div class=skill-progress>
-<div class=skill-title><h3 style=font-size:15px>Ecommerce</h3></div>
+<div class=skill-title><h3>Ecommerce</h3></div>
 <div class=progress>
-<div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=85 aria-valuemin=0 aria-valuemax=100><span>85%</span>
+<div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=95 aria-valuemin=0 aria-valuemax=100><span>95%</span>
 </div>
 </div>
 </div>
@@ -824,7 +790,7 @@ t
 <div class=portfolio-bg>
 <div class=portfolio>
 <div class=tt-overlay></div>
-<div class="links links-w"> <a href=http://apibee253:5JQNYPPj@www.apibeeglobal.com.mialias.net/ target="_blank"><i class="fa fa-link"></i></a> <a href=#beeglobal class=open-popup-link><i class="fa fa-list"></i></a>
+<div class="links links-w"> <a href=https://ecomninja.net/tienda/apibeeglobal-com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#beeglobal class=open-popup-link><i class="fa fa-list"></i></a>
 <div id=beeglobal class="white-popup mfp-hide">Ecommerce basado en PrestaShop para empresa de venta de material apícola. Theme modificado, modulos personalizados, etc...</div>
 </div>
 <img src=assets/images/portfolio/apibeeglobal.jpg alt=image>
@@ -880,15 +846,15 @@ t
 <div class=resume-title style="margin-top:10px;">
 <h3>Ver más proyectos</h3>
 </div>
-<div class="col-xs-4" style="border:1px solid black;height:110px;">
-        <span><a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon" style=" margin: 6% 38%;border:0;  width:20%" src="http://javierdiaz.com.es/assets/firma/gh.png"></a></span>
+<div class="col-xs-4 codelink" style="border:1px solid black;">
+        <a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon"  src="http://javierdiaz.com.es/assets/firma/gh.png"></a>
         
 </div>
-<div class="col-xs-4" style="border:1px solid black;height:110px;">
-        <span><a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" style="margin: 6% 38%;border:0; width:20%" src="http://javierdiaz.com.es/assets/firma/cp.png"></a></span>
+<div class="col-xs-4 codelink" style="border:1px solid black;">
+        <a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" src="http://javierdiaz.com.es/assets/firma/cp.png"></a>
 </div>
-<div class="col-xs-4" style="border:1px solid black; height:110px;">
-         <span><a href="https://gitlab.com/Heipry" target="_blank"><img border="0" width="16" alt="GitLab icon" style="margin: 6% 38%;border:0; width:20%" src="http://javierdiaz.com.es/assets/firma/gl.png"></a></span> 
+<div class="col-xs-4 codelink" style="border:1px solid black;">
+         <a href="https://gitlab.com/Heipry" target="_blank"><img border="0" width="16" alt="GitLab icon" src="http://javierdiaz.com.es/assets/firma/gl.png"></a>
 </div>
 
 </div></section>
@@ -900,7 +866,7 @@ t
 <div class=container>
 <div class=row>
 <div class=col-md-12>
-<h2>Estoy listo para que me contraten</h2>
+<h2>Estoy listo para que hablemos</h2>
 <a href=#contact class="btn btn-default">Contactar</a>
 </div>
 </div>
@@ -927,6 +893,15 @@ t
 <label for=InputSubject>Asunto</label>
 <input type=text name=subject class=form-control id=InputSubject>
 </div>
+<div style="display: none;">
+		<label for="required">Este es un campo de control. Si lo ves, pasa de él.</label>
+		<input type="text" name="required" />
+</div>
+
+<div class=form-group>
+<label for=numero >Resuelve la operacion <?php echo $_SESSION["num1"]; ?> + <?php echo $_SESSION["num2"];?>:</label>
+<input type=text name=numero class=form-control id=numero required>
+</div>
 <div class=form-group>
 <label for=InputTextarea>Mensaje</label>
 <textarea name=message class=form-control id=InputTextarea rows=5 required></textarea>
@@ -949,7 +924,8 @@ Arnedo, La Rioja<br>
 <i class="fa fa-mobile"></i>
 <div class=contact-number>
 <strong>Teléfono y WhatsApp</strong>
-627 496 505
+<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank">627 496 505</i> </a>
+
 </div>
 </div>
 </div>
@@ -969,7 +945,7 @@ Arnedo, La Rioja<br>
 <div class=row>
 <div class=col-md-12>
 <div class="copyright text-center">
-<p>&copy; 2019 Javier Diaz. All rights reserved.</p>
+<p>&copy; 2023 Javier Diaz. All rights reserved.</p>
 </div>
 </div>
 </div>
@@ -978,6 +954,7 @@ Arnedo, La Rioja<br>
 <div class=scroll-up>
 <a href=#home><i class="fa fa-angle-up"></i></a>
 </div>
+
 <script src=assets/js/jquery.js></script>
 <script src=assets/bootstrap/js/bootstrap.min.js></script>
 <script src=assets/js/jquery.stellar.min.js></script>

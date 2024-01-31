@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mi compra</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        ul, .opciones, .accion{
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 2rem;
+            min-width: 50vw;
+            max-width: 80vw;
+            box-shadow: 5px 5px 6px #CCC;
+        }
+        li{
+            list-style: none;
+            margin: 10px 0;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 600;  
+            color: midnightblue;      
+            padding: 10px 10vw;
+            background-color: aquamarine;
+            border-radius: 8px;    
+        }
+        .opciones{
+            background-color: rgba(38, 164, 186, 0.4);
+        }
+        .opciones div{
+            padding: 1rem 0;           
+        }
+        .opciones .principal{
+            display: flex;
+            flex-direction: row;            
+            align-items: center;            
+        }
+        .opciones .principal label{
+            flex-wrap: nowrap;
+        }
+        .opciones .principal input{
+            flex-grow: 2;
+        }
+        #textbox{
+            background-color: lightcyan;
+            padding: 10px 5px;
+            border-radius: 8px;
+            margin: 0 10px;
+        }
+        .accion{       
+            margin-top: 1rem;     
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #button{
+            border: 2px solid darkturquoise;
+            cursor: pointer;
+            box-shadow: 5px 10px 8px #888888;
+        }
+
+    </style>
+</head>
+<body>
+        <h1>Buscador</h1>
+        <p>Antes de buscar tienes que permitir ventanas emergentes y loguearte en:</p>
+
+        <ul>
+            <li><a href="https://soysuper.com/signin" target="merca">SoySuper</a></li>
+            <li><a href="https://supermercado.eroski.es/es/login/" target="dia">Eroski</a></li>
+            <li><a href="https://www.lupaonline.com/santander/customer/account/login" target="lupa">Lupa (la sesión caduca)</a></li>
+            <li><a href="https://www.bonarea-online.com/es" target="bonarea">Bonarea</a></li>
+			<li><a href="https://www.dia.es/compra-online/login/singlelogin" target="dia">Dia Online</a></li>
+        </ul>
+        <div class="opciones">
+            <div>
+                Tipo de busqueda Eroski:
+                <input type="radio" name="basic" value="all" checked/> Todo
+                <input type="radio" name="basic" value="basic" />  Basic
+            </div>
+
+            <div class="principal">
+                <label for="nombre">Texto a buscar:</label>  
+             <input type="text" name="nombre" id="textbox" 
+                onchange="operar(this.value)
+                    ">
+                </div>
+        </div>
+       
+       
+       <div class="accion">
+            <a id="button" href="javascript:void(0);" onclick="(function(){ 
+                var text =  document.getElementById('textbox').value;
+                operar(text);
+             })();">Abrir pestañas</a>
+       </div>
+        
+   
+</body>
+<script>
+      
+function operar(value) {
+    eroskiBasic = document.querySelector('input[name=basic]:checked').value;
+
+    var merca = 'https://soysuper.com/search?q='+value+'&sort=price%3Aasc';   
+    var lupa='https://www.lupaonline.com/logrono/catalogsearch/result/index/?cat=&dir=asc&order=price&q='+value;
+    var bonarea='https://www.bonarea-online.com/es/shop/find?searchWords='+value;  
+    var dia='https://www.dia.es/search?q='+value;
+    if (eroskiBasic =='basic') {
+        var eroski='https://supermercado.eroski.es/es/search/results/?q='+value+'%20eroski%20basic';
+    }else{
+        var eroski='https://supermercado.eroski.es/es/search/results/?q='+value; 
+    }
+    
+    window.open(merca, 'merca'); 
+    window.open(eroski, 'eroski'); 
+    window.open(lupa, 'lupa'); 
+    window.open(bonarea, 'bonarea'); 
+    window.open(dia, 'dia'); 
+}
+document.getElementById("textbox")
+            .addEventListener("keyup", function(event) {
+                 event.preventDefault();               
+                 if (event.keyCode === 13) {                   
+                document.getElementById("button").click();
+    }
+});
+    </script>
+</html>
