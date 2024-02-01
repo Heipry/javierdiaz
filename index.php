@@ -7,9 +7,11 @@
 <meta name=description content="vCard de Javier Díaz Garrido">
 <meta name=author content="Javier Díaz">
 <title>Yo soy Javier</title>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel=stylesheet type=text/css>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel=stylesheet type=text/css>
 <link href=assets/bootstrap/css/bootstrap.min.css rel=stylesheet media=screen>
 <link href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet media=screen>
+
 <link href=assets/css/animate.css rel=stylesheet>
 <link href=assets/css/magnific-popup.css rel=stylesheet>
 <link href=assets/css/style.css rel=stylesheet media=screen>
@@ -33,7 +35,9 @@
 <div class=social-icons>
 <ul class=list-inline>
 <li><a href=https://www.linkedin.com/in/javier-diaz-garrido/ target=_blank><i class="fa fa-linkedin"></i></a></li>
-<li><a href=https://twitter.com/heipry target=_blank><i class="fa fa-twitter"></i></a></li>
+<li><a href=https://twitter.com/heipry target=_blank><i class="fa-brands fa-x-twitter"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg></i></a></li>
 
 <li><a href="https://wa.me/34627496505?text=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target=_blank><i class="fa fa-whatsapp"></i></a></li>
 <li><a href="mailto:heipry@gmail.com?Subject=Hemos%20visto%20tu%20curriculum"><i class="fa fa-envelope"></i>
@@ -172,7 +176,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=timeline-content>
 <div class=timeline-heading>
 <h3>Diplomado en desarrollo de sitios web y aplicaciones móviles - <a class="image-link importante" href="assets/images/diplomadoweb.jpg"><i class="fa fa-search-plus"></i></a></h3>
-<span><a href="https://www.televisioneducativa.gob.mx/capacitacion/quienessomos" target="_blank">Centro de Capacitación Televisiva (09DBT002), Mexico</a></span>
+<span><a href="https://dgair.sep.gob.mx/cete" target="_blank">Centro de Capacitación Televisiva (09DBT002), Mexico</a></span>
 </div>
 <div class=timeline-body>
 <p>Impartido de manera telemática por la fundación Carlos Slim y el Sistema Educativo Nacional de Mexico, acredité mis competencias como desarrollador web y de aplicaciones móviles mediante este título equivalente a 73 créditos académicos y correspondiente al nivel 6 de la Clasificación Internacional Normalizada de Educación.</p>
@@ -189,7 +193,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=timeline-content>
 <div class=timeline-heading>
 <h3>Administración de servicios de Internet (IFCT0509) - <a class="image-link importante" href="assets/images/certificadoASI.jpg"><i class="fa fa-search-plus"></i></a></h3>
-<span><a href="http://www.adesos.org/" target="_blank">ADESOS, entidad colaboradora de OPEA, Calahorra, La Rioja </a></span>
+<span><a href="https://www.adesos.org/" target="_blank">ADESOS, entidad colaboradora de OPEA, Calahorra, La Rioja </a></span>
 </div>
 <div class=timeline-body>
 <p>Conseguí el certificado de profesionalidad que acredita mi disponibilidad como administrador de servicios de Internet, entornos Web y administrador de servicios de mensajería electrónica (WEBMASTER) así como técnico de sistemas de Internet.</p>
@@ -205,7 +209,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=timeline-content>
 <div class=timeline-heading>
 <h3>CFGS Desarrollo de aplicaciones WEB</h3>
-<span><a href="http://iesvirgendelespino.centros.educa.jcyl.es" target="_blank">IES Virgen del Espino, Soria, modalidad Online</a></span>
+<span><a href="https://directorio.educa.jcyl.es/m/es/centros/2012/1-42002744-virgen-del-espino" target="_blank">IES Virgen del Espino, Soria, modalidad Online</a></span>
 </div>
 <div class=timeline-body>
 <p>Estudios del Ciclo Formativo de Grado Superior de desarrollo de aplicaciones Web en modalidad online, titulación oficial y homologada que me permite trabajar como desarrollador multimedia y de aplicativos para entornos web. </p>
@@ -250,16 +254,12 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
             <div class="timeline-panel wow fadeInUp">
                 <div class=timeline-content>
                     <div class=timeline-heading>
-                        <h3>Web Development Project Manager</h3>
+                        <h3>Web Project Manager</h3>
                         <span>Proyecto Online, Logroño, La Rioja</span>
                     </div>
                     <div class=timeline-body>
-                        <p>Actualemte soy gerente de desarrollo web. Me encargo de liderar un equipo de desarrolladores
-                            web. Las responsabilidades de un gerente de desarrollo web incluyen supervisar los
-                            proyectos, diseñar la arquitectura web, brindar orientación sobre cuestiones técnicas y
-                            gestionar la comunicación con el cliente. Estamos especializados en el desarrollo
-                            personalizado bajo PrestaShop, WordPress y otros CMSs con diseño de marca, desarrollo de
-                            módulos, etc.
+                        <p>Actualmente soy gerente de proyectos web. Me encargo de liderar un equipo multidisciplinar para desarrollo
+                            web que incluye las áreas de diseño, programación y maquetación. Estamos especializados en el desarrollo bajo PrestaShop, WordPress y otros CMSs con diseño personalizado de marca, desarrollo de módulos, etc, dando un servicio 360º al añadir la gestión de redes sociales, SEO y SEM.
                         </p>
                     </div>
                 </div>
@@ -337,10 +337,10 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
                 <div class=timeline-content>
                     <div class=timeline-heading>
                         <h3>Propietario de empresa</h3>
-                        <span>Carpintería Caraldiaz SLU, Arnedo, La Rioja</span>
+                        <span>Carpintería Caraldiaz, Arnedo, La Rioja</span>
                     </div>
                     <div class=timeline-body>
-                        <p>Monté mi propia empresa. Pivoté el modelo de negocio desde la fabricación y montaje local a
+                        <p>Monté mi propia empresa en la que pivoté el modelo de negocio desde la fabricación y montaje local a
                             la venta en internet. La joven empresa tuvo que fabricar una infraestructura digital desde
                             cero con la que adquirí una experiencia en aplicaciones web, marketing digital y legislación
                             en la red que me dio la oportunidad de conocer el mundo del desarrollo web de manera
@@ -349,7 +349,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
                     </div>
                 </div>
             </div>
-        </li>
+        </li><!--
         <li class=timeline-inverted>
             <div class=posted-date>
                 <span class=month>2008-2012</span>
@@ -388,7 +388,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
                     </div>
                 </div>
             </div>
-        </li>
+        </li>-->
     </ul>
 </div>
 </div>
@@ -847,14 +847,14 @@ t
 <h3>Ver más proyectos</h3>
 </div>
 <div class="col-xs-4 codelink" style="border:1px solid black;">
-        <a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon"  src="http://javierdiaz.com.es/assets/firma/gh.png"></a>
+        <a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon"  src="https://javierdiaz.com.es/assets/firma/gh.png"></a>
         
 </div>
 <div class="col-xs-4 codelink" style="border:1px solid black;">
-        <a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" src="http://javierdiaz.com.es/assets/firma/cp.png"></a>
+        <a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png"></a>
 </div>
 <div class="col-xs-4 codelink" style="border:1px solid black;">
-         <a href="https://gitlab.com/Heipry" target="_blank"><img border="0" width="16" alt="GitLab icon" src="http://javierdiaz.com.es/assets/firma/gl.png"></a>
+         <a href="https://gitlab.com/Heipry" target="_blank"><img border="0" width="16" alt="GitLab icon" src="https://javierdiaz.com.es/assets/firma/gl.png"></a>
 </div>
 
 </div></section>
@@ -966,7 +966,7 @@ Arnedo, La Rioja<br>
 <script src=assets/js/jquery.easypiechart.js></script>
 <script src=assets/js/jquery.shuffle.min.js></script>
 <script src=assets/js/jquery.magnific-popup.min.js></script>
-<script src=http://a.vimeocdn.com/js/froogaloop2.min.js></script>
+
 <script src=assets/js/jquery.fitvids.js></script>
 <script src=assets/js/scripts.js></script>
 </body>
