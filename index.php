@@ -29,7 +29,57 @@
 <body>
 <section id=home class=tt-fullHeight data-stellar-vertical-offset=50 data-stellar-background-ratio=0.2>
 <div class=intro>
-<div class=intro-sub>Yo Soy Javier</div>
+    <div class="contains">
+<div class="wrapper">
+  <p class="glitch">
+    <span>Y</span>
+    <span>o</span>
+
+    <span>S</span>
+    <span>o</span>
+    <span>y</span>
+
+    <span>J</span>
+    <span>a</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>r</span>
+  </p>
+  <p class="glitch_fixed">
+  <span>Y</span>
+    <span>o</span>
+
+    <span>S</span>
+    <span>o</span>
+    <span>y</span>
+
+    <span>J</span>
+    <span>a</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>r</span>
+  </p>
+  <p class="glitch_opacity">
+   <span>Y</span>
+    <span>o</span>
+
+
+    <span>S</span>
+    <span>o</span>
+    <span>y</span>
+
+    <span>J</span>
+    <span>a</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>r</span>
+  </p>
+</div>
+</div>
+
 <h1><span>Web</span> Project Manager</h1>
 <p>Profesional dedicado a la gestión y creación de proyectos web<br> También administrador de eCommerce y desarrollador PHP especializado en PrestaShop.</p>
 <div class=social-icons>
@@ -95,7 +145,17 @@
             </ul>            
             <a href="https://javierdiaz.com.es/assets/images/Javier_Diaz_CV.pdf" class="bbutton">DESCARGAR MI CV</a> </div>
         </div>
+        
 </div>
+<ul class=list-check>
+<li>Experiencia en gestión de proyectos web y administración de tiendas online</li>
+<li>Conocimientos de programación en lenguajes como JavaScript, PHP o Java</li>
+<li>Desarrollo y personalización de CMSs (WordPress, PrestaShop,...)</li>
+<li>Amplios conocimientos de desarrollo web: HTML5, CSS3, JavaScript, PHP</li>
+<li>Gestión de plantillas de personal</li>
+<li>Experiencia en atención al cliente</li>
+
+</ul>
 </div>
 <div class="col-md-7 col-md-pull-4">
 <div class="short-info wow fadeInUp">
@@ -108,15 +168,7 @@
 Salí de allí para montar mi propio eCommerce de cerramientos. Una cosa llevó a la otra y, aún en paralelo con mi pequeña tienda, empecé a ofrecer mis habilidades de creación y gestión de webs a clientes y proveedores. Éste fue un giro importante para mi carrera que me obligo a reciclarme. Completé un ciclo formativo de grado superior en Desarrollo de Aplicaciones Web, conseguí el título de técnico superior y de administrador de servicios de internet y desde entonces no he parado de formarme. Ahora estoy estudiando otro ciclo de grado superior, esta vez el de Desarrollo de Aplicaciones Multiplataforma.<br>
 Posteriormente he trabajado como desarrollador web en una agencia digital donde me especialicé en la programación PHP. Después estuve más de tres años como director de tecnología de una empresa con un eCommerce multicanal basado en PrestaShop, esta fue una oportunidad única para aprender sobre la personalización y desarrollo de este CMS y sobre la venta en marketplaces como Amazon.<br>
 Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la que trabajo, sigo ligado a la personalización de PrestaShop aunque también desarrollamos con WordPress y otros CMSs y me he acostumbrado a las bondades del teletrabajo.</p>
-<ul class=list-check>
-<li>Experiencia en gestión de proyectos web y administración de tiendas online</li>
-<li>Conocimientos de programación en lenguajes como JavaScript, PHP o Java</li>
-<li>Desarrollo y personalización de CMSs (WordPress, PrestaShop,...)</li>
-<li>Amplios conocimientos de desarrollo web: HTML5, CSS3, JavaScript, PHP</li>
-<li>Gestión de plantillas de personal</li>
-<li>Experiencia en atención al cliente</li>
 
-</ul>
 </div>
 <div class=my-signature>
 <img src=assets/images/sign.png alt>
@@ -208,7 +260,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class="timeline-panel wow fadeInUp">
 <div class=timeline-content>
 <div class=timeline-heading>
-<h3>CFGS Desarrollo de aplicaciones WEB</h3>
+<h3>CFGS Desarrollo de aplicaciones WEB - <a class="image-link importante" href="assets/images/diploma-daw.jpg"><i class="fa fa-search-plus"></i></a></h3>
 <span><a href="https://directorio.educa.jcyl.es/m/es/centros/2012/1-42002744-virgen-del-espino" target="_blank">IES Virgen del Espino, Soria, modalidad Online</a></span>
 </div>
 <div class=timeline-body>
@@ -397,7 +449,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </section>
 <section id=cert class="works-section section-padding">
 <div class=container>
-<h2 class="section-title wow fadeInUp">Certificaciones</h2>
+<h2 class="section-title wow fadeInUp">Certificados</h2>
 <ul class=list-inline id=filter>
     <?php
     include_once 'back/conexion/conexion.inc.php';
