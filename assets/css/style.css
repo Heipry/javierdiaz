@@ -426,6 +426,35 @@ a.bbutton:hover {
         height: 110px;
     }
 }
+/* typewriter */
+.typewriter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.typewriter p{
+    margin-bottom: 0;
+}
+.line1{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(44) 1s 1 normal both;
+  }
+.line2{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: typewriter 4s steps(44) 3s 1 normal both;             
+
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 44em;}
+  }
+  
+ 
 /* Glitch effect */
 .contains {
     box-sizing: border-box;
