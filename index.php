@@ -81,7 +81,10 @@
 </div>
 
 <h1><span>Web</span> Project Manager</h1>
-<p>Profesional dedicado a la gestión y creación de proyectos web<br> También administrador de eCommerce y desarrollador PHP especializado en PrestaShop.</p>
+<div class="typewriter">
+    <p class=line1>Profesional dedicado a la gestión y creación de proyectos web</p> 
+    <p class=line2>También administrador de eCommerce y desarrollador PHP especializado en PrestaShop.</p>
+</div>
 <div class=social-icons>
 <ul class=list-inline>
 <li><a href=https://www.linkedin.com/in/javier-diaz-garrido/ target=_blank><i class="fa fa-linkedin"></i></a></li>
