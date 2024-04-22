@@ -148,7 +148,8 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#68c3a3;m
 .timeline>li.timeline-inverted>.timeline-panel:after{right:auto;left:-14px;border-right-width:14px;border-left-width:0;}
 .timeline>li:last-child{margin-bottom:0;}
 .timeline-heading h3{font-size:20px;line-height:28px;}
-.timeline-heading span{display:block;font-weight:700;margin-bottom:20px;}
+.timeline-heading span{display:block;font-weight:700}
+.timeline-heading span:not(.multiline){margin-bottom:20px;}
 @media(min-width:992px){.timeline:before{left:50%;}
 .timeline>li{margin-bottom:15px;min-height:100px;}
 .timeline>li .posted-date{position:absolute;text-align:center;background-color:#fff;}
@@ -289,7 +290,7 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#68c3a3;m
 .contact-section .contact-number{overflow:hidden;line-height:30px;font-weight:400;margin-bottom:45px}
 .footer-wrapper{background:#1a1e23;padding:36px 0;color:#fff;}
 .copyright p{margin:0;}
-.scroll-up{position:fixed;display:none;z-index:999;bottom:1.8em;right:1.8em;}
+.scroll-up{position:fixed;display:none;z-index:999;bottom:5.8em;right:1.8em;}
 .scroll-up a{background-color:#52b3d9;display:block;width:28px;height:28px;text-align:center;color:#fff;font-size:14px;line-height:28px;}
 .scroll-up a:hover,
 .scroll-up a:active{background-color:rgba(235, 235, 235, .8);color:#222;}
@@ -446,12 +447,45 @@ a.bbutton:hover {
     flex-wrap: nowrap;
     white-space: nowrap;
     overflow: hidden;    
-    animation: typewriter 4s steps(44) 3s 1 normal both;             
-
+    animation: typewriter 4s steps(44) 3s 1 normal both; 
+  }
+  .line3{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: typewriter 4s steps(44) 5s 1 normal both; 
   }
   @keyframes typewriter{
     from{width: 0;}
-    to{width: 44em;}
+    to{width: 40em;}
+  }
+  .contact1{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: contact 4s steps(28) 1s 1 normal both; 
+  }
+  .contact2{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: contact 4s steps(28) 2s 1 normal both; 
+  }
+  .contact3{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: contact 4s steps(28) 3s 1 normal both; 
+  }
+  .contact4{    
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: contact 4s steps(28) 5s 1 normal both; 
+  }
+  @keyframes contact{
+    from{width: 0;}
+    to{width: 200px;}
   }
   
  

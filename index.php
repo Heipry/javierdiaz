@@ -25,6 +25,18 @@
 <link rel=apple-touch-icon-precomposed sizes=114x114 href=assets/images/ico/apple-touch-icon-114-precomposed.png>
 <link rel=apple-touch-icon-precomposed sizes=72x72 href=assets/images/ico/apple-touch-icon-72-precomposed.png>
 <link rel=apple-touch-icon-precomposed href=assets/images/ico/apple-touch-icon-57-precomposed.png>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+   function onSubmit(token) {
+    var button = document.createElement('input');
+	button.type = 'hidden';
+	button.name = 'recaptcha_token';
+	button.value = token;
+    var form =document.getElementById("contact-form");
+    form.appendChild(button);
+     form.submit();
+   }
+ </script>
 </head>
 <body>
 <section id=home class=tt-fullHeight data-stellar-vertical-offset=50 data-stellar-background-ratio=0.2>
@@ -80,10 +92,11 @@
 </div>
 </div>
 
-<h1><span>Web</span> Project Manager</h1>
+<h1><span>IT/Web</span> Project Manager</h1>
 <div class="typewriter">
-    <p class=line1>Profesional dedicado a la gestión y creación de proyectos web</p> 
-    <p class=line2>También administrador de eCommerce y desarrollador PHP especializado en PrestaShop.</p>
+    <p class=line1>Profesional dedicado a la gestión y creación de proyectos IT</p> 
+    <p class=line2>También administrador de eCommerce y</p>
+    <p class=line3>desarrollador PHP especializado en PrestaShop.</p>
 </div>
 <div class=social-icons>
 <ul class=list-inline>
@@ -137,14 +150,14 @@
 <div class="about">
         <div class="inner">          
           
-          <div class="about-con">
+          <div class="about-con typewritter">
             <ul>
-              <li>Javier Díaz</li>
-              <li>Email: <a href="mailto:heipry@gmail.com">heipry@gmail.com</a></li>
-              <li>Whatsapp: &nbsp;<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank"><i class="fa fa-whatsapp"></i> </a> </li>
-              <li>Fecha de nacimiento: 24 de Mayo de 1981</li>
-              <li>Localidad: Arnedo (La Rioja)</li>
-              <li>Nacionalidad: Española</li>
+              <li class="wow contact1" >Javier Díaz</li>
+              <li class="wow contact1">Email: <a href="mailto:heipry@gmail.com">heipry@gmail.com</a></li>
+              <li class="wow contact2">Whatsapp: &nbsp;<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank"><i class="fa fa-whatsapp"></i> </a> </li>
+              <!--li>Fecha de nacimiento: 24 de Mayo de 1981</li-->
+              <li class="wow contact3">Localidad: Arnedo (La Rioja)</li>
+              <li class="wow contact4">Nacionalidad: Española</li>
             </ul>            
             <a href="https://javierdiaz.com.es/assets/images/Javier_Diaz_CV.pdf" class="bbutton">DESCARGAR MI CV</a> </div>
         </div>
@@ -350,15 +363,15 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
             <div class="timeline-panel wow fadeInUp">
                 <div class=timeline-content>
                     <div class=timeline-heading>
-                        <h3>Desarrollador Web</h3>
+                        <h3>Contract Web Developer</h3>
+                        <span class= multiline>Si4Ti, Logroño, La Rioja</span>
                         <span>Procesyva SL, Calahorra, La Rioja</span>
                     </div>
                     <div class=timeline-body>
-                        <p>En 2017 pasé a trabajar en una agencia digital como desarrollador web independiente. El
+                        <p>En 2017 pasé a trabajar en varias agencias digitales como desarrollador web independiente y gestor externo de proyectos. El
                             trabajo comprendía todo lo que se puede esperar de este puesto: manejo de lenguajes de
                             marcas, HTML y CSS, lenguajes de programación, sobre todo PHP y JavaScript, manejo de CMSs
-                            como WordPress y PrestaShop, así como la gestión de bases de datos, de servidores o la
-                            administración de DNS y dominios.
+                            como WordPress y PrestaShop, así como la comunicación con clientes o gestión de servidores de DNS y dominios.
                         </p>
                     </div>
                 </div>
@@ -459,12 +472,10 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
     $categorias = ['front', 'back', 'e-com', 'dire', 'otros'];
     ?>
 
-<!-- <li><a data-group=google>Google Partner</a></li> -->
-<li><a class=active id="categoria_mostrada" data-group=<?php echo $categorias[0]; ?>>Front/CMS</a></li>
+<li><a class=active id="categoria_mostrada" data-group=<?php echo $categorias[3] ?>>Proyectos</a></li>
 <li><a data-group=<?php echo $categorias[1] ?>>Back End</a></li>
 <li><a data-group=<?php echo $categorias[2] ?>>E-commerce</a></li>
-<!-- <li><a data-group=idiomas>Idiomas</a></li> -->
-<li><a data-group=<?php echo $categorias[3] ?>>Gestión</a></li>
+<li><a data-group=<?php echo $categorias[0]; ?>>Front/CMS</a></li>
 <li><a data-group=<?php echo $categorias[4] ?>>Otros</a></li>
 <li><a data-group=todos>Todos</a></li>
 </ul>
@@ -649,75 +660,8 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <section id=works class="works-section section-padding">
 <div class=container>
 <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
-<!-- <ul class=list-inline id=filter>
-<li><a class=active data-group=todos>Todos</a></li>
-<li><a data-group=google>Google Partner</a></li>
-<li><a data-group=web>Web y programación</a></li>
-<li><a data-group=e-commerce>Comercio electrónico</a></li>
-<li><a data-group=idiomas>Idiomas</a></li>
-<li><a data-group=otros>Otros</a></li>
-</ul> -->
 <div class=row>
 <div id=grid>
-<!-- <div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-t
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div>
-<div class=" col-xs-12 col-sm-4 col-md-3"><a href="#"><img src=assets/images/works/phpandmysql.jpg alt=image></a> </div> 
- <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a  href=http://eancar.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#ancar class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=ancar class="white-popup mfp-hide">Pagina corporativa con galería de productos y blog mediante CMS (WordPress)</div>
-</div>
-<img src=assets/images/portfolio/proyecto1.jpg alt=image>
-<div class=portfolio-info> <h3>http://eancar.com/</h3> </div>
-</div>
-</div>
-</div>
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg> <div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=http://ventanasenaluminio.jadigar.com target="_blank"><i class="fa fa-link"></i></a> <a href=#ventanas class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=ventanas class="white-popup mfp-hide">Landing page de producto con animaciones css, JavaScript y videos embebidos</div>
-</div>
-<img src=assets/images/portfolio/proyecto2.jpg alt=image>
-<div class=portfolio-info> <h3>http://ventanasenaluminio.com</h3> </div>
-</div>
-</div>
-</div>
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=http://cmroma.esy.es target="_blank"><i class="fa fa-link"></i></a> <a href=#roma class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=roma class="white-popup mfp-hide">Pagina corporativa con scroll vertical y las secciones más comunes (Nosotros, Servicios, Galeria, Contacto)</div>
-</div>
-<img src=assets/images/portfolio/proyecto3.jpg alt=image>
-<div class=portfolio-info> <h3>http://cmroma.esy.es</h3> </div>
-</div>
-</div>
-</div>
-
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=http://puertas-rusticas.com target="_blank"><i class="fa fa-link"></i></a> <a href=#puertas class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=puertas class="white-popup mfp-hide">Landing page creada con Bootstrap y desplazamiento vertical con efecto parallax y Smooth Scroll</div>
-</div>
-<img src=assets/images/portfolio/proyecto4.jpg alt=image>
-<div class=portfolio-info> <h3>http://puertas-rusticas.com</h3> </div>
-</div>
-</div>
-</div>-->
 <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
 <div class=portfolio-bg>
 <div class=portfolio>
@@ -745,89 +689,7 @@ t
 </div>
 </div>
 
-<!--
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=http://saborderioja.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#virto class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=virto class="white-popup mfp-hide">Página catálogo realizada para empresa conservera sobre WordPress</div>
-</div>
-<img src=assets/images/portfolio/virto.jpeg alt=image>
-<div class=portfolio-info> <h3>Sabor de Rioja(2020)</h3>
-</div>
-</div>
-</div>
-</div>
 
-
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://codepen.io/jadigar/full/QgEmRq target="_blank"><i class="fa fa-link"></i></a> <a href=#tesla class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=tesla class="white-popup mfp-hide">Página sencilla de tributo a Nikola Tesla alojada en codepen.io y creada para FreeCodeCamp</div>
-</div>
-<img src=assets/images/portfolio/proyecto6.jpg alt=image>
-<div class=portfolio-info> <h3>Tributo a Tesla</h3>
-</div>
-</div>
-</div>
-</div>
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay>
-</div>
-<div class="links links-w"> <a href=http://jadigar.com target="_blank"><i class="fa fa-link"></i></a> <a href=#jadigar class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=jadigar class="white-popup mfp-hide">Web corporativa multipágina de empresa de desarrollo Web y servicios de internet</div>
-</div>
-<img src=assets/images/portfolio/proyecto7.jpg alt=image>
-<div class=portfolio-info> <h3>http://jadigar.com</h3>
-</div>
-</div>
-</div>
-</div>
-
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://codepen.io/jadigar/full/KqvyPX target="_blank"><i class="fa fa-link"></i></a> <a href=#weather class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=weather class="white-popup mfp-hide">App del tiempo con llamadas a geolocalización y a distintas APIs, entre ellas Google Maps.
-</div>
-</div><img src=assets/images/portfolio/proyecto11.jpg alt=image>
-<div class=portfolio-info> <h3>Weather Now</h3>
-</div>
-</div>
-</div>
-</div>
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://jadigar.neocities.org/m6-final/index.html target="_blank"><i class="fa fa-link"></i></a> <a href=#apps class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=apps class="white-popup mfp-hide">Pequeña recopilación de proyectos personales realizados con Bootstrap, Javascript y diversas APIs</div>
-</div>
-<img src=assets/images/portfolio/proyecto8.jpg alt=image>
-<div class=portfolio-info> <h3>Mini Apps</h3>
-</div>
-</div>
-</div>
-</div>
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://codepen.io/jadigar/full/WZebXw target="_blank"><i class="fa fa-link"></i></a> <a href=#arkanoid class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=arkanoid class="white-popup mfp-hide">Minijuego basado en Arkanoid realizado con Canvas y Javascript</div>
-</div>
-<img src=assets/images/portfolio/arkanoid.jpg alt=image>
-<div class=portfolio-info> <h3>Arkanoid</h3>
-</div>
-</div>
-</div>
-</div>-->
 <div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
 <div class=portfolio-bg>
 <div class=portfolio>
@@ -866,21 +728,7 @@ t
 </div>
 </div>
 </div>
-</div><!--
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay>
 </div>
-<div class="links links-w"> <a href=https://codepen.io/jadigar/full/bRoKBP target="_blank"><i class="fa fa-link"></i></a> <a href=#wiki class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=wiki class="white-popup mfp-hide">Visor de resultados de wikipedia usando la API Mediawiki
-</div>
-</div><img src=assets/images/portfolio/proyecto10.jpg alt=image>
-<div class=portfolio-info> <h3>Buscar en Wikipedia</h3>
-</div>
-</div>
-</div>
-</div>-->
 <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
 <div class=portfolio-bg>
 <div class=portfolio>
@@ -935,7 +783,7 @@ t
 <div class=col-md-6>
 <div class=contact-form>
 <strong>Envía un mensaje</strong>
-<form name=contact-form method=post action=assets/php/sendemail.php>
+<form name=contact-form id= "contact-form" method=post action=assets/php/sendemail.php>
 <div class=form-group>
 <label for=InputName1>Nombre</label>
 <input type=text name=name class=form-control id=InputName1 required>
@@ -961,7 +809,11 @@ t
 <label for=InputTextarea>Mensaje</label>
 <textarea name=message class=form-control id=InputTextarea rows=5 required></textarea>
 </div>
-<button type=submit name=submit class="btn btn-primary">Enviar mensaje</button>
+<button class="g-recaptcha btn btn-primary"
+        data-sitekey="6Lcab7UpAAAAAM8Czt9NQHDT4ao8u_261Ovp4PSl" 
+        data-callback='onSubmit' 
+        data-action='submit'>Enviar mensaje</button><!--
+<button type=submit name=submit class="btn btn-primary">Enviar mensaje</button>-->
 </form>
 </div>
 </div>
