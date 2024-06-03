@@ -4,8 +4,24 @@ if(isset($_POST['email']) && empty($_POST['required']) && isset($_SESSION["num1"
 { 
 
 	$resp=$_SESSION["num1"]+$_SESSION["num2"];
+	$reCaptchaToken = $_POST['recaptcha_token'];
 	$numero = $_POST["numero"]; 
-	if	($resp==$numero)
+	require 'recaptcha-secret.inc.php';
+	
+	$postJSON = http_build_query($postArray);
+	
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($curl, CURLOPT_POST, 1);
+	curl_setopt($curl, CURLOPT_POSTFIELDS, $postJSON);
+	$response = curl_exec($curl);
+	curl_close($curl);
+	
+	$curlResponseArray = json_decode($response, true);
+	
+	if ($curlResponseArray["success"] == true && $curlResponseArray["score"] >= 0.5) {
+		if	($resp==$numero)
 	{ 
 		$destinatario = "heipry@gmail.com"; 
 		$asunto = "Mensaje desde javierdiaz.com.es"; 
@@ -38,6 +54,11 @@ if(isset($_POST['email']) && empty($_POST['required']) && isset($_SESSION["num1"
 	//direcciones que recibián copia 
 	//$headers .= "Cc: heipry@gmail.com\r\n"; 
 	} 	
+	} else {
+		$output = "<div id='phppot-message' class='error'>Invalid request.</div>";
+	}
+
+	
 
 }
 ?>

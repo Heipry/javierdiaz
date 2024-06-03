@@ -92,7 +92,7 @@
 </div>
 </div>
 
-<h1><span>IT/Web</span> Project Manager</h1>
+<h1><span>Web</span> Project Manager</h1>
 <div class="typewriter">
     <p class=line1>Profesional dedicado a la gestión y creación de proyectos IT</p> 
     <p class=line2>También administrador de eCommerce y</p>
@@ -247,7 +247,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <span><a href="https://dgair.sep.gob.mx/cete" target="_blank">Centro de Capacitación Televisiva (09DBT002), Mexico</a></span>
 </div>
 <div class=timeline-body>
-<p>Impartido de manera telemática por la fundación Carlos Slim y el Sistema Educativo Nacional de Mexico, acredité mis competencias como desarrollador web y de aplicaciones móviles mediante este título equivalente a 73 créditos académicos y correspondiente al nivel 6 de la Clasificación Internacional Normalizada de Educación.</p>
+<p>Impartido de manera telemática por la fundación Carlos Slim y el Sistema Educativo Nacional de Mexico, acredité mis competencias como desarrollador web y de aplicaciones móviles mediante este título equivalente a 73 créditos académicos y correspondiente al nivel 6 de la Clasificación Internacional Normalizada de Educación (Grado Universitario).</p>
 </div>
 </div>
 </div>
@@ -662,16 +662,16 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
 <div class=row>
 <div id=grid>
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+<div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
 <div class=portfolio-bg>
 <div class=portfolio>
 <div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://heipry.github.io/si4ti/ target="_blank"><i class="fa fa-link"></i></a> <a href=#siforti class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=siforti class="white-popup mfp-hide">Web corporativa multipágina de empresa TI creada con Bootstrap 4.0 
+<div class="links links-w"> <a href=https://brunocalzada.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#bruno class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=bruno class="white-popup mfp-hide">Página de presentación para profesional independiente. Realizada sobre WordPress+Elementor con elementos JavaScript personalizados</div>
 </div>
+<img src=assets/images/portfolio/pr-bruno.jpg alt=image>
+<div class=portfolio-info> <h3>Bruno Calzada</h3>
 </div>
-<img src=assets/images/portfolio/proyecto5.jpg alt=image>
-<div class=portfolio-info> <h3>http://siforti.es(2017)</h3> </div>
 </div>
 </div>
 </div>
@@ -681,7 +681,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=portfolio>
 <div class=tt-overlay></div>
 <div class="links links-w"> <a href=https://heipry.github.io/cmroma/ target="_blank"><i class="fa fa-link"></i></a> <a href=#roma class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=roma class="white-popup mfp-hide">Pagina corporativa con scroll vertical y las secciones más comunes (Nosotros, Servicios, Galeria, Contacto)</div>
+<div id=roma class="white-popup mfp-hide">Pagina corporativa con scroll vertical y las secciones más comunes (Nosotros, Servicios, Galeria, Contacto) realziada sin CMS</div>
 </div>
 <img src=assets/images/portfolio/proyecto3.jpg alt=image>
 <div class=portfolio-info> <h3>C.M. Roma</h3> </div>
@@ -694,11 +694,11 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=portfolio-bg>
 <div class=portfolio>
 <div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://codepen.io/jadigar/full/JyBjxZ target="_blank"><i class="fa fa-link"></i></a> <a href=#simon class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=simon class="white-popup mfp-hide">Minijuego basado en Simon realizado con jQuery</div>
+<div class="links links-w"> <a href=https://coplasem.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#coplasem class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=coplasem class="white-popup mfp-hide">Proyecto 360 de Ecommerce basado en PrestaShop para empresa de venta de material para embalaje. Theme modificado, modulos personalizados, conexion con ERP, etc...</div>
 </div>
-<img src=assets/images/portfolio/simon.jpg alt=image>
-<div class=portfolio-info> <h3>Simon</h3>
+<img src=assets/images/portfolio/pr-coplasem.jpg alt=image>
+<div class=portfolio-info> <h3>Coplasem, Más que Embalaje</h3>
 </div>
 </div>
 </div>
@@ -707,11 +707,11 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 <div class=portfolio-bg>
 <div class=portfolio>
 <div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://ecomninja.net/tienda/apibeeglobal-com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#beeglobal class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=beeglobal class="white-popup mfp-hide">Ecommerce basado en PrestaShop para empresa de venta de material apícola. Theme modificado, modulos personalizados, etc...</div>
+<div class="links links-w"> <a href=https://www.figma.com/proto/cQ7Uu3ZCcFWOVxFNv8SpeY/App-ShopSaver-(v2) target="_blank"><i class="fa fa-link"></i></a> <a href=#shopsaver class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=shopsaver class="white-popup mfp-hide">Aplicación android de gestión de listas de la compra y búsqueda en supermercados online. Código disponible en <a href="https://github.com/Heipry/ShopSaver" target="_blank">https://github.com/Heipry/ShopSaver</a> </div>
 </div>
-<img src=assets/images/portfolio/apibeeglobal.jpg alt=image>
-<div class=portfolio-info> <h3>Apibeeglobal(2021)</h3>
+<img src=assets/images/portfolio/pr-shopsaver.jpg alt=image>
+<div class=portfolio-info> <h3>ShopSaver: Busca, compara y guarda</h3>
 </div>
 </div>
 </div>
@@ -743,6 +743,49 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </div>
 </div>
 </div>
+
+
+<div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
+<div class=portfolio-bg>
+<div class=portfolio>
+<div class=tt-overlay></div>
+<div class="links links-w"> <a href=https://www.inacer.es/ target="_blank"><i class="fa fa-link"></i></a> <a href=#inacer class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=inacer class="white-popup mfp-hide">Proyecto de digitalización para asociación regional con diseño de imagen, desarrollo de web mediante WordPress+Elementor y plan de capacitación para gestión de redes</div>
+</div>
+<img src=assets/images/portfolio/inacer.jpg alt=image>
+<div class=portfolio-info> <h3>Inacer, Asociación Alfarería Y Cerámica De La Rioja</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+<div class=portfolio-bg>
+<div class=portfolio>
+<div class=tt-overlay></div>
+<div class="links links-w"> <a href=https://bierhaus.tienda/ target="_blank"><i class="fa fa-link"></i></a> <a href=#bierhaus class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=bierhaus class="white-popup mfp-hide">Página web multipropósito. Combina una tienda basada en PrestaShop con sistema de venta de packs, tarjetas regalo y entradas a eventos, con una página web corporativa con conexión a aplicaciones de entrega a domicilio y un backoffice implementado mediante PHP para la gestión de la secciópn "Nuestros grifos" para visualización en pantallas de gran tamaño
+</div>
+</div><img src=assets/images/portfolio/bierhaus.jpg alt=image>
+<div class=portfolio-info> <h3>Bierhaus Odeon</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+<div class=portfolio-bg>
+<div class=portfolio>
+<div class=tt-overlay>
+</div>
+<div class="links links-w"> <a href=https://www.enoturismo-ecuestre.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#enoturismo class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=enoturismo class="white-popup mfp-hide">Página web para servicio de corte turístico. Cambio de logotipos e identidad corporativa, rediseño e implementación de página web mediante WordPress, internacionalización y presencia en internet.
+</div>
+</div><img src=assets/images/portfolio/enoturismo.jpg alt=image>
+<div class=portfolio-info> <h3>Enoturismo Ecuestre</h3>
+</div>
+</div>
+</div>
+</div>
+
 
 </div>
 </div>
@@ -839,8 +882,8 @@ Arnedo, La Rioja<br>
 <div class=row>
 <div class=col-sm-12>
 <div class="short-info wow fadeInUp">
-<h3>¿ Buscas alguien que pueda diseñar construir y subirte una web?</h3>
-<p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p></div>
+<h3>¿ Buscas alguien que pueda ayudarte con tu proyecto? </h3>
+<p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p></div>
 </div>
 </div>
 </div>
@@ -852,7 +895,7 @@ Arnedo, La Rioja<br>
 <div class=row>
 <div class=col-md-12>
 <div class="copyright text-center">
-<p>&copy; 2023 Javier Diaz. All rights reserved.</p>
+<p>&copy; 2024 Javier Diaz. All rights reserved.</p>
 </div>
 </div>
 </div>
