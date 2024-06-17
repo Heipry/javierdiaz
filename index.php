@@ -159,7 +159,7 @@
               <li class="wow contact3">Localidad: Arnedo (La Rioja)</li>
               <li class="wow contact4">Nacionalidad: Española</li>
             </ul>            
-            <a href="https://javierdiaz.com.es/assets/images/Javier_Diaz_CV.pdf" class="bbutton">DESCARGAR MI CV</a> </div>
+            <a href="https://javierdiaz.com.es/assets/images/Javier_Diaz_CV_Europass.pdf" class="bbutton">DESCARGAR MI CV</a> </div>
         </div>
         
 </div>
@@ -176,7 +176,7 @@
 <div class="col-md-7 col-md-pull-4">
 <div class="short-info wow fadeInUp">
 <h3>HOY EN DÍA</h3>
-<p>Me siento comodo en la gestión de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos.<p><br>
+<p>Me siento cómodo en la gestión de proyectos web, ya sea desarrollando sites optimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos.<p><br>
 </div>
 <div class="short-info wow fadeInUp">
 <h3>¿ De dónde vengo ?</h3>
@@ -191,7 +191,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 </div>
 <div class=download-button>
 <a class="btn btn-info btn-lg" href=#contact><i class="fa fa-paper-plane"></i>Enviarme un mensaje</a>
-<a class="btn btn-primary btn-lg" href=assets/images/Javier_Diaz_CV.pdf target="_blank"><i class="fa fa-download"></i>Descargar mi cv</a>
+<a class="btn btn-primary btn-lg" href=assets/images/Javier_Diaz_CV_Europass.pdf target="_blank"><i class="fa fa-download"></i>Descargar mi cv</a>
 </div>
 </div>
 </div>
