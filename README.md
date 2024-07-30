@@ -33,7 +33,7 @@ This project is a personal showcase. It highlights my abilities in web developme
 
 ## License
 
-This project is available under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ## Contact
 
