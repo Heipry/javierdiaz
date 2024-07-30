@@ -181,9 +181,9 @@
 <div class="short-info wow fadeInUp">
 <h3>¿ De dónde vengo ?</h3>
 <p>Empecé mi carrera profesional en la oficina de una pequeña empresa de cerramientos donde fui ascendiendo hasta tener a mi cargo un equipo de más de 10 personas. Como siempre me gustó la informática ya en este puesto me di cuenta de cuál era mi camino. <br>
-Salí de allí para montar mi propio eCommerce de cerramientos. Una cosa llevó a la otra y, aún en paralelo con mi pequeña tienda, empecé a ofrecer mis habilidades de creación y gestión de webs a clientes y proveedores. Éste fue un giro importante para mi carrera que me obligo a reciclarme. Completé un ciclo formativo de grado superior en Desarrollo de Aplicaciones Web, conseguí el título de técnico superior y de administrador de servicios de internet y desde entonces no he parado de formarme. Ahora estoy estudiando otro ciclo de grado superior, esta vez el de Desarrollo de Aplicaciones Multiplataforma.<br>
-Posteriormente he trabajado como desarrollador web en una agencia digital donde me especialicé en la programación PHP. Después estuve más de tres años como director de tecnología de una empresa con un eCommerce multicanal basado en PrestaShop, esta fue una oportunidad única para aprender sobre la personalización y desarrollo de este CMS y sobre la venta en marketplaces como Amazon.<br>
-Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la que trabajo, sigo ligado a la personalización de PrestaShop aunque también desarrollamos con WordPress y otros CMSs y me he acostumbrado a las bondades del teletrabajo.</p>
+Salí de allí para montar mi propio eCommerce de cerramientos. Una cosa llevó a la otra y, aún en paralelo con mi pequeña tienda, empecé a ofrecer mis habilidades de creación y gestión de webs a clientes y proveedores. Éste fue un giro importante para mi carrera que me obligo a reciclarme. Completé un ciclo formativo de grado superior en Desarrollo de Aplicaciones Web, conseguí el título de técnico superior y de administrador de servicios de internet y desde entonces no he parado de formarme. Acabo de terminar otro ciclo de grado superior, esta vez el de Desarrollo de Aplicaciones Multiplataforma.<br>
+He trabajado como desarrollador web en una agencia digital donde me especialicé en la programación PHP. Después estuve más de tres años como director de tecnología de una empresa con un eCommerce multicanal basado en PrestaShop donde aprendí sobre la personalización y desarrollo de este CMS y sobre la venta en marketplaces como Amazon.<br>
+Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la empresa en la que trabajaba, seguía ligado a la personalización de PrestaShop aunque también desarrollábamos con WordPress y otros CMS.</p>
 
 </div>
 <div class=my-signature>
@@ -288,16 +288,18 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
 
 <li class=timeline-inverted>
 <div class=posted-date>
-<span class=month>2021-actualidad</span>
+<span class=month>2021-2024</span>
 </div>
 <div class="timeline-panel wow fadeInUp">
 <div class=timeline-content>
 <div class=timeline-heading>
-<h3>CFGS Desarrollo de aplicaciones multiplataforma</h3>
+<h3>CFGS Desarrollo de aplicaciones multiplataforma - <a class="image-link importante" href="assets/images/diploma-dam.jpg"><i class="fa fa-search-plus"></i></a></h3>
 <span><a href="https://iescomercio.com/" target="_blank">IES Comercio, Logroño, modalidad Online </a></span>
 </div>
 <div class=timeline-body>
-<p>Estudios del Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Multiplataforma en modalidad online, titulación oficial y homologada que me permite trabajar como desarrollador multimedia y de aplicaciones informáticas para la gestión empresarial y de negocio, que tengan un propósito general o bien dentro del ámbito del entretenimiento y la informática móvil.</p>
+<p>Titulación oficial y homologada. Obtuve la <b>Matrícula de Honor</b>, destacando por mi rendimiento académico. Esta formación me capacita para trabajar como desarrollador multimedia y de aplicaciones informáticas para la gestión empresarial y de negocio, tanto en propósitos generales como en el ámbito del entretenimiento y la informática móvil.
+
+</p>
 </div>
 </div>
 </div>
@@ -317,7 +319,7 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
     <ul class=timeline>
         <li class=posted-date>
             <div class=posted-date>
-                <span class=month>2021-Actualidad</span>
+                <span class=month>2021-2024</span>
             </div>
             <div class="timeline-panel wow fadeInUp">
                 <div class=timeline-content>
@@ -326,8 +328,8 @@ Actualmente estoy dirigiendo el desarrollo de proyectos web en la empresa en la 
                         <span>Proyecto Online, Logroño, La Rioja</span>
                     </div>
                     <div class=timeline-body>
-                        <p>Actualmente soy gerente de proyectos web. Me encargo de liderar un equipo multidisciplinar para desarrollo
-                            web que incluye las áreas de diseño, programación y maquetación. Estamos especializados en el desarrollo bajo PrestaShop, WordPress y otros CMSs con diseño personalizado de marca, desarrollo de módulos, etc, dando un servicio 360º al añadir la gestión de redes sociales, SEO y SEM.
+                        <p>Gerente de proyectos web. Me encargo de liderar un equipo multidisciplinar para desarrollo
+                            web que incluía las áreas de diseño, programación y maquetación. Estábamos especializados en el desarrollo bajo PrestaShop, WordPress y otros CMSs con diseño personalizado de marca, desarrollo de módulos, etc, dando un servicio 360º al añadir la gestión de redes sociales, SEO y SEM.
                         </p>
                     </div>
                 </div>
