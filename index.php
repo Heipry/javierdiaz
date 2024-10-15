@@ -317,7 +317,24 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
 </div>
 <div class=resume>
     <ul class=timeline>
-        <li class=posted-date>
+         <li class=posted-date>
+            <div class=posted-date>
+
+                <span class=month>2024</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Product Owner</h3>
+                        <span>Sysprovider SL, Logroño, La Rioja</span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>Lidero un equipo multidisciplinar a través de metodologías ágiles como Scrum y Kanban. Me encargo de la planificación, seguimiento y entrega de productos digitales para plataformas como PrestaShop y WordPress. Además, gestionamos el hosting y el soporte técnico de los productos y mantengo comunicación constante con el cliente para asegurar el cumplimiento de los requisitos y la satisfacción de sus necesidades.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class=timeline-inverted>
             <div class=posted-date>
                 <span class=month>2021-2024</span>
             </div>
@@ -335,7 +352,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=timeline-inverted>
+        <li class=posted-date>
             <div class=posted-date>
 
                 <span class=month>2018-2021</span>
@@ -358,7 +375,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=posted-date>
+        <li class=timeline-inverted>
             <div class=posted-date>
                 <span class=month>2017</span>
             </div>
@@ -379,7 +396,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=timeline-inverted>
+        <li class=posted-date>
             <div class=posted-date>
                 <span class=month>2015-2017</span>
             </div>
@@ -399,7 +416,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=posted-date>
+        <li class=timeline-inverted>
             <div class=posted-date>
                 <span class=month>2012-2015</span>
             </div>
@@ -420,7 +437,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li><!--
-        <li class=timeline-inverted>
+        <li class=posted-date>
             <div class=posted-date>
                 <span class=month>2008-2012</span>
             </div>
