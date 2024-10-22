@@ -244,7 +244,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
 <div class=timeline-content>
 <div class=timeline-heading>
 <h3>Diplomado en desarrollo de sitios web y aplicaciones móviles - <a class="image-link importante" href="assets/images/diplomadoweb.jpg"><i class="fa fa-search-plus"></i></a></h3>
-<span><a href="https://dgair.sep.gob.mx/cete" target="_blank">Centro de Capacitación Televisiva (09DBT002), Mexico</a></span>
+<span>Centro de Capacitación Televisiva (09DBT002), Mexico</span>
 </div>
 <div class=timeline-body>
 <p>Impartido de manera telemática por la fundación Carlos Slim y el Sistema Educativo Nacional de Mexico, acredité mis competencias como desarrollador web y de aplicaciones móviles mediante este título equivalente a 73 créditos académicos y correspondiente al nivel 6 de la Clasificación Internacional Normalizada de Educación (Grado Universitario).</p>
