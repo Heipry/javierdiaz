@@ -153,7 +153,7 @@
           <div class="about-con typewritter">
             <ul>
               <li class="wow contact1" >Javier Díaz</li>
-              <li class="wow contact1">Email: <a href="mailto:heipry@gmail.com">heipry@gmail.com</a></li>
+              <li class="wow contact1"><a href="mailto:contacto@javierdiaz.com.es">contacto@javierdiaz.com.es</a></li>
               <li class="wow contact2">Whatsapp: &nbsp;<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank"><i class="fa fa-whatsapp"></i> </a> </li>
               <!--li>Fecha de nacimiento: 24 de Mayo de 1981</li-->
               <li class="wow contact3">Localidad: Arnedo (La Rioja)</li>
