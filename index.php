@@ -92,7 +92,7 @@
 </div>
 </div>
 
-<h1><span>Web</span> Project Manager</h1>
+<h1><span>Docente</span> y Consultor en Desarrollo Web</h1>
 <div class="typewriter">
     <p class=line1>Apasionado por compartir conocimientos en el ámbito de las tecnologías de la información</p> 
     <p class=line2>También administrador de eCommerce y</p>
