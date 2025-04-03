@@ -92,9 +92,9 @@
 </div>
 </div>
 
-<h1><span>Docente</span> y Consultor en Desarrollo Web</h1>
+<h1><span>Docente</span> y Consultor Web</h1>
 <div class="typewriter">
-    <p class=line1>Apasionado por compartir conocimientos en el ámbito de las tecnologías de la información</p> 
+    <p class=line1>Apasionado por compartir conocimientos en el ámbito IT</p> 
     <p class=line2>También administrador de eCommerce y</p>
     <p class=line3>desarrollador PHP especializado en PrestaShop.</p>
 </div>
