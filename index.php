@@ -94,7 +94,7 @@
 
 <h1><span>Web</span> Project Manager</h1>
 <div class="typewriter">
-    <p class=line1>Profesional dedicado a la gestión y creación de proyectos IT</p> 
+    <p class=line1>Apasionado por compartir conocimientos en el ámbito de las tecnologías de la información</p> 
     <p class=line2>También administrador de eCommerce y</p>
     <p class=line3>desarrollador PHP especializado en PrestaShop.</p>
 </div>
@@ -175,15 +175,7 @@
 </div>
 <div class="col-md-7 col-md-pull-4">
 <div class="short-info wow fadeInUp">
-<h3>HOY EN DÍA</h3>
-<p>Me siento cómodo en la gestión de proyectos web, ya sea desarrollando sites optimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos.<p><br>
-</div>
-<div class="short-info wow fadeInUp">
-<h3>¿ De dónde vengo ?</h3>
-<p>Empecé mi carrera profesional en la oficina de una pequeña empresa de cerramientos donde fui ascendiendo hasta tener a mi cargo un equipo de más de 10 personas. Como siempre me gustó la informática ya en este puesto me di cuenta de cuál era mi camino. <br>
-Salí de allí para montar mi propio eCommerce de cerramientos. Una cosa llevó a la otra y, aún en paralelo con mi pequeña tienda, empecé a ofrecer mis habilidades de creación y gestión de webs a clientes y proveedores. Éste fue un giro importante para mi carrera que me obligo a reciclarme. Completé un ciclo formativo de grado superior en Desarrollo de Aplicaciones Web, conseguí el título de técnico superior y de administrador de servicios de internet y desde entonces no he parado de formarme. Acabo de terminar otro ciclo de grado superior, esta vez el de Desarrollo de Aplicaciones Multiplataforma.<br>
-He trabajado como desarrollador web en una agencia digital donde me especialicé en la programación PHP. Después estuve más de tres años como director de tecnología de una empresa con un eCommerce multicanal basado en PrestaShop donde aprendí sobre la personalización y desarrollo de este CMS y sobre la venta en marketplaces como Amazon.<br>
-Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la empresa en la que trabajaba, seguía ligado a la personalización de PrestaShop aunque también desarrollábamos con WordPress y otros CMS.</p>
+<h3>HOY EN DÍA</h3> <p> Me siento cómodo en la gestión de proyectos realcionados con la web, tanto desarrollando sitios como gestionando su mantenimiento para maximizar resultados. Recientemente, mi pasión por la docencia se fusionó con mi experiencia técnica tras participar como docente en un programa europeo de reskilling en desarrollo y diseño web, aportando una visión fresca y práctica a la formación IT. </p> <br> </div> <div class="short-info wow fadeInUp"> <h3>¿De dónde vengo?</h3> <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT y la docencia, hasta llegar a donde estoy ahora. </p>
 
 </div>
 <div class=my-signature>
@@ -317,7 +309,24 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
 </div>
 <div class=resume>
     <ul class=timeline>
-         <li class=posted-date>
+        <li class=posted-date>
+            <div class=posted-date>
+                <span class=month>2024-2025</span>
+            </div>
+            <div class="timeline-panel wow fadeInUp">
+                <div class=timeline-content>
+                    <div class=timeline-heading>
+                        <h3>Docente de Diseño y Desarrollo Web</h3>
+                        <span>Vértice eLearning, Málaga </span>
+                    </div>
+                    <div class=timeline-body>
+                        <p>Imparto formación práctica en desarrollo web, diseño UX/UI y uso de herramientas como Figma o VS Code, adaptándome a las necesidades de cada alumno. Mi enfoque se centra en tutorizar, dinamizar y guiar el aprendizaje, diseñando actividades prácticas y evaluaciones para optimizar el rendimiento y la calidad de los proyectos web. Mi objetivo es preparar a los alumnos con las competencias técnicas y creativas que demanda el mercado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+         <li class=timeline-inverted>
             <div class=posted-date>
 
                 <span class=month>2024</span>
@@ -334,7 +343,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=timeline-inverted>
+        <li class=posted-date>
             <div class=posted-date>
                 <span class=month>2021-2024</span>
             </div>
@@ -352,7 +361,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=posted-date>
+        <li class=timeline-inverted>
             <div class=posted-date>
 
                 <span class=month>2018-2021</span>
@@ -375,27 +384,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                 </div>
             </div>
         </li>
-        <li class=timeline-inverted>
-            <div class=posted-date>
-                <span class=month>2017</span>
-            </div>
-            <div class="timeline-panel wow fadeInUp">
-                <div class=timeline-content>
-                    <div class=timeline-heading>
-                        <h3>Contract Web Developer</h3>
-                        <span class= multiline>Si4Ti, Logroño, La Rioja</span>
-                        <span>Procesyva SL, Calahorra, La Rioja</span>
-                    </div>
-                    <div class=timeline-body>
-                        <p>En 2017 pasé a trabajar en varias agencias digitales como desarrollador web independiente y gestor externo de proyectos. El
-                            trabajo comprendía todo lo que se puede esperar de este puesto: manejo de lenguajes de
-                            marcas, HTML y CSS, lenguajes de programación, sobre todo PHP y JavaScript, manejo de CMSs
-                            como WordPress y PrestaShop, así como la comunicación con clientes o gestión de servidores de DNS y dominios.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </li>
+       
         <li class=posted-date>
             <div class=posted-date>
                 <span class=month>2015-2017</span>
@@ -407,11 +396,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                         <span>Jadigar Web Services, Arnedo, La Rioja</span>
                     </div>
                     <div class=timeline-body>
-                        <p>En paralelo a la empresa de venta por internet, empecé a ofrecer mis servicios como diseñador
-                            de páginas web y gestor de redes sociales a otras empresas, convirtiéndome en autónomo bajo
-                            la marca Jadigar Web Services. En este momento consideré necesario ampliar mi formación
-                            online. Así me convirtí en partner de Google para Adwords y publicidad para móviles así como
-                            socio certificado de Google Analytics.</p>
+                        <p>Mientras gestionaba mi propio eCommerce, comencé a ofrecer servicios de diseño web y gestión de redes sociales a otras empresas como autónomo. Para ampliar mis conocimientos, me certifiqué en Google Adwords, publicidad móvil y Google Analytics. Posteriormente, colaboré con agencias digitales como Procesyva SL o Si4Ti en Logroño especializándome en desarrollo web (HTML, CSS, PHP, JavaScript) y personalización de CMS como WordPress y PrestaShop.</p>
                     </div>
                 </div>
             </div>
@@ -436,46 +421,7 @@ Hasta hace unos días, estuve dirigiendo el desarrollo de proyectos web en la em
                     </div>
                 </div>
             </div>
-        </li><!--
-        <li class=posted-date>
-            <div class=posted-date>
-                <span class=month>2008-2012</span>
-            </div>
-            <div class="timeline-panel wow fadeInUp">
-                <div class=timeline-content>
-                    <div class=timeline-heading>
-                        <h3>Gerente de empresa</h3>
-                        <span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
-                    </div>
-                    <div class=timeline-body>
-                        <p>Tras la jubilación del antiguo gerente asumí la dirección completa de la empresa. En esta
-                            etapa modernizamos los procesos de la empresa y conseguimos la inclusión de la etiqueta CE
-                            de nuestros productos. Además la empresa inició una emergente aunque agresiva campaña en
-                            Internet y redes sociales de la que debí ocuparme personalmente. </p>
-                    </div>
-                </div>
-            </div>
         </li>
-        <li>
-            <div class=posted-date>
-                <span class=month>2003-2008</span>
-            </div>
-            <div class="timeline-panel wow fadeInUp">
-                <div class=timeline-content>
-                    <div class=timeline-heading>
-                        <h3>Responsable oficina</h3>
-                        <span>Carpintería Metálica Ancar SL, Arnedo, La Rioja</span>
-                    </div>
-                    <div class=timeline-body>
-                        <p>En esta empresa llegué a dirigir un grupo de 10 personas. Planificaba y ejecutaba el trabajo
-                            a partir de bocetos, dibujos, especificaciones y pedidos de trabajo. Aqui empecé a dedicarme
-                            a la atención al público ya que el puesto tenía un marcado perfil de ventas, tanto en
-                            persona como por medios telemáticos. Adicionalmente debía cuidar la red e instalaciones
-                            informáticas de la oficina.</p>
-                    </div>
-                </div>
-            </div>
-        </li>-->
     </ul>
 </div>
 </div>
