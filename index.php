@@ -164,12 +164,12 @@
         
 </div>
 <ul class=list-check>
-<li>Experiencia en gestión de proyectos web y administración de tiendas online</li>
+<li>Experiencia en gestión de proyectos docentes y administración web</li>
 <li>Conocimientos de programación en lenguajes como JavaScript, PHP o Java</li>
 <li>Desarrollo y personalización de CMSs (WordPress, PrestaShop,...)</li>
 <li>Amplios conocimientos de desarrollo web: HTML5, CSS3, JavaScript, PHP</li>
-<li>Gestión de plantillas de personal</li>
-<li>Experiencia en atención al cliente</li>
+<li>Gestión de plantillas de personal y equipos en proyectos formativos y tecnológicos</li>
+<li>Experiencia en atención al cliente y formación personalizada</li>
 
 </ul>
 </div>
