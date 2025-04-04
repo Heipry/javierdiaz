@@ -5,7 +5,7 @@ if (!isset($_SESSION['admin'])){
 }else {
     include_once 'conexion/conexion.inc.php';
     $mensaje = "";
-    $categorias = ['front', 'back', 'e-com', 'dire', 'otros'];
+    $categorias = ['front', 'back', 'e-com', 'dire', 'edu', 'otros'];
 //AGREGAR
     if ($_POST) {
         if (!is_null($_POST['titulo']) && $_POST['titulo'] != "" && 
@@ -91,13 +91,14 @@ if (!isset($_SESSION['admin'])){
                 <option class='alert alert-secondary' value='<?php echo $categorias[1] ?>'>Back End</option>
                 <option class='alert alert-danger' value='<?php echo $categorias[2] ?>'>E-Commerce</option>
                 <option class='alert alert-success' value='<?php echo $categorias[3] ?>'>Direccion</option>
-                <option class='alert alert-info' value='<?php echo $categorias[4] ?>'>Otros</option>
+                <option class='alert alert-info' value='<?php echo $categorias[4] ?>'>Docencia</option>
+                <option class='alert alert-info' value='<?php echo $categorias[5] ?>'>Otros</option>
                 <input type="text" class="form-control mt-3" name="titulo" placeholder="titulo">
                 <input type="text" class="form-control mt-3" name="descripcion" placeholder="descripcion">
                 <input type="text" class="form-control mt-3" name="foto" placeholder="nombre archivo">
                 <div class="form-check">
                 <input type="checkbox" class="form-check-input mt-3" name="visible" id="visible" checked>
-                <label class="form-check-label mt-3" for=""visible">Visible</label>
+                <label class="form-check-label mt-3" for="visible">Visible</label>
                 </div>
                 <button type="submit" class="btn btn-primary mt-3">Agregar</button>
                 <button type="submit" formaction="reiniciar_indices.php" class="btn btn-primary mt-3">Minimizar
@@ -123,7 +124,8 @@ if (!isset($_SESSION['admin'])){
                     <option class='alert alert-secondary' value='<?php echo $categorias[1] ?>'>Back End</option>
                     <option class='alert alert-danger' value='<?php echo $categorias[2] ?>'>E-Commerce</option>
                     <option class='alert alert-success' value='<?php echo $categorias[3] ?>'>Direccion</option>
-                    <option class='alert alert-info' value='<?php echo $categorias[4] ?>'>Otros</option>
+                    <option class='alert alert-info' value='<?php echo $categorias[4] ?>'>Docencia</option>
+                    <option class='alert alert-info' value='<?php echo $categorias[5] ?>'>Otros</option>
                     </select>
                     <input type="text" class="form-control mt-3" name="titulo" value="<?php
                     if (isset($resultadoId)) echo $resultadoId['titulo'];
