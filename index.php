@@ -175,7 +175,10 @@
 </div>
 <div class="col-md-7 col-md-pull-4">
 <div class="short-info wow fadeInUp">
-<h3>HOY EN DÍA</h3> <p> Me siento cómodo en la gestión de proyectos realcionados con la web, tanto desarrollando sitios como gestionando su mantenimiento para maximizar resultados. Recientemente, mi pasión por la docencia se fusionó con mi experiencia técnica tras participar como docente en un programa europeo de reskilling en desarrollo y diseño web, aportando una visión fresca y práctica a la formación IT. </p> <br> </div> <div class="short-info wow fadeInUp"> <h3>¿De dónde vengo?</h3> <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT y la docencia, hasta llegar a donde estoy ahora. </p>
+<h3>HOY EN DÍA</h3> <p> Me siento cómodo en la gestión de proyectos realcionados con la web, tanto desarrollando sitios como gestionando su mantenimiento para maximizar resultados. Recientemente, mi pasión por la docencia se fusionó con mi experiencia técnica tras participar como docente en un programa europeo de reskilling en desarrollo y diseño web, aportando una visión fresca y práctica a la formación IT. </p> <br> </div> 
+<div class="short-info wow fadeInUp">
+<h3>¿De dónde vengo?</h3> 
+<p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT y la docencia, acumulando más de 300 horas lectivas en teleformación y consolidando mi enfoque pedagógico en el ámbito digital, hasta llegar a donde estoy ahora. </p>
 
 </div>
 <div class=my-signature>
@@ -434,14 +437,15 @@
 <ul class=list-inline id=filter>
     <?php
     include_once 'back/conexion/conexion.inc.php';
-    $categorias = ['front', 'back', 'e-com', 'dire', 'otros'];
+    $categorias = ['front', 'back', 'e-com', 'dire', 'edu', 'otros'];
     ?>
+<li><a class=active id="categoria_mostrada" data-group=<?php echo $categorias[4] ?>>Docencia</a></li>
 
-<li><a class=active id="categoria_mostrada" data-group=<?php echo $categorias[3] ?>>Proyectos</a></li>
 <li><a data-group=<?php echo $categorias[1] ?>>Back End</a></li>
 <li><a data-group=<?php echo $categorias[2] ?>>E-commerce</a></li>
 <li><a data-group=<?php echo $categorias[0]; ?>>Front/CMS</a></li>
-<li><a data-group=<?php echo $categorias[4] ?>>Otros</a></li>
+<li><a data-group=<?php echo $categorias[3] ?>>Proyectos</a></li>
+<li><a data-group=<?php echo $categorias[5] ?>>Otros</a></li>
 <li><a data-group=todos>Todos</a></li>
 </ul>
 <?php 
