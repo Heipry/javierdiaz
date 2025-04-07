@@ -208,8 +208,8 @@
 <h4 class=modal-title>Video Presentación</h4>
 </div>
 <div class=modal-body>
-<div class=video-container>
-<iframe width=560 height=315 src="https://www.youtube.com/embed/o9WmVthjTnI?rel=0"></iframe>
+<div class=video-container><iframe width="560" height="315" src="https://www.youtube.com/embed/6xbrvIsYxCY?si=92Q0SlEhoXu_hcUW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe>
 </div>
 </div>
 </div>
@@ -531,7 +531,7 @@
 </div>
 </div>
 <div class=skill-progress>
-<div class=skill-title><h3>Marketing digital</h3></div>
+<div class=skill-title><h3>Habilidades de evaluación</h3></div>
 <div class=progress>
 <div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=70 aria-valuemin=0 aria-valuemax=100><span>70%</span>
 </div>
@@ -547,7 +547,7 @@
 </div>
 <div class=col-md-6>
 <div class=skill-progress>
-<div class=skill-title><h3>Desarrollo web</h3></div>
+<div class=skill-title><h3>Metodologías didácticas</h3></div>
 <div class=progress>
 <div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=90 aria-valuemin=0 aria-valuemax=100><span>90%</span>
 </div>
@@ -577,37 +577,37 @@
 <div class=chart data-percent=91 data-color=e74c3c>
 <span class=percent></span>
 <div class=chart-text>
-<span>Experiencia como supervisor
+<span>Capacidad de planificación
 </span>
 </div>
 </div>
 </div>
 <div class="col-xs-12 col-sm-4 col-md-2">
-<div class=chart data-percent=93 data-color=2ecc71>
+<div class=chart data-percent=83 data-color=2ecc71>
 <span class=percent></span>
 <div class=chart-text>
-<span>Proactividad</span>
+<span>Plataformas eLearning </span>
 </div>
 </div>
 </div>
 <div class="col-xs-12 col-sm-4 col-md-2">
-<div class=chart data-percent=81 data-color=3498db>
+<div class=chart data-percent=91 data-color=3498db>
 <span class=percent></span>
 <div class=chart-text>
-<span>Atención al cliente</span>
+<span>Atención al cliente/estudiante</span>
 </div>
 </div>
 </div>
 <div class="col-xs-12 col-sm-4 col-md-2">
-<div class=chart data-percent=83 data-color=3498db>
+<div class=chart data-percent=73 data-color=3498db>
 <span class=percent></span>
 <div class=chart-text>
-<span>Resolución de problemas</span>
+<span>Resolución de conflictos</span>
 </div>
 </div>
 </div>
 <div class="col-xs-12 col-sm-4 col-md-2">
-<div class=chart data-percent=74 data-color=3498db>
+<div class=chart data-percent=89 data-color=3498db>
 <span class=percent></span>
 <div class=chart-text>
 <span>Aptitudes de comunicación</span>
@@ -630,7 +630,7 @@
 <div class=container>
 <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
 <div class=row>
-<div id=grid>
+<div id=grid><!--
 <div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
 <div class=portfolio-bg>
 <div class=portfolio>
@@ -671,7 +671,7 @@
 </div>
 </div>
 </div>
-</div>
+</div>-->
 <div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
 <div class=portfolio-bg>
 <div class=portfolio>
@@ -718,11 +718,11 @@
 <div class=portfolio-bg>
 <div class=portfolio>
 <div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://www.inacer.es/ target="_blank"><i class="fa fa-link"></i></a> <a href=#inacer class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=inacer class="white-popup mfp-hide">Proyecto de digitalización para asociación regional con diseño de imagen, desarrollo de web mediante WordPress+Elementor y plan de capacitación para gestión de redes</div>
+<div class="links links-w"> <a href=https://heipry.github.io/EjerciciosCSS target="_blank"><i class="fa fa-link"></i></a> <a href=#css class=open-popup-link><i class="fa fa-list"></i></a>
+<div id=css class="white-popup mfp-hide">Ejercicios de CSS correspondientes a las prácticas UF1303 del certificado profesional IFCD0110, desarrollados dentro del proyecto de Reskilling europeo para la mejora de competencias digitales, formación y actualización profesional.</div>
 </div>
-<img src=assets/images/portfolio/inacer.jpg alt=image>
-<div class=portfolio-info> <h3>Inacer, Asociación Alfarería Y Cerámica De La Rioja</h3>
+<img src=assets/images/portfolio/ejercicios-css.jpg alt=image>
+<div class=portfolio-info> <h3>Prácticas UF1303 del certificado IFCD0110 </h3>
 </div>
 </div>
 </div>
@@ -761,15 +761,12 @@
 <div class=resume-title style="margin-top:10px;">
 <h3>Ver más proyectos</h3>
 </div>
-<div class="col-xs-4 codelink" style="border:1px solid black;">
+<div class="col-xs-6 codelink" style="border:1px solid black;">
         <a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon"  src="https://javierdiaz.com.es/assets/firma/gh.png"></a>
         
 </div>
-<div class="col-xs-4 codelink" style="border:1px solid black;">
+<div class="col-xs-6 codelink" style="border:1px solid black;">
         <a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png"></a>
-</div>
-<div class="col-xs-4 codelink" style="border:1px solid black;">
-         <a href="https://gitlab.com/Heipry" target="_blank"><img border="0" width="16" alt="GitLab icon" src="https://javierdiaz.com.es/assets/firma/gl.png"></a>
 </div>
 
 </div></section>
@@ -835,7 +832,7 @@
 <i class="fa fa-map-marker"></i>
 <address>
 <strong>Dirección</strong>
-Avda Reyes Católicos<br>
+C/ Joan Miró<br>
 Arnedo, La Rioja<br>
 </address>
 </div>
@@ -851,8 +848,8 @@ Arnedo, La Rioja<br>
 <div class=row>
 <div class=col-sm-12>
 <div class="short-info wow fadeInUp">
-<h3>¿ Buscas alguien que pueda ayudarte con tu proyecto? </h3>
-<p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p></div>
+<h3>¿Buscas a alguien que pueda ayudarte a formar y guiar a otros? </h3>
+<p>Sé que mi perfil es bastante ecléptico.<br> Podría decirte que soy desarrollador, gestor de proyectos o especialista en eCommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos años. Sin embargo, ahora, además de la parte técnica, me enfoco en compartir conocimientos y facilitar el aprendizaje.<br>Si necesitas a alguien con experiencia en el sector tecnológico, capaz de estructurar contenidos, impartir formación de calidad y acompañar a los alumnos en su desarrollo profesional, aquí me tienes. <br> Saludos</p></div>
 </div>
 </div>
 </div>
