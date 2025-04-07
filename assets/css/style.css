@@ -231,7 +231,7 @@ ul.list-check li::before {
   position: relative;
   color: #fff;
   min-height: 500px;
-  padding: 110px;
+  padding: 1em;
 }
 #home:before {
   content: "";
@@ -433,7 +433,7 @@ ul.list-check li::before {
   margin-bottom: 7px;
 }
 .short-info a {
-  font-size: 1.4em;
+  font-size: 1.1em;
   color: #4286f4;
   font-weight: bold;
   margin: 10px;
@@ -672,6 +672,9 @@ ul.list-check li::before {
   margin-bottom: 20px;
 }
 @media (min-width: 992px) {
+  #skills {
+    padding: 110px;
+  }
   .timeline:before {
     left: 50%;
   }
@@ -813,7 +816,7 @@ ul.list-check li::before {
   color: #fff;
 }
 .skill-title {
-  width: 25%;
+  width: 45%;
   float: left;
 }
 .skill-title h3 {
@@ -825,6 +828,7 @@ ul.list-check li::before {
 .skill-progress {
   position: relative;
 }
+
 .progress {
   height: 10px;
   margin-bottom: 40px;
@@ -1084,6 +1088,10 @@ ul.list-check li::before {
   margin: 20px auto;
   border: 2px solid;
   border-radius: 25px;
+}
+.white-popup a{
+  color: black;
+  font-weight: bold;
 }
 .mfp-with-zoom.mfp-ready .mfp-container {
   opacity: 1;

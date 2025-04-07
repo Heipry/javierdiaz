@@ -178,7 +178,7 @@ ul.list-check li::before{content:"\f00c";font-family:fontawesome;color:#68c3a3;m
 .skills-section{background-color:#1a1e23;color:#fff;}
 .skills-section .section-title{color:#fff;margin-bottom:110px;}
 .skills-section .section-title h2{color:#fff;}
-.skill-title{width:25%;float:left;}
+.skill-title{width:45%;float:left;}
 .skill-title h3{font-size:18px;font-weight:400;margin-top:-6px;text-transform:capitalize;}
 .skill-progress{position:relative;}
 .progress{height:10px;margin-bottom:40px;background-color:#3a4149;border-radius:3px;box-shadow:none;width:75%;}
