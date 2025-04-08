@@ -1,2 +1,4 @@
 #ignore incs
 *.inc.php
+.vscode/*
+.vscode/ftp-sync.json
