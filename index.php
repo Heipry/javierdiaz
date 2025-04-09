@@ -101,7 +101,7 @@
 <div class=social-icons>
 <ul class=list-inline>
 <li><a href=https://www.linkedin.com/in/javier-diaz-garrido/ target=_blank><i class="fa fa-linkedin"></i></a></li>
-<li><a href=https://twitter.com/heipry target=_blank><i class="fa-brands fa-x-twitter"><svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+<li><a href=https://twitter.com/heipry target=_blank><i class="fa-brands fa-x-twitter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
   <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
 </svg></i></a></li>
 
@@ -208,8 +208,7 @@
 <h4 class=modal-title>Video Presentación</h4>
 </div>
 <div class=modal-body>
-<div class=video-container><iframe width="560" height="315" src="https://www.youtube.com/embed/6xbrvIsYxCY?si=92Q0SlEhoXu_hcUW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</iframe>
+<div class=video-container><iframe width="560" height="315" src="https://www.youtube.com/embed/6xbrvIsYxCY?si=92Q0SlEhoXu_hcUW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
 </div>
@@ -630,7 +629,7 @@
 <div class=container>
 <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
 <div class=row>
-<div id=grid><!--
+<div class=grid><!--
 <div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
 <div class=portfolio-bg>
 <div class=portfolio>
@@ -762,11 +761,11 @@
 <h3>Ver más proyectos</h3>
 </div>
 <div class="col-xs-6 codelink" style="border:1px solid black;">
-        <a href="https://github.com/Heipry" target="_blank"><img border="0" width="16" alt="GitHub icon"  src="https://javierdiaz.com.es/assets/firma/gh.png"></a>
+        <a href="https://github.com/Heipry" target="_blank"><img width="16" alt="GitHub icon"  src="https://javierdiaz.com.es/assets/firma/gh.png"></a>
         
 </div>
 <div class="col-xs-6 codelink" style="border:1px solid black;">
-        <a href="https://codepen.io/jadigar/" target="_blank"><img border="0" width="16" alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png"></a>
+        <a href="https://codepen.io/jadigar/" target="_blank"><img  width="16" alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png"></a>
 </div>
 
 </div></section>
@@ -806,8 +805,8 @@
 <input type=text name=subject class=form-control id=InputSubject>
 </div>
 <div style="display: none;">
-		<label for="required">Este es un campo de control. Si lo ves, pasa de él.</label>
-		<input type="text" name="required" />
+		<label>Este es un campo de control. Si lo ves, pasa de él.</label>
+		<input type="text" name="required">
 </div>
 
 <div class=form-group>
@@ -840,7 +839,7 @@ Arnedo, La Rioja<br>
 <i class="fa fa-mobile"></i>
 <div class=contact-number>
 <strong>Teléfono y WhatsApp</strong>
-<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank">627 496 505</i> </a>
+<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank">627 496 505</a>
 
 </div>
 </div>
@@ -861,7 +860,7 @@ Arnedo, La Rioja<br>
 <div class=row>
 <div class=col-md-12>
 <div class="copyright text-center">
-<p>&copy; 2024 Javier Diaz. All rights reserved.</p>
+<p>&copy; <?php echo date('Y'); ?> Javier Diaz. All rights reserved.</p>
 </div>
 </div>
 </div>
