@@ -207,16 +207,11 @@ ul.list-check li::before {
   bottom: -40px;
   margin: 0 auto;
 }
-@media (max-width: 640px) {
-  .tt-fullHeight {
-    height: 560px !important;
-  }
-}
+
 #home {
-  background: url(../images/home-trazo.jpg) no-repeat center right;
-  -webkit-background-attachment: fixed;
+  background: url(../images/home.jpg) no-repeat left bottom;
   background-attachment: fixed;
-  background-color: #111;
+  background-color: #000;
   background-size: cover;
   padding: 0;
   position: relative;
@@ -241,6 +236,28 @@ ul.list-check li::before {
   left: 0;
   width: 100%;
   height: 100%;
+}
+@media (max-width: 640px) {
+  .tt-fullHeight {
+    height: 560px !important;
+  }
+  #home {    
+    background-attachment: scroll;
+    background-size: auto 560px;  
+  } 
+
+}
+@media (max-width: 1280px) {
+  
+  #home:before {
+    content: "";
+    background-color: rgba(26, 30, 35, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 .intro {
   position: absolute;
@@ -545,6 +562,22 @@ ul.list-check li::before {
 }
 .resume-title {
   margin-bottom: 30px;
+}
+.resume-section ul.experiencia{
+  border: 1px solid hsl(0, 0%, 94%);
+  margin: auto;
+  width: fit-content;
+}
+.resume-section ul.experiencia li{
+  font-size: 0.9em;
+  padding-left: 2em;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 3px 0 ;
+  border-radius: 4px;
+}
+.resume-section ul.experiencia li:nth-child(odd) {
+  background-color: #f0f0f0; 
 }
 .timeline {
   position: relative;
