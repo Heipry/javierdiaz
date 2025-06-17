@@ -318,11 +318,29 @@
             <div class="timeline-panel wow fadeInUp">
                 <div class=timeline-content>
                     <div class=timeline-heading>
-                        <h3>Docente de Diseño y Desarrollo Web</h3>
+                        <h3>Docente y tutor de Desarrollo Web</h3>
                         <span>Vértice eLearning, Málaga </span>
                     </div>
                     <div class=timeline-body>
-                        <p>Imparto formación práctica en desarrollo web, diseño UX/UI y uso de herramientas como Figma o VS Code, adaptándome a las necesidades de cada alumno. Mi enfoque se centra en tutorizar, dinamizar y guiar el aprendizaje, diseñando actividades prácticas y evaluaciones para optimizar el rendimiento y la calidad de los proyectos web. Mi objetivo es preparar a los alumnos con las competencias técnicas y creativas que demanda el mercado.
+                        <p>
+  <p>
+    Durante este periodo, Diseñé y gestioné actividades, tutorías y evaluaciones para potenciar el aprendizaje práctico del
+    <strong>CERTIFICADO PROFESIONAL IFCT0409 - Confección y publicación de páginas web:</strong>
+  </p>
+
+  <ul class="experiencia">
+    <li>UF1302: Creación de páginas web con el lenguaje de marcas (60 h) <strong>x2</strong></li>
+    <li>UF1303: Elaboración de hojas de estilo (CSS) (60 h)</li>
+    <li>UF1305: Programación con lenguajes de guion (60 h)</li>
+    <li>UF1306: Pruebas de funcionalidades y optimización (60 h)</li>
+    <li>MF0952: Publicación de páginas web (60 h) <strong>x2</strong></li>
+  </ul>
+
+  <p>
+    Mi objetivo fue capacitar a los alumnos con habilidades técnicas y creativas demandadas por el mercado digital actual.
+  </p>
+
+
                         </p>
                     </div>
                 </div>
