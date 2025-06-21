@@ -325,7 +325,7 @@
                         <p>
   <p>
     Durante este periodo, Diseñé y gestioné actividades, tutorías y evaluaciones para potenciar el aprendizaje práctico del
-    <strong>CERTIFICADO PROFESIONAL IFCT0409 - Confección y publicación de páginas web:</strong>
+    <strong>CERTIFICADO PROFESIONAL IFCD0110 - Confección y publicación de páginas web:</strong>
   </p>
 
   <ul class="experiencia">
