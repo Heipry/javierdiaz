@@ -144,8 +144,8 @@ jQuery(function ($) {
                 barColor:'#68c3a3',
                 trackColor:'rgba(255,255,255,0.2)',
                 scaleColor: false,
-                lineWidth: 8,
-                size: 140,
+                lineWidth: 6,
+                size: 90,
                 animate: 2000,
                 onStep: function(from, to, percent) {
                     this.el.children[0].innerHTML = Math.round(percent);
