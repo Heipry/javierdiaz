@@ -536,7 +536,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             <h3>Programación PHP</h3>
                         </div>
                         <div class=progress>
-                            <div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=70 aria-valuemin=0 aria-valuemax=100><span>92%</span>
+                            <div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=92 aria-valuemin=0 aria-valuemax=100><span>92%</span>
                             </div>
                         </div>
                     </div>
@@ -545,7 +545,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             <h3>JavaScript</h3>
                         </div>
                         <div class=progress>
-                            <div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=70 aria-valuemin=0 aria-valuemax=100><span>87%</span>
+                            <div class="progress-bar six-sec-ease-in-out" role=progressbar aria-valuenow=87 aria-valuemin=0 aria-valuemax=100><span>87%</span>
                             </div>
                         </div>
                     </div>
