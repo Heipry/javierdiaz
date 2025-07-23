@@ -237,7 +237,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     </div>
                     <div class=resume>
                         <ul class=timeline>
-                            <li>
+                            <!--  <li>
                                 <div class=posted-date>
                                     <span class=month>2015-2017</span>
                                 </div>
@@ -252,9 +252,9 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                         </div>
                                     </div>
                                 </div>
-                            </li>
+                            </li> -->
 
-                            <li class=timeline-inverted>
+                            <li>
                                 <div class=posted-date>
                                     <span class=month>2017</span>
                                 </div>
@@ -270,7 +270,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li class=timeline-inverted>
                                 <div class=posted-date>
                                     <span class=month>2017-2019</span>
                                 </div>
@@ -287,7 +287,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 </div>
                             </li>
 
-                            <li class=timeline-inverted>
+                            <li>
                                 <div class=posted-date>
                                     <span class=month>2021-2024</span>
                                 </div>
@@ -301,6 +301,24 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             <p>Titulación oficial y homologada. Obtuve la <b>Matrícula de Honor</b>, destacando por mi rendimiento académico. Esta formación me capacita para trabajar como desarrollador multimedia y de aplicaciones informáticas para la gestión empresarial y de negocio, tanto en propósitos generales como en el ámbito del entretenimiento y la informática móvil.
 
                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=timeline-inverted>
+                                <div class=posted-date>
+                                    <span class=month>2024-</span>
+                                </div>
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class=timeline-content>
+                                        <div class=timeline-heading>
+                                            <h3>Master FP Desarrollo de aplicaciones en lenguaje Python <a class="image-link importante" href="assets/images/diploma-daw.jpg"><i class="fa fa-search-plus"></i></a></h3>
+                                            <span><a href="https://directorio.educa.jcyl.es/m/es/centros/2012/1-42002744-virgen-del-espino" target="_blank">CIPFPD La Rioja
+                                                </a></span>
+                                        </div>
+                                        <div class=timeline-body>
+                                            <p>Estudiando actualmente el Máster de Formación Profesional en Desarrollo de Aplicaciones en Lenguaje Python. Este programa me capacita para diseñar, desarrollar e implementar aplicaciones avanzadas utilizando Python, aplicando buenas prácticas de programación, automatización y análisis de datos.</p>
+
                                         </div>
                                     </div>
                                 </div>
