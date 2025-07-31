@@ -96,10 +96,11 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
             </div>
             <?php
-            // Detectar el parámetro job
+            // Detect job
             $job = $_GET['job'] ?? '';
 
             if ($job === 'developer') {
+                //developer
             ?>
                 <h1><span>Especialista</span> Web</h1>
                 <div class="typewriter">
@@ -109,7 +110,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
             <?php
             } elseif ($job === 'manager') {
-                // Escenario para manager                
+                // manager                
             ?>
                 <h1><span>Web</span> Project Manager</h1>
                 <div class="typewriter">
@@ -119,7 +120,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
             <?php
             } else {
-                // Escenario por defecto (vacío u otro valor)
+                // Default case (empty or other value)
             ?>
                 <h1><span>Docente</span> y Consultor Web</h1>
                 <div class="typewriter">
@@ -187,8 +188,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 <ul>
                                     <li class="wow contact1">Javier Díaz</li>
                                     <li class="wow contact1"><a href="mailto:contacto@javierdiaz.com.es">contacto@javierdiaz.com.es</a></li>
-                                    <li class="wow contact2">Whatsapp: &nbsp;<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank"><i class="fa fa-whatsapp"></i> </a> </li>
-                                    <!--li>Fecha de nacimiento: 24 de Mayo de 1981</li-->
+                                    <li class="wow contact2">Whatsapp: &nbsp;<a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank"><i class="fa fa-whatsapp"></i> </a> </li>                                   
                                     <li class="wow contact3">Localidad: Arnedo (La Rioja)</li>
                                     <li class="wow contact4">Nacionalidad: Española</li>
                                 </ul>
@@ -210,7 +210,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 <div class="col-md-7 col-md-pull-4">
                     <div class="short-info wow fadeInUp">
                         <?php if ($job === 'developer') {
-                            // Escenario para developer
+                            // developer
                         ?>
                             <h3>HOY EN DÍA</h3>
                             <p> Desarrollador y gerente de proyectos web con más de 10 años de experiencia. Experto en PrestaShop y WordPress, así como en
@@ -222,7 +222,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <p> Mi trayectoria comenzó en el ámbito comercial, liderando un equipo de más de 10 personas en el sector de ventas de cerramientos. Posteriormente fundé un eCommerce propio, lo que impulsó mi reorientación definitiva hacia el desarrollo web. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, trabajando como desarrollador PHP en agencias digitales y evolucionando hasta ocupar el rol de director de tecnología en una filial multinacional, donde gestioné un eCommerce multicanal basado en PrestaShop. Desde entonces, he coordinado numerosos proyectos IT, combinando experiencia técnica con visión de negocio. </p>
                     <?php
                         } elseif ($job === 'manager') {
-                            // Escenario para manager                
+                            // manager                
                     ?>
                         <h3>HOY EN DÍA</h3>
                         <p> Me siento comodo en la gestión de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
@@ -232,8 +232,8 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT, sigo ligado a la personalización de PrestaShop aunque también a WordPress y otros CMSs y me he acostumbrado a las bondades del teletrabajo. </p>
                     <?php
                         } else {
-                            // Escenario por defecto (vacío u otro valor)
-                    ?>
+                            // Default case (empty or other value)
+                        ?>
                         <h3>HOY EN DÍA</h3>
                         <p> Me siento cómodo combinando mi experiencia en gestión de proyectos web, tanto en el desarrollo como en mantenimiento, con mi creciente dedicación a la formación. Recientemente, fusioné mi pasión por la docencia con mi amplia experiencia técnica al participar como docente en programas europeos de reskilling en desarrollo y diseño web. Esto me permite aportar una visión fresca y eminentemente práctica a la formación IT, capacitando a futuros profesionales con habilidades directamente aplicables al mercado digital. </p> <br>
                     </div>
@@ -244,9 +244,6 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <?php
                         }
                     ?>
-
-
-
                     </div>
                     <div class=my-signature>
                         <img src=assets/images/sign.png alt>
@@ -296,24 +293,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <h3>Educación</h3>
                     </div>
                     <div class=resume>
-                        <ul class=timeline>
-                            <!--  <li>
-                                <div class=posted-date>
-                                    <span class=month>2015-2017</span>
-                                </div>
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class=timeline-content>
-                                        <div class=timeline-heading>
-                                            <h3>Diplomado en desarrollo de sitios web y aplicaciones móviles - <a class="image-link importante" href="assets/images/diplomadoweb.jpg"><i class="fa fa-search-plus"></i></a></h3>
-                                            <span>Centro de Capacitación Televisiva (09DBT002), Mexico</span>
-                                        </div>
-                                        <div class=timeline-body>
-                                            <p>Impartido de manera telemática por la fundación Carlos Slim y el Sistema Educativo Nacional de Mexico, acredité mis competencias como desarrollador web y de aplicaciones móviles mediante este título equivalente a 73 créditos académicos y correspondiente al nivel 6 de la Clasificación Internacional Normalizada de Educación (Grado Universitario).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li> -->
-
+                        <ul class=timeline>                         
                             <li>
                                 <div class=posted-date>
                                     <span class=month>2017</span>
@@ -500,13 +480,8 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                     </div>
                                 </div>
                             </li>
-                            <?php if ($job === 'developer') {
-                                // Escenario para developer
-                            ?>
-
-                            <?php
-                            } elseif ($job === 'manager') {
-                                // Escenario para manager                
+                            <?php if ($job === 'manager') {
+                                // manager                
                             ?>
                                 <li class=timeline-inverted>
                                     <div class=posted-date>
@@ -531,7 +506,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 </li>
                             <?php
                             } else {
-                                // Escenario por defecto (vacío u otro valor)
+                                // Default case (empty or other value)
                             ?>
 
                             <?php
@@ -554,6 +529,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 $categorias = ['front', 'back', 'e-com', 'dire', 'edu', 'otros'];
 
                 if ($job === 'developer') {
+                    // developer
                 ?>
                     <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
                     <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
@@ -564,7 +540,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <li><a data-group="todos">Todos</a></li>
                 <?php
                 } elseif ($job === 'manager') {
-                    // Escenario para manager
+                    // manager
                 ?>
                     <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
                     <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
@@ -575,7 +551,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <li><a data-group="todos">Todos</a></li>
                 <?php
                 } else {
-                    // Escenario por defecto (vacío u otro valor)
+                    // Default case (empty or other value)
                 ?>
                     <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
                     <li><a data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
@@ -588,7 +564,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 }
                 ?>
                 <?php
-                // RECIBIR
+                // Get visible
                 $gsent = $pdo->prepare("SELECT * FROM jdg_titulos where visible = 1");
                 $gsent->execute();
                 $resultado = $gsent->fetchAll();
@@ -632,7 +608,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
                 <div class=modal-body>
                     <?php
-                    // RECIBIR TODO
+                    // Get all
                     $gsent = $pdo->prepare("SELECT * FROM jdg_titulos");
                     $gsent->execute();
                     $resultado = $gsent->fetchAll();
@@ -724,7 +700,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
             </div>
             <?php if ($job === 'developer') {
-                // Escenario para developer
+                // developer
             ?>
                 <div class="row text-center">
                     <div class="col-xs-12 col-sm-6 col-md-3">
@@ -791,7 +767,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
         </div>
     <?php
             } elseif ($job === 'manager') {
-                // Escenario para manager                
+                // manager                
     ?>
         <div class="row text-center">
             <div class="col-xs-12 col-sm-6 col-md-3">
@@ -858,8 +834,8 @@ $_SESSION["num2"] = rand(0, 10); ?>
         </div>
     <?php
             } else {
-                // Escenario por defecto (vacío u otro valor)
-    ?>
+                // Default case (empty or other value)
+            ?>
         <div class="row text-center">
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class=chart data-percent=95 data-color=e74c3c>
@@ -1091,8 +1067,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             <button class="g-recaptcha btn btn-primary"
                                 data-sitekey="6Lcab7UpAAAAAM8Czt9NQHDT4ao8u_261Ovp4PSl"
                                 data-callback='onSubmit'
-                                data-action='submit'>Enviar mensaje</button><!--
-<button type=submit name=submit class="btn btn-primary">Enviar mensaje</button>-->
+                                data-action='submit'>Enviar mensaje</button>
                         </form>
                     </div>
                 </div>
@@ -1119,20 +1094,20 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <div class=col-sm-12>
                             <div class="short-info wow fadeInUp">
                                 <?php if ($job === 'developer') {
-                                    // Escenario para developer
+                                    // developer
                                 ?>
                                     <h3>¿Buscas alguien que pueda diseñar construir y subirte una web?</h3>
                                     <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
 
                                 <?php
                                 } elseif ($job === 'manager') {
-                                    // Escenario para manager                
+                                    // manager                
                                 ?>
                                     <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
                                     <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
                                 <?php
                                 } else {
-                                    // Escenario por defecto (vacío u otro valor)
+                                    // Default case (empty or other value)
                                 ?>
                                     <h3>¿Buscas a un profesional con sólida experiencia técnica que también sea capaz de formar y guiar a otros en el ámbito del desarrollo web y la gestión digital? </h3>
                                     <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href=#works>mi portfolio</a> para ver los resultados de mi trabajo en estos últimos años. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
@@ -1152,7 +1127,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
             <div class=row>
                 <div class=col-md-12>
                     <div class="copyright text-center">
-                        <p>&copy; <?php echo date('Y'); ?> Javier Diaz. All rights reserved.</p>
+                        <p>&copy; <?php echo date('Y'); ?> Javier Díaz. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -1173,7 +1148,6 @@ $_SESSION["num2"] = rand(0, 10); ?>
     <script src=assets/js/jquery.easypiechart.js></script>
     <script src=assets/js/jquery.shuffle.min.js></script>
     <script src=assets/js/jquery.magnific-popup.min.js></script>
-
     <script src=assets/js/jquery.fitvids.js></script>
     <script src=assets/js/scripts.js></script>
 </body>
