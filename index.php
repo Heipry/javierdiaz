@@ -95,13 +95,42 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     </p>
                 </div>
             </div>
+            <?php
+            // Detectar el parámetro job
+            $job = $_GET['job'] ?? '';
 
-            <h1><span>Docente</span> y Consultor Web</h1>
-            <div class="typewriter">
-                <p class=line1>Apasionado por compartir conocimientos en el ámbito IT</p>
-                <p class=line2>También administrador de eCommerce y</p>
-                <p class=line3>desarrollador PHP especializado en PrestaShop.</p>
-            </div>
+            if ($job === 'developer') {
+            ?>
+                <h1><span>Especialista</span> Web</h1>
+                <div class="typewriter">
+                    <p class=line1>Profesional dedicado a la creación de paginas web</p>
+                    <p class=line2>También administrador de sistemas informáticos y</p>
+                    <p class=line3>versado en labores de relaciones públicas.</p>
+                </div>
+            <?php
+            } elseif ($job === 'manager') {
+                // Escenario para manager                
+            ?>
+                <h1><span>Web</span> Project Manager</h1>
+                <div class="typewriter">
+                    <p class=line1>Profesional dedicado a la gestión y creación de proyectos web</p>
+                    <p class=line2>También administrador de eCommerce y</p>
+                    <p class=line3>desarrollador PHP especializado en PrestaShop.</p>
+                </div>
+            <?php
+            } else {
+                // Escenario por defecto (vacío u otro valor)
+            ?>
+                <h1><span>Docente</span> y Consultor Web</h1>
+                <div class="typewriter">
+                    <p class=line1>Apasionado por compartir conocimientos en el ámbito IT</p>
+                    <p class=line2>También administrador de eCommerce y</p>
+                    <p class=line3>desarrollador PHP especializado en PrestaShop.</p>
+                </div>
+            <?php
+            }
+            ?>
+
             <div class=social-icons>
                 <ul class=list-inline>
                     <li><a href=https://www.linkedin.com/in/javier-diaz-garrido/ target=_blank><i class="fa fa-linkedin"></i></a></li>
@@ -180,12 +209,43 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
                 <div class="col-md-7 col-md-pull-4">
                     <div class="short-info wow fadeInUp">
+                        <?php if ($job === 'developer') {
+                            // Escenario para developer
+                        ?>
+                            <h3>HOY EN DÍA</h3>
+                            <p> Desarrollador y gerente de proyectos web con más de 10 años de experiencia. Experto en PrestaShop y WordPress, así como en
+                                el desarrollo de módulos y diseño personalizado de marca. Hábil en la gestión de equipos, la administración de contenido web y
+                                el mantenimiento de infraestructuras digitales.Acostumbrado a liderar proyectos full stack, incluyendo soporte técnico, gestión de redes sociales y ventas multicanal en marketplaces. Certificado por Google, con dominio de PHP, JavaScript, CSS y HTML. Compagino esta trayectoria técnica con una creciente actividad como formador en desarrollo web.</p> <br>
+                    </div>
+                    <div class="short-info wow fadeInUp">
+                        <h3>¿De dónde vengo?</h3>
+                        <p> Mi trayectoria comenzó en el ámbito comercial, liderando un equipo de más de 10 personas en el sector de ventas de cerramientos. Posteriormente fundé un eCommerce propio, lo que impulsó mi reorientación definitiva hacia el desarrollo web. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, trabajando como desarrollador PHP en agencias digitales y evolucionando hasta ocupar el rol de director de tecnología en una filial multinacional, donde gestioné un eCommerce multicanal basado en PrestaShop. Desde entonces, he coordinado numerosos proyectos IT, combinando experiencia técnica con visión de negocio. </p>
+                    <?php
+                        } elseif ($job === 'manager') {
+                            // Escenario para manager                
+                    ?>
+                        <h3>HOY EN DÍA</h3>
+                        <p> Me siento comodo en la gestión de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
+                    </div>
+                    <div class="short-info wow fadeInUp">
+                        <h3>¿De dónde vengo?</h3>
+                        <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT, sigo ligado a la personalización de PrestaShop aunque también a WordPress y otros CMSs y me he acostumbrado a las bondades del teletrabajo. </p>
+                    <?php
+                        } else {
+                            // Escenario por defecto (vacío u otro valor)
+                    ?>
                         <h3>HOY EN DÍA</h3>
                         <p> Me siento cómodo combinando mi experiencia en gestión de proyectos web, tanto en el desarrollo como en mantenimiento, con mi creciente dedicación a la formación. Recientemente, fusioné mi pasión por la docencia con mi amplia experiencia técnica al participar como docente en programas europeos de reskilling en desarrollo y diseño web. Esto me permite aportar una visión fresca y eminentemente práctica a la formación IT, capacitando a futuros profesionales con habilidades directamente aplicables al mercado digital. </p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
                         <h3>¿De dónde vengo?</h3>
                         <p> Mi trayectoria comenzó en el sector de la venta de cerramientos, donde desarrollé habilidades de liderazgo al gestionar equipos de más de 10 personas. Posteriormente, lancé mi propio eCommerce ofreciendo servicios de creación y gestión de webs, lo que me impulsó a a una reorientación profesional hacia el desarrollo web y la programación. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma,trabajando como desarrollador PHP en varias agencias digitales y, más tarde, como director de tecnología en la delegación local de una multinacional, donde gestioné un eCommerce multicanal basado en PrestaShop y WordPress. Fue entonces cuando inicié mi camino en la gestión de proyectos IT y, crucialmente, en la docencia, acumulando más de 400 horas lectivas en teleformación, consolidando un enfoque pedagógico práctico y centrado en el ámbito digital. Esta evolución me llevó a mi posición actual, donde combino mi experiencia técnica con una sólida capacidad para formar a otros profesionales en el desarrollo web. </p>
+
+                    <?php
+                        }
+                    ?>
+
+
 
                     </div>
                     <div class=my-signature>
@@ -440,6 +500,45 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                     </div>
                                 </div>
                             </li>
+                            <?php if ($job === 'developer') {
+                                // Escenario para developer
+                            ?>
+
+                            <?php
+                            } elseif ($job === 'manager') {
+                                // Escenario para manager                
+                            ?>
+                                <li class=timeline-inverted>
+                                    <div class=posted-date>
+                                        <span class=month>2012-2015</span>
+                                    </div>
+                                    <div class="timeline-panel wow fadeInUp">
+                                        <div class=timeline-content>
+                                            <div class=timeline-heading>
+                                                <h3>Propietario de empresa</h3>
+                                                <span>Carpintería Caraldiaz, Arnedo, La Rioja</span>
+                                            </div>
+                                            <div class=timeline-body>
+                                                <p>Monté mi propia empresa en la que pivoté el modelo de negocio desde la fabricación y montaje local a
+                                                    la venta en internet. La joven empresa tuvo que fabricar una infraestructura digital desde
+                                                    cero con la que adquirí una experiencia en aplicaciones web, marketing digital y legislación
+                                                    en la red que me dio la oportunidad de conocer el mundo del desarrollo web de manera
+                                                    profesional.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            <?php
+                            } else {
+                                // Escenario por defecto (vacío u otro valor)
+                            ?>
+
+                            <?php
+                            }
+                            ?>
+
+
                         </ul>
                     </div>
                 </div>
@@ -453,49 +552,74 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 <?php
                 include_once 'back/conexion/conexion.inc.php';
                 $categorias = ['front', 'back', 'e-com', 'dire', 'edu', 'otros'];
-                ?>
-                <li><a class=active id="categoria_mostrada" data-group=<?php echo $categorias[4] ?>>Docencia</a></li>
 
-                <li><a data-group=<?php echo $categorias[1] ?>>Back End</a></li>
-                <li><a data-group=<?php echo $categorias[2] ?>>E-commerce</a></li>
-                <li><a data-group=<?php echo $categorias[0]; ?>>Front/CMS</a></li>
-                <li><a data-group=<?php echo $categorias[3] ?>>Proyectos</a></li>
-                <li><a data-group=<?php echo $categorias[5] ?>>Otros</a></li>
-                <li><a data-group=todos>Todos</a></li>
-            </ul>
-            <?php
-            // RECIBIR
-            $gsent = $pdo->prepare("SELECT * FROM jdg_titulos where visible = 1");
-            $gsent->execute();
-            $resultado = $gsent->fetchAll();
-            ?>
-            <div class=row>
-                <div id=grid>
-                    <?php foreach ($resultado as $dato): ?>
-                        <div class="portfolio-item col-xs-4 col-sm-2 col-md-2" data-groups='["<?php echo $dato['categoria']; ?>","todos"]'>
-                            <div class=portfolio-bg>
-                                <div class=portfolio>
-                                    <div class=tt-overlay></div>
-                                    <div class=links> <a class=image-link href=assets/images/works-big/<?php echo $dato['foto']; ?>><i class="fa fa-search-plus"></i></a> <a href=#popup<?php echo $dato['id']; ?> class=open-popup-link><i class="fa fa-quote-right"></i></a>
-                                        <div id=popup<?php echo $dato['id']; ?> class="white-popup mfp-hide"> <?php echo $dato['descripcion']; ?></div>
-                                    </div>
-                                    <img src=assets/images/works/<?php echo $dato['foto']; ?> alt=<?php echo $dato['foto']; ?>>
-                                    <div class="text-center">
-                                        <p><?php echo $dato['titulo']; ?></p>
+                if ($job === 'developer') {
+                ?>
+                    <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
+                    <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
+                    <li><a data-group="<?php echo $categorias[2]; ?>">E-commerce</a></li>
+                    <li><a data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
+                    <li><a data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
+                    <li><a data-group="<?php echo $categorias[5]; ?>">Otros</a></li>
+                    <li><a data-group="todos">Todos</a></li>
+                <?php
+                } elseif ($job === 'manager') {
+                    // Escenario para manager
+                ?>
+                    <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
+                    <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
+                    <li><a data-group="<?php echo $categorias[2]; ?>">E-commerce</a></li>
+                    <li><a data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
+                    <li><a data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
+                    <li><a data-group="<?php echo $categorias[5]; ?>">Otros</a></li>
+                    <li><a data-group="todos">Todos</a></li>
+                <?php
+                } else {
+                    // Escenario por defecto (vacío u otro valor)
+                ?>
+                    <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
+                    <li><a data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
+                    <li><a data-group="<?php echo $categorias[2]; ?>">E-commerce</a></li>
+                    <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
+                    <li><a data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
+                    <li><a data-group="<?php echo $categorias[5]; ?>">Otros</a></li>
+                    <li><a data-group="todos">Todos</a></li>
+                <?php
+                }
+                ?>
+                <?php
+                // RECIBIR
+                $gsent = $pdo->prepare("SELECT * FROM jdg_titulos where visible = 1");
+                $gsent->execute();
+                $resultado = $gsent->fetchAll();
+                ?>
+                <div class=row>
+                    <div id=grid>
+                        <?php foreach ($resultado as $dato): ?>
+                            <div class="portfolio-item col-xs-4 col-sm-2 col-md-2" data-groups='["<?php echo $dato['categoria']; ?>","todos"]'>
+                                <div class=portfolio-bg>
+                                    <div class=portfolio>
+                                        <div class=tt-overlay></div>
+                                        <div class=links> <a class=image-link href=assets/images/works-big/<?php echo $dato['foto']; ?>><i class="fa fa-search-plus"></i></a> <a href=#popup<?php echo $dato['id']; ?> class=open-popup-link><i class="fa fa-quote-right"></i></a>
+                                            <div id=popup<?php echo $dato['id']; ?> class="white-popup mfp-hide"> <?php echo $dato['descripcion']; ?></div>
+                                        </div>
+                                        <img src=assets/images/works/<?php echo $dato['foto']; ?> alt=<?php echo $dato['foto']; ?>>
+                                        <div class="text-center">
+                                            <p><?php echo $dato['titulo']; ?></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-
-                <div class=row>
-                    <div class="col-xs-6 col-md-2 col-md-offset-5 col-xs-offset-3">
-                        <button type=button class="btn btn-primary" data-toggle=modal data-target=#lista>Ver lista completa</button>
+                        <?php endforeach; ?>
                     </div>
-                </div>
 
-            </div>
+                    <div class=row>
+                        <div class="col-xs-6 col-md-2 col-md-offset-5 col-xs-offset-3">
+                            <button type=button class="btn btn-primary" data-toggle=modal data-target=#lista>Ver lista completa</button>
+                        </div>
+                    </div>
+
+                </div>
         </div>
     </section>
 
@@ -599,70 +723,210 @@ $_SESSION["num2"] = rand(0, 10); ?>
 
                 </div>
             </div>
-
-            <div class="row text-center">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=chart data-percent=95 data-color=e74c3c>
-                        <span class=percent></span>
-                        <div class=chart-text>
-                            <span>Gestión de Proyectos
+            <?php if ($job === 'developer') {
+                // Escenario para developer
+            ?>
+                <div class="row text-center">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=chart data-percent=95 data-color=e74c3c>
+                            <span class=percent></span>
+                            <div class=chart-text>
+                                <span>Diseño Responsive y UX/UI
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=chart data-percent=90 data-color=2ecc71>
+                            <span class=percent></span>
+                            <div class=chart-text>
+                                <span>Optimización y Seguridad Web</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=chart data-percent=89 data-color=3498db>
+                            <span class=percent></span>
+                            <div class=chart-text>
+                                <span>Control de Versiones (Git)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=chart data-percent=93 data-color=3498db>
+                            <span class=percent></span>
+                            <div class=chart-text>
+                                <span>Administración Entornos Web</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row more-skill text-center spaced">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=list-text>
+                            <img src="/assets/images/docencia1.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                            <span>Capacidad de liderazgo
                             </span>
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=chart data-percent=90 data-color=2ecc71>
-                        <span class=percent></span>
-                        <div class=chart-text>
-                            <span>Metodologías Didácticas</span>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=list-text>
+                            <img src="/assets/images/docencia2.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                            <span>Aptitudes de Comunicación</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=list-text>
+                            <img src="/assets/images/docencia3.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                            <span>Resolución de Problemas</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class=list-text>
+                            <img src="/assets/images/docencia4.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                            <span>Colaboración y Scrum</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=chart data-percent=89 data-color=3498db>
-                        <span class=percent></span>
-                        <div class=chart-text>
-                            <span>Habilidades Evaluación</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=chart data-percent=93 data-color=3498db>
-                        <span class=percent></span>
-                        <div class=chart-text>
-                            <span>Capacidad de Planificación</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row more-skill text-center spaced">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=list-text>
-                        <img src="/assets/images/docencia1.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
-                        <span>Atención al Alumnado
+        </div>
+    <?php
+            } elseif ($job === 'manager') {
+                // Escenario para manager                
+    ?>
+        <div class="row text-center">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=95 data-color=e74c3c>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Gestión de Recursos
                         </span>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=list-text>
-                        <img src="/assets/images/docencia2.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
-                        <span>Aptitudes de Comunicación</span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=90 data-color=2ecc71>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Planificación Estratégica</span>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=list-text>
-                        <img src="/assets/images/docencia3.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
-                        <span>Resolución de Conflictos</span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=89 data-color=3498db>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Control de Tiempos y Costes</span>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class=list-text>
-                        <img src="/assets/images/docencia4.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
-                        <span>Adaptabilidad</span>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=93 data-color=3498db>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Capacidad de Planificación</span>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row more-skill text-center spaced">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia1.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Liderazgo de Equipos
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia2.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Comunicación Efectiva</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia3.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Negociación y Resolución</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia4.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Adaptabilidad al Cambio</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    <?php
+            } else {
+                // Escenario por defecto (vacío u otro valor)
+    ?>
+        <div class="row text-center">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=95 data-color=e74c3c>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Gestión de Proyectos
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=90 data-color=2ecc71>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Metodologías Didácticas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=89 data-color=3498db>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Habilidades Evaluación</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=chart data-percent=93 data-color=3498db>
+                    <span class=percent></span>
+                    <div class=chart-text>
+                        <span>Capacidad de Planificación</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row more-skill text-center spaced">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia1.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Atención al Alumnado
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia2.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Aptitudes de Comunicación</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia3.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Resolución de Conflictos</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class=list-text>
+                    <img src="/assets/images/docencia4.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
+                    <span>Adaptabilidad</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    <?php
+            }
+    ?>
+
 
     </section>
 
@@ -670,48 +934,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
         <div class=container>
             <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
             <div class=row>
-                <div class=grid><!--
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://brunocalzada.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#bruno class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=bruno class="white-popup mfp-hide">Página de presentación para profesional independiente. Realizada sobre WordPress+Elementor con elementos JavaScript personalizados</div>
-</div>
-<img src=assets/images/portfolio/pr-bruno.jpg alt=image>
-<div class=portfolio-info> <h3>Bruno Calzada</h3>
-</div>
-</div>
-</div>
-</div>
-
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://heipry.github.io/cmroma/ target="_blank"><i class="fa fa-link"></i></a> <a href=#roma class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=roma class="white-popup mfp-hide">Pagina corporativa con scroll vertical y las secciones más comunes (Nosotros, Servicios, Galeria, Contacto) realziada sin CMS</div>
-</div>
-<img src=assets/images/portfolio/proyecto3.jpg alt=image>
-<div class=portfolio-info> <h3>C.M. Roma</h3> </div>
-</div>
-</div>
-</div>
-
-
-<div class="portfolio-item col-xs-12 col-sm-6 col-md-4" >
-<div class=portfolio-bg>
-<div class=portfolio>
-<div class=tt-overlay></div>
-<div class="links links-w"> <a href=https://coplasem.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#coplasem class=open-popup-link><i class="fa fa-list"></i></a>
-<div id=coplasem class="white-popup mfp-hide">Proyecto 360 de Ecommerce basado en PrestaShop para empresa de venta de material para embalaje. Theme modificado, modulos personalizados, conexion con ERP, etc...</div>
-</div>
-<img src=assets/images/portfolio/pr-coplasem.jpg alt=image>
-<div class=portfolio-info> <h3>Coplasem, Más que Embalaje</h3>
-</div>
-</div>
-</div>
-</div>-->
+                <div class=grid>
                     <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
                         <div class=portfolio-bg>
                             <div class=portfolio>
@@ -895,8 +1118,28 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <div class=row>
                         <div class=col-sm-12>
                             <div class="short-info wow fadeInUp">
-                                <h3>¿Buscas a un profesional con sólida experiencia técnica que también sea capaz de formar y guiar a otros en el ámbito del desarrollo web y la gestión digital? </h3>
-                                <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href=#works>mi portfolio</a> para ver los resultados de mi trabajo en estos últimos años. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
+                                <?php if ($job === 'developer') {
+                                    // Escenario para developer
+                                ?>
+                                    <h3>¿Buscas alguien que pueda diseñar construir y subirte una web?</h3>
+                                    <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
+
+                                <?php
+                                } elseif ($job === 'manager') {
+                                    // Escenario para manager                
+                                ?>
+                                    <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
+                                    <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href=#works>mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
+                                <?php
+                                } else {
+                                    // Escenario por defecto (vacío u otro valor)
+                                ?>
+                                    <h3>¿Buscas a un profesional con sólida experiencia técnica que también sea capaz de formar y guiar a otros en el ámbito del desarrollo web y la gestión digital? </h3>
+                                    <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href=#works>mi portfolio</a> para ver los resultados de mi trabajo en estos últimos años. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
+                                <?php
+                                }
+                                ?>
+
                             </div>
                         </div>
                     </div>
