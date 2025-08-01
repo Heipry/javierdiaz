@@ -75,8 +75,11 @@ if(isset($_POST['email']) && empty($_POST['required']) && isset($_SESSION["num1"
 <?php 
 if(mail($destinatario,$asunto,$cuerpo,$headers))
 {
-echo '<script>alert("Gracias por contactar. Le responderé tan pronto como me sea posible.");</script>';
-echo '<meta HTTP-EQUIV="REFRESH" content="0; url=https://www.javierdiaz.com.es">';
+	// Obtener URL previa desde HTTP_REFERER
+	$referer = $_SERVER['HTTP_REFERER'] ?? '';
+	$destino = (strpos($referer, 'javierdiaz.com.es') !== false) ? $referer : 'https://javierdiaz.com.es';
+	echo '<script>alert("Gracias por contactar. Le responderé tan pronto como me sea posible.");</script>';
+	echo "<meta http-equiv=\"refresh\" content=\"0; url=$destino\">";
 }
 else
 {	
