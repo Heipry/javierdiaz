@@ -569,6 +569,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 $gsent->execute();
                 $resultado = $gsent->fetchAll();
                 ?>
+                </ul>
                 <div class=row>
                     <div id=grid>
                         <?php foreach ($resultado as $dato): ?>
