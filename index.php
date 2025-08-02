@@ -43,7 +43,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
 </head>
 
 <body>
-    <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50 "data-stellar-background-ratio="0.2">
+    <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
         <div class="intro">
             <div class="contains">
                 <div class="wrapper">
@@ -249,8 +249,18 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <img src="assets/images/sign.png" alt>
                     </div>
                     <div class="download-button">
+                        <?php
+                        if ($job === 'developer') {
+                            $cvFile = 'Javier_Diaz_CV_Developer.pdf';                        
+                        } else {
+                            $cvFile = 'Javier_Diaz_CV_Europass.pdf';
+                        }
+                        ?>
                         <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Enviarme un mensaje</a>
-                        <a class="btn btn-primary btn-lg" href="assets/images/Javier_Diaz_CV_Europass.pdf" target="_blank"><i class="fa fa-download"></i>Descargar mi cv</a>
+                        <a class="btn btn-primary btn-lg" href="assets/images/<?= htmlspecialchars($cvFile) ?>" target="_blank"><i class="fa fa-download"></i>Descargar mi cv</a>
+
+
+
                     </div>
                 </div>
             </div>
@@ -653,7 +663,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             <h3>Programación PHP</h3>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="92" aria-valuemin="0 "aria-valuemax="100"><span>92%</span>
+                            <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"><span>92%</span>
                             </div>
                         </div>
                     </div>
