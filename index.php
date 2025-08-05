@@ -98,6 +98,11 @@ $_SESSION["num2"] = rand(0, 10); ?>
             <?php
             // Detect job
             $job = $_GET['job'] ?? '';
+            if ($job === 'developer') {
+                $cvFile = 'Javier_Diaz_CV_Developer.pdf';
+            } else {
+                $cvFile = 'Javier_Diaz_CV_Europass.pdf';
+            }
 
             if ($job === 'developer') {
                 //developer
@@ -192,7 +197,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                     <li class="wow contact3">Localidad: Arnedo (La Rioja)</li>
                                     <li class="wow contact4">Nacionalidad: Española</li>
                                 </ul>
-                                <a href="https://javierdiaz.com.es/assets/images/Javier_Diaz_CV_Europass.pdf" class="bbutton">DESCARGAR MI CV</a>
+                                <a href="assets/images/<?= htmlspecialchars($cvFile) ?>" class="bbutton">DESCARGAR MI CV</a>
                             </div>
                         </div>
 
@@ -249,13 +254,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <img src="assets/images/sign.png" alt>
                     </div>
                     <div class="download-button">
-                        <?php
-                        if ($job === 'developer') {
-                            $cvFile = 'Javier_Diaz_CV_Developer.pdf';                        
-                        } else {
-                            $cvFile = 'Javier_Diaz_CV_Europass.pdf';
-                        }
-                        ?>
+
                         <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Enviarme un mensaje</a>
                         <a class="btn btn-primary btn-lg" href="assets/images/<?= htmlspecialchars($cvFile) ?>" target="_blank"><i class="fa fa-download"></i>Descargar mi cv</a>
 
