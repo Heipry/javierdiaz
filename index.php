@@ -240,11 +240,13 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             // Default case (empty or other value)
                     ?>
                         <h3>HOY EN DÍA</h3>
-                        <p> Me siento cómodo combinando mi experiencia en gestión de proyectos web, tanto en el desarrollo como en mantenimiento, con mi creciente dedicación a la formación. Recientemente, fusioné mi pasión por la docencia con mi amplia experiencia técnica al participar como docente en programas europeos de reskilling en desarrollo y diseño web. Esto me permite aportar una visión fresca y eminentemente práctica a la formación IT, capacitando a futuros profesionales con habilidades directamente aplicables al mercado digital. </p> <br>
+                        <p> Especializado en gestión y desarrollo web, fusiono mi sólida experiencia con mi pasión por la docencia para formar a la próxima generación de profesionales. Tras más de una década en el sector, he desarrollado una metodología práctica y adaptativa que va más allá de la teoría.<br>
+                            Como docente en programas de eLearning y reskilling, mi objetivo es dotar a los alumnos de habilidades directamente aplicables al mercado digital. Mi formación se centra en el desarrollo web (HTML, CSS, JavaScript, PHP) y el diseño UX/UI, asegurando que los estudiantes no solo sepan codificar, sino que también comprendan cómo crear productos digitales usables y eficientes.<br>
+                            Mi bagaje en gestión de proyectos me permite aportar una visión integral del sector, preparando a los alumnos con las herramientas y la mentalidad necesarias para tener éxito en cualquier equipo o proyecto. </p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
                         <h3>¿De dónde vengo?</h3>
-                        <p> Mi trayectoria comenzó en el sector de la venta de cerramientos, donde desarrollé habilidades de liderazgo al gestionar equipos de más de 10 personas. Posteriormente, lancé mi propio eCommerce ofreciendo servicios de creación y gestión de webs, lo que me impulsó a a una reorientación profesional hacia el desarrollo web y la programación. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma,trabajando como desarrollador PHP en varias agencias digitales y, más tarde, como director de tecnología en la delegación local de una multinacional, donde gestioné un eCommerce multicanal basado en PrestaShop y WordPress. Fue entonces cuando inicié mi camino en la gestión de proyectos IT y, crucialmente, en la docencia, acumulando más de 400 horas lectivas en teleformación, consolidando un enfoque pedagógico práctico y centrado en el ámbito digital. Esta evolución me llevó a mi posición actual, donde combino mi experiencia técnica con una sólida capacidad para formar a otros profesionales en el desarrollo web. </p>
+                        <p> Mi trayectoria profesional es el motor de mi enfoque pedagógico. Comencé desarrollando habilidades de liderazgo y gestión en el sector comercial. Posteriormente, mi paso por el emprendimiento al lanzar y gestionar mi propio eCommerce me proporcionó una visión integral del lado de negocio. Esta experiencia me llevó a una reorientación profesional, formándome en desarrollo web y trabajando como desarrollador y, más tarde, como director de tecnología. Hoy, mi experiencia como gestor de proyectos IT me permite preparar a mis alumnos no solo con habilidades técnicas, sino también con la mentalidad y las herramientas necesarias para triunfar en un entorno de trabajo real. Mi camino me ha enseñado a valorar la aplicación práctica por encima de la teoría, algo que transmito en cada una de mis formaciones. </p>
 
                     <?php
                         }
@@ -398,8 +400,10 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                         <div class="timeline-body">
                                             <p>
                                             <p>
-                                                Durante este periodo, Diseñé y gestioné actividades, tutorías y evaluaciones para potenciar el aprendizaje práctico del
-                                                <strong>CERTIFICADO PROFESIONAL IFCD0110 - Confección y publicación de páginas web:</strong>
+
+                                                Capacité a más de 100 alumnos en programas de formación online, impartiendo más de 400 horas de contenido sobre HTML, CSS y JS.<br>
+
+                                                Durante este periodo, gestioné y evalué el progreso de los estudiantes en los módulos clave del <strong>Certificado Profesional IFCD0110 </strong>Confección y publicación de páginas web, asegurando que adquirieran habilidades técnicas directamente aplicables al mercado digital e impartí los siguientes módulos formativos:
                                             </p>
 
                                             <ul class="experiencia">
@@ -409,12 +413,6 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                                 <li>UF1306: Pruebas de funcionalidades y optimización (60 h)</li>
                                                 <li>MF0952: Publicación de páginas web (60 h) <strong>x2</strong></li>
                                             </ul>
-
-                                            <p>
-                                                Mi objetivo fue capacitar a los alumnos con habilidades técnicas y creativas demandadas por el mercado digital actual.
-                                            </p>
-
-
                                             </p>
                                         </div>
                                     </div>
