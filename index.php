@@ -230,7 +230,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         } elseif ($job === 'manager') {
                             // manager                
                     ?>
-                        <h3>HOY EN DÍA</h3>
+                        <h3>Hoy en día</h3>
                         <p> Me siento comodo en la gestión de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
@@ -240,7 +240,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         } else {
                             // Default case (empty or other value)
                     ?>
-                        <h3>HOY EN DÍA</h3>
+                        <h3>Hoy en día</h3>
                         <p> Especializado en gestión y desarrollo web, fusiono mi sólida experiencia con mi pasión por la docencia para formar a la próxima generación de profesionales. Tras más de una década en el sector, he desarrollado una metodología práctica y adaptativa que va más allá de la teoría.<br>
                             Como docente en programas de eLearning y reskilling, mi objetivo es dotar a los alumnos de habilidades directamente aplicables al mercado digital. Mi formación se centra en el desarrollo web (HTML, CSS, JavaScript, PHP) y el diseño UX/UI, asegurando que los estudiantes no solo sepan codificar, sino que también comprendan cómo crear productos digitales usables y eficientes.<br>
                             Mi bagaje en gestión de proyectos me permite aportar una visión integral del sector, preparando a los alumnos con las herramientas y la mentalidad necesarias para tener éxito en cualquier equipo o proyecto. </p> <br>
@@ -1036,7 +1036,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
             <h2 class="section-title wow fadeInUp">Recursos de Formación</h2>
             <div class="row">
                 <div class="grid">
-                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
                         <div class="portfolio-bg">
                             <div class="portfolio">
                                 <div class="tt-overlay"></div>
@@ -1050,7 +1050,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
                         <div class="portfolio-bg">
                             <div class="portfolio">
                                 <div class="tt-overlay"></div>
@@ -1064,7 +1064,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
                         <div class="portfolio-bg">
                             <div class="portfolio">
                                 <div class="tt-overlay"></div>
@@ -1074,6 +1074,24 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 <img src="assets/images/portfolio/test-wcag.jpg" alt="test de autoevaluación">
                                 <div class="portfolio-info">
                                     <h3>Test Autoevaluación MF0952 del certificado IFCD0110 </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links links-w"> <a href="https://gist.github.com/Heipry/0c585a989953f46d56792cb2d93c0a15" target="_blank"><i class="fa fa-link"></i></a> <a href="#gist" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                    <div id="gist" class="white-popup mfp-hide">
+                                        Listado práctico de atajos de teclado para <strong>Visual Studio Code</strong>, pensado para aumentar la productividad y agilizar el flujo de trabajo de desarrolladores y estudiantes.
+                                        Un recurso con amplia aceptación en la comunidad, respaldado por más de 100 estrellas en GitHub Gist.
+                                    </div>
+
+                                </div>
+                                <img src="assets/images/portfolio/gist.jpg" alt="Gist de atajos">
+                                <div class="portfolio-info">
+                                    <h3>Gist de atajos globales y personalizados de VSCode </h3>
                                 </div>
                             </div>
                         </div>
@@ -1110,10 +1128,16 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <p>Ejemplos</p>
                 </div>
                 <div>
-                    <a href=" https://octagonal-cashew-a93.notion.site/Autoevaluaciones-Google-Forms-24ef9cb236248067b8bbdf3be5e891f9" target="_blank" style="filter: brightness(0) saturate(100%) invert(25%) sepia(16%) saturate(7000%) hue-rotate(243deg) brightness(97%) contrast(95%);">
+                    <a href=" https://octagonal-cashew-a93.notion.site/Autoevaluaciones-Google-Forms-24ef9cb236248067b8bbdf3be5e891f9" target="_blank">
                         <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gf.png">
                     </a>
                     <p>Autoevaluaciones</p>
+                </div>
+                <div>
+                    <a href="https://gist.github.com/Heipry" target="_blank">
+                        <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gist.png">
+                    </a>
+                    <p>Gists</p>
                 </div>
             </div>
 
