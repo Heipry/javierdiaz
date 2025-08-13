@@ -217,7 +217,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <?php if ($job === 'developer') {
                             // developer
                         ?>
-                            <h3>HOY EN DÍA</h3>
+                            <h3>Hoy en día</h3>
                             <p> Desarrollador y gerente de proyectos web con más de 10 años de experiencia. Experto en PrestaShop y WordPress, así como en
                                 el desarrollo de módulos y diseño personalizado de marca. Hábil en la gestión de equipos, la administración de contenido web y
                                 el mantenimiento de infraestructuras digitales.Acostumbrado a liderar proyectos full stack, incluyendo soporte técnico, gestión de redes sociales y ventas multicanal en marketplaces. Certificado por Google, con dominio de PHP, JavaScript, CSS y HTML. Compagino esta trayectoria técnica con una creciente actividad como formador en desarrollo web.</p> <br>
@@ -911,26 +911,130 @@ $_SESSION["num2"] = rand(0, 10); ?>
 
 
     </section>
-
     <section id="works" class="works-section section-padding">
         <div class="container">
-            <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
-            <div class="row">
-                <div class="grid">
-                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="portfolio-bg">
-                            <div class="portfolio">
-                                <div class="tt-overlay"></div>
-                                <div class="links links-w"> <a href="https://www.figma.com/proto/cQ7Uu3ZCcFWOVxFNv8SpeY/App-ShopSaver-(v2)" target="_blank"><i class="fa fa-link"></i></a> <a href="#shopsaver" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                    <div id="shopsaver" class="white-popup mfp-hide">Aplicación android de gestión de listas de la compra y búsqueda en supermercados online. Código disponible en <a href="https://github.com/Heipry/ShopSaver" target="_blank">https://github.com/Heipry/ShopSaver</a> </div>
-                                </div>
-                                <img src="assets/images/portfolio/pr-shopsaver.jpg" alt="image">
-                                <div class="portfolio-info">
-                                    <h3>ShopSaver: Busca, compara y guarda</h3>
+
+            <?php if ($job === 'developer' || $job === 'manager') {
+
+            ?>
+                <h2 class="section-title wow fadeInUp">Trabajos realizados</h2>
+                <div class="row">
+                    <div class="grid">
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://www.figma.com/proto/cQ7Uu3ZCcFWOVxFNv8SpeY/App-ShopSaver-(v2)" target="_blank"><i class="fa fa-link"></i></a> <a href="#shopsaver" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="shopsaver" class="white-popup mfp-hide">Aplicación android de gestión de listas de la compra y búsqueda en supermercados online. Código disponible en <a href="https://github.com/Heipry/ShopSaver" target="_blank">https://github.com/Heipry/ShopSaver</a> </div>
+                                    </div>
+                                    <img src="assets/images/portfolio/pr-shopsaver.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>ShopSaver: Busca, compara y guarda</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class=portfolio-bg>
+                                <div class=portfolio>
+                                    <div class=tt-overlay></div>
+                                    <div class="links links-w"> <a href=https://coplasem.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#coplasem class=open-popup-link><i class="fa fa-list"></i></a>
+                                        <div id=coplasem class="white-popup mfp-hide">Proyecto 360 de Ecommerce basado en PrestaShop para empresa de venta de material para embalaje. Theme modificado, modulos personalizados, conexion con ERP, etc...</div>
+                                    </div>
+                                    <img src=assets/images/portfolio/pr-coplasem.jpg alt=image>
+                                    <div class=portfolio-info>
+                                        <h3>Coplasem, Más que Embalaje</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay">
+                                    </div>
+                                    <div class="links links-w"> <a href="https://github.com/Heipry/posql" target="_blank"><i class="fa fa-link"></i></a> <a href="#poquery" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="poquery" class="white-popup mfp-hide">Módulo PrestaShop para ejecutar consultas SQL personalizadas con fecha de inicio y de fin.
+                                        </div>
+                                    </div><img src="assets/images/portfolio/poQuery.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Addon PoQuery for PrestaShop</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class=portfolio-bg>
+                                <div class=portfolio>
+                                    <div class=tt-overlay></div>
+                                    <div class="links links-w"> <a href=https://brunocalzada.com/ target="_blank"><i class="fa fa-link"></i></a> <a href=#bruno class=open-popup-link><i class="fa fa-list"></i></a>
+                                        <div id=bruno class="white-popup mfp-hide">Página de presentación para profesional independiente. Realizada sobre WordPress+Elementor con elementos JavaScript personalizados</div>
+                                    </div>
+                                    <img src=assets/images/portfolio/pr-bruno.jpg alt=image>
+                                    <div class=portfolio-info>
+                                        <h3>Bruno Calzada</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://bierhaus.tienda/" target="_blank"><i class="fa fa-link"></i></a> <a href="#bierhaus" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="bierhaus" class="white-popup mfp-hide">Página web multipropósito. Combina una tienda basada en PrestaShop con sistema de venta de packs, tarjetas regalo y entradas a eventos, con una página web corporativa con conexión a aplicaciones de entrega a domicilio y un backoffice implementado mediante PHP para la gestión de la secciópn "Nuestros grifos" para visualización en pantallas de gran tamaño
+                                        </div>
+                                    </div><img src="assets/images/portfolio/bierhaus.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Bierhaus Odeon</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay">
+                                    </div>
+                                    <div class="links links-w"> <a href="https://www.enoturismo-ecuestre.com/" target="_blank"><i class="fa fa-link"></i></a> <a href="#enoturismo" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="enoturismo" class="white-popup mfp-hide">Página web para servicio de corte turístico. Cambio de logotipos e identidad corporativa, rediseño e implementación de página web mediante WordPress, internacionalización y presencia en internet.
+                                        </div>
+                                    </div><img src="assets/images/portfolio/enoturismo.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Enoturismo Ecuestre</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
+                </div>
+                <div class="resume-title" style="margin-top:10px;">
+                    <h3>Ver más proyectos</h3>
+                </div>
+                <div class="codelink text-center">
+                    <a href="https://github.com/Heipry" target="_blank">
+                        <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
+                    </a>
+                    <a href="https://codepen.io/jadigar/" target="_blank">
+                        <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
+                    </a>
+                </div>
+
+        </div>
+    </section>
+<?php
+            } else {
+                // Default case (empty or other value)
+?>
+    <section id="edumat" class="works-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Recursos de Formación</h2>
+            <div class="row">
+                <div class="grid">
                     <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
                         <div class="portfolio-bg">
                             <div class="portfolio">
@@ -938,7 +1042,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 <div class="links links-w"> <a href="https://codepen.io/jadigar/full/weXKam" target="_blank"><i class="fa fa-link"></i></a> <a href="#hangi" class="open-popup-link"><i class="fa fa-list"></i></a>
                                     <div id="hangi" class="white-popup mfp-hide">Minijuego de "el ahorcado" realizado integramente con BootStrap y VanillaJS como recurso de enseñanza
                                     </div>
-                                </div><img src="assets/images/portfolio/proyecto9.jpg" alt="image">
+                                </div><img src="assets/images/portfolio/proyecto9.jpg" alt="minijuego ahorcado">
                                 <div class="portfolio-info">
                                     <h3>Hangi: El ahorcado</h3>
                                 </div>
@@ -948,28 +1052,11 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
                         <div class="portfolio-bg">
                             <div class="portfolio">
-                                <div class="tt-overlay">
-                                </div>
-                                <div class="links links-w"> <a href="https://github.com/Heipry/posql" target="_blank"><i class="fa fa-link"></i></a> <a href="#poquery" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                    <div id="poquery" class="white-popup mfp-hide">Módulo PrestaShop para ejecutar consultas SQL personalizadas con fecha de inicio y de fin.
-                                    </div>
-                                </div><img src="assets/images/portfolio/poQuery.jpg" alt="image">
-                                <div class="portfolio-info">
-                                    <h3>Addon PoQuery for PrestaShop</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="portfolio-bg">
-                            <div class="portfolio">
                                 <div class="tt-overlay"></div>
                                 <div class="links links-w"> <a href="https://heipry.github.io/EjerciciosCSS" target="_blank"><i class="fa fa-link"></i></a> <a href="#css" class="open-popup-link"><i class="fa fa-list"></i></a>
                                     <div id="css" class="white-popup mfp-hide">Ejercicios de CSS correspondientes a las prácticas UF1303 del certificado profesional IFCD0110, desarrollados dentro del proyecto de Reskilling europeo para la mejora de competencias digitales, formación y actualización profesional.</div>
                                 </div>
-                                <img src="assets/images/portfolio/ejercicios-css.jpg" alt="image">
+                                <img src="assets/images/portfolio/ejercicios-css.jpg" alt="practicas css">
                                 <div class="portfolio-info">
                                     <h3>Prácticas UF1303 del certificado IFCD0110 </h3>
                                 </div>
@@ -980,182 +1067,240 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <div class="portfolio-bg">
                             <div class="portfolio">
                                 <div class="tt-overlay"></div>
-                                <div class="links links-w"> <a href="https://bierhaus.tienda/" target="_blank"><i class="fa fa-link"></i></a> <a href="#bierhaus" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                    <div id="bierhaus" class="white-popup mfp-hide">Página web multipropósito. Combina una tienda basada en PrestaShop con sistema de venta de packs, tarjetas regalo y entradas a eventos, con una página web corporativa con conexión a aplicaciones de entrega a domicilio y un backoffice implementado mediante PHP para la gestión de la secciópn "Nuestros grifos" para visualización en pantallas de gran tamaño
-                                    </div>
-                                </div><img src="assets/images/portfolio/bierhaus.jpg" alt="image">
+                                <div class="links links-w"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRGKjJ0zpEMICSx8dx-_bQa_pWIYHdXHVvM59yUBgAbqEZGQ/viewform?usp=sharing&ouid=102080009925472955765" target="_blank"><i class="fa fa-link"></i></a> <a href="#WCAG" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                    <div id="WCAG" class="white-popup mfp-hide">Test de autoevaluación sobre criterios de accesibilidad y sus principios correspondientes(WCAG 2.1). Recurso de las prácticas MF0952 del certificado IFCD0110, desarrollado dentro del proyecto de Reskilling europeo para la mejora de competencias digitales, formación y actualización profesional.</div>
+                                </div>
+                                <img src="assets/images/portfolio/test-wcag.jpg" alt="test de autoevaluación">
                                 <div class="portfolio-info">
-                                    <h3>Bierhaus Odeon</h3>
+                                    <h3>Test Autoevaluación MF0952 del certificado IFCD0110 </h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-                        <div class="portfolio-bg">
-                            <div class="portfolio">
-                                <div class="tt-overlay">
-                                </div>
-                                <div class="links links-w"> <a href="https://www.enoturismo-ecuestre.com/" target="_blank"><i class="fa fa-link"></i></a> <a href="#enoturismo" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                    <div id="enoturismo" class="white-popup mfp-hide">Página web para servicio de corte turístico. Cambio de logotipos e identidad corporativa, rediseño e implementación de página web mediante WordPress, internacionalización y presencia en internet.
-                                    </div>
-                                </div><img src="assets/images/portfolio/enoturismo.jpg" alt="image">
-                                <div class="portfolio-info">
-                                    <h3>Enoturismo Ecuestre</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>
             <div class="resume-title" style="margin-top:10px;">
-                <h3>Ver más proyectos</h3>
+                <h3 id="toggle-codelink">Ver más recursos</h3>
             </div>
-            <div class="col-xs-6 codelink" style="border:1px solid black;">
-                <a href="https://github.com/Heipry" target="_blank"><img width="16" alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png"></a>
-
+            <div class="codelink text-center">
+                <div>
+                    <a href="https://github.com/users/Heipry/projects/1" target="_blank">
+                        <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
+                    </a>
+                    <p>Github Pages</p>
+                </div>
+                <div>
+                    <a href="https://codepen.io/collection/ZQYaJb" target="_blank">
+                        <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
+                    </a>
+                    <p>Efectos</p>
+                </div>
+                <div>
+                    <a href="https://codepen.io/collection/rBLxPK" target="_blank">
+                        <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png" style="filter: brightness(0) saturate(100%) invert(61%) sepia(55%) saturate(2250%) hue-rotate(117deg) brightness(94%) contrast(101%);">
+                    </a>
+                    <p>Retos</p>
+                </div>
+                <div>
+                    <a href="https://codepen.io/collection/EPyxzr" target="_blank">
+                        <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png" style="filter: brightness(0) saturate(100%) invert(46%) sepia(69%) saturate(3202%) hue-rotate(180deg) brightness(102%) contrast(107%);">
+                    </a>
+                    <p>Ejemplos</p>
+                </div>
+                <div>
+                    <a href=" https://octagonal-cashew-a93.notion.site/Autoevaluaciones-Google-Forms-24ef9cb236248067b8bbdf3be5e891f9" target="_blank" style="filter: brightness(0) saturate(100%) invert(25%) sepia(16%) saturate(7000%) hue-rotate(243deg) brightness(97%) contrast(95%);">
+                        <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gf.png">
+                    </a>
+                    <p>Autoevaluaciones</p>
+                </div>
             </div>
-            <div class="col-xs-6 codelink" style="border:1px solid black;">
-                <a href="https://codepen.io/jadigar/" target="_blank"><img width="16" alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png"></a>
-            </div>
 
-        </div>
-    </section>
-
-
-
-    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-        <div class="hire-section-bg">
-            <div class="container">
+            <h3 class="subsection-title wow fadeInUp">Trabajos finalizados</h2>
                 <div class="row">
-                    <div class="col-md-12">
-                        <h2>Estoy listo para que hablemos</h2>
-                        <a href="#contact" class="btn btn-default">Contactar</a>
+                    <div class="grid">
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://www.figma.com/proto/cQ7Uu3ZCcFWOVxFNv8SpeY/App-ShopSaver-(v2)" target="_blank"><i class="fa fa-link"></i></a> <a href="#shopsaver" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="shopsaver" class="white-popup mfp-hide">Aplicación android de gestión de listas de la compra y búsqueda en supermercados online. Código disponible en <a href="https://github.com/Heipry/ShopSaver" target="_blank">https://github.com/Heipry/ShopSaver</a> </div>
+                                    </div>
+                                    <img src="assets/images/portfolio/pr-shopsaver.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>ShopSaver: Busca, compara y guarda</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://bierhaus.tienda/" target="_blank"><i class="fa fa-link"></i></a> <a href="#bierhaus" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="bierhaus" class="white-popup mfp-hide">Página web multipropósito. Combina una tienda basada en PrestaShop con sistema de venta de packs, tarjetas regalo y entradas a eventos, con una página web corporativa con conexión a aplicaciones de entrega a domicilio y un backoffice implementado mediante PHP para la gestión de la secciópn "Nuestros grifos" para visualización en pantallas de gran tamaño
+                                        </div>
+                                    </div><img src="assets/images/portfolio/bierhaus.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Bierhaus Odeon</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay">
+                                    </div>
+                                    <div class="links links-w"> <a href="https://www.enoturismo-ecuestre.com/" target="_blank"><i class="fa fa-link"></i></a> <a href="#enoturismo" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="enoturismo" class="white-popup mfp-hide">Página web para servicio de corte turístico. Cambio de logotipos e identidad corporativa, rediseño e implementación de página web mediante WordPress, internacionalización y presencia en internet.
+                                        </div>
+                                    </div><img src="assets/images/portfolio/enoturismo.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Enoturismo Ecuestre</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
-    <section id="contact" class="contact-section section-padding">
-        <div class="container">
-            <h2 class="section-title wow fadeInUp">Contactar</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="contact-form">
-                        <strong>Envía un mensaje</strong>
-                        <form name="contact-form" id="contact-form" method="post" action="assets/php/sendemail.php">
-                            <div class="form-group">
-                                <label for="InputName1">Nombre</label>
-                                <input type="text" name="name" class="form-control" id="InputName1" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="InputEmail1">Email</label>
-                                <input type="email" name="email" class="form-control" id="InputEmail1" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="InputSubject">Asunto</label>
-                                <input type="text" name="subject" class="form-control" id="InputSubject">
-                            </div>
-                            <div style="display: none;">
-                                <label>Este es un campo de control. Si lo ves, pasa de él.</label>
-                                <input type="text" name="required">
-                            </div>
+<?php
+            }
+?>
 
-                            <div class="form-group">
-                                <label for="numero">Resuelve la operacion <?php echo $_SESSION["num1"]; ?> + <?php echo $_SESSION["num2"]; ?>:</label>
-                                <input type="text" name="numero" class="form-control" id="numero" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="InputTextarea">Mensaje</label>
-                                <textarea name="message" class="form-control" id="InputTextarea" rows="5" required></textarea>
-                            </div>
-                            <button class="g-recaptcha btn btn-primary"
-                                data-sitekey="6Lcab7UpAAAAAM8Czt9NQHDT4ao8u_261Ovp4PSl"
-                                data-callback='onSubmit'
-                                data-action='submit'>Enviar mensaje</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row center-xs">
-                        <div class="col-sm-6">
-                            <i class="fa fa-map-marker"></i>
-                            <address>
-                                <strong>Dirección</strong>
-                                C/ Joan Miró<br>
-                                Arnedo, La Rioja<br>
-                            </address>
-                        </div>
-                        <div class="col-sm-6">
-                            <i class="fa fa-mobile"></i>
-                            <div class="contact-number">
-                                <strong>Teléfono y WhatsApp</strong>
-                                <a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank">627 496 505</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="short-info wow fadeInUp">
-                                <?php if ($job === 'developer') {
-                                    // developer
-                                ?>
-                                    <h3>¿Buscas alguien que pueda diseñar construir y subirte una web?</h3>
-                                    <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por <a href="#works">mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
-
-                                <?php
-                                } elseif ($job === 'manager') {
-                                    // manager                
-                                ?>
-                                    <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
-                                    <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="#works">mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
-                                <?php
-                                } else {
-                                    // Default case (empty or other value)
-                                ?>
-                                    <h3>¿Buscas a un profesional con sólida experiencia técnica que también sea capaz de formar y guiar a otros en el ámbito del desarrollo web y la gestión digital? </h3>
-                                    <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href="#works">mi portfolio</a> para ver los resultados de mi trabajo en estos últimos años. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
-                                <?php
-                                }
-                                ?>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer-wrapper">
+<section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+    <div class="hire-section-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="copyright text-center">
-                        <p>&copy; <?php echo date('Y'); ?> Javier Díaz. All rights reserved.</p>
+                    <h2>Estoy listo para que hablemos</h2>
+                    <a href="#contact" class="btn btn-default">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-section section-padding">
+    <div class="container">
+        <h2 class="section-title wow fadeInUp">Contactar</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <strong>Envía un mensaje</strong>
+                    <form name="contact-form" id="contact-form" method="post" action="assets/php/sendemail.php">
+                        <div class="form-group">
+                            <label for="InputName1">Nombre</label>
+                            <input type="text" name="name" class="form-control" id="InputName1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail1">Email</label>
+                            <input type="email" name="email" class="form-control" id="InputEmail1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputSubject">Asunto</label>
+                            <input type="text" name="subject" class="form-control" id="InputSubject">
+                        </div>
+                        <div style="display: none;">
+                            <label>Este es un campo de control. Si lo ves, pasa de él.</label>
+                            <input type="text" name="required">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="numero">Resuelve la operacion <?php echo $_SESSION["num1"]; ?> + <?php echo $_SESSION["num2"]; ?>:</label>
+                            <input type="text" name="numero" class="form-control" id="numero" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputTextarea">Mensaje</label>
+                            <textarea name="message" class="form-control" id="InputTextarea" rows="5" required></textarea>
+                        </div>
+                        <button class="g-recaptcha btn btn-primary"
+                            data-sitekey="6Lcab7UpAAAAAM8Czt9NQHDT4ao8u_261Ovp4PSl"
+                            data-callback='onSubmit'
+                            data-action='submit'>Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row center-xs">
+                    <div class="col-sm-6">
+                        <i class="fa fa-map-marker"></i>
+                        <address>
+                            <strong>Dirección</strong>
+                            C/ Joan Miró<br>
+                            Arnedo, La Rioja<br>
+                        </address>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-mobile"></i>
+                        <div class="contact-number">
+                            <strong>Teléfono y WhatsApp</strong>
+                            <a href="https://wa.me/34627496505?ext=Hola%20Javier%20he%20leido%20tu%20curriculum,%20" target="_blank">627 496 505</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="short-info wow fadeInUp">
+                            <?php if ($job === 'developer') {
+                                // developer
+                            ?>
+                                <h3>¿Buscas alguien que pueda diseñar construir y subirte una web?</h3>
+                                <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por <a href="#works">mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
+
+                            <?php
+                            } elseif ($job === 'manager') {
+                                // manager                
+                            ?>
+                                <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
+                                <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="#works">mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
+                            <?php
+                            } else {
+                                // Default case (empty or other value)
+                            ?>
+                                <h3>¿Buscas a un profesional con sólida experiencia técnica que también sea capaz de formar y guiar a otros en el ámbito del desarrollo web y la gestión digital? </h3>
+                                <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href="#works">mi portfolio</a> para ver los resultados de mi trabajo en estos últimos años. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
+                            <?php
+                            }
+                            ?>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <div class="scroll-up">
-        <a href="#home"><i class="fa fa-angle-up"></i></a>
     </div>
+</section>
+<footer class="footer-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright text-center">
+                    <p>&copy; <?php echo date('Y'); ?> Javier Díaz. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="scroll-up">
+    <a href="#home"><i class="fa fa-angle-up"></i></a>
+</div>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.stellar.min.js"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.countTo.js"></script>
-    <script src="assets/js/jquery.inview.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.fitvids.js"></script>
-    <script src="assets/js/scripts.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.stellar.min.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.countTo.js"></script>
+<script src="assets/js/jquery.inview.min.js"></script>
+<script src="assets/js/jquery.easypiechart.js"></script>
+<script src="assets/js/jquery.shuffle.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 
 </html>

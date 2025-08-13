@@ -63,11 +63,11 @@ h5,
 h6 {
   font-weight: 700;
   margin: 0;
-  text-transform: uppercase;
 }
 h1 {
   font-size: 36px;
   line-height: 36px;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 30px;
@@ -196,8 +196,16 @@ ul.list-check li::before {
   color: #2c3e50;
   position: relative;
 }
+.subsection-title {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  color: #2c3e50;
+  position: relative;
+}
 
-.section-title::after, .subsection-title::after {
+.section-title::after {
   content: "";
   background: url(../../assets/images/section-divider.png) no-repeat 0 0;
   height: 15px;
@@ -1725,19 +1733,35 @@ a.bbutton:hover {
   font-style: italic;
   color: grey;
 }
+#toggle-codelink{
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+}
 .codelink {
-  height: 50px;
-  display: flex;
+  min-height: 50px;
   align-items: center;
-  justify-content: center;
+  margin-bottom:20px;
+  display: none; 
+  justify-content: center; 
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.codelink div{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
 }
 .codelink a {
   display: block;
   height: 100%;
+  margin:0 15px;
 }
 .codelink a img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 36px;
+  display: block;
+  margin: 0 auto;
 }
 @media (min-width: 1200px) {
   .codelink {
