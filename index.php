@@ -10,6 +10,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
     <meta name="description" content="vCard de Javier Díaz Garrido">
     <meta name="author" content="Javier Díaz">
     <title>Yo soy Javier</title>
+    <link rel="canonical" href="https://javierdiaz.com.es/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel="stylesheet" type="text/css">
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
