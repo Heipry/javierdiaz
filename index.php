@@ -619,7 +619,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <ul class="media-list">
                         <?php
                         // Get all
-                        $gsent = $pdo->prepare("SELECT * FROM jdg_titulos");
+                        $gsent = $pdo->prepare("SELECT * FROM jdg_titulos ORDER BY id DESC");
                         $gsent->execute();
                         $resultado = $gsent->fetchAll();
                         foreach ($resultado as $dato): ?>
