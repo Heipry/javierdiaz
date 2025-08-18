@@ -176,6 +176,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <li><a href="#skills">Habilidades</a></li>
                         <li><a href="#works">Trabajos</a></li>
                         <li><a href="#contact">Contacto</a></li>
+                        <li><a href="https://heipry.github.io/javierdiaz_blog">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -912,6 +913,21 @@ $_SESSION["num2"] = rand(0, 10); ?>
 
 
     </section>
+    <section class="blog-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+        <div class="hire-section-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>¿Listo para ver mis habilidades en acción?</h2>
+                        <p>
+                            En mi blog comparto soluciones ingeniosas, tutoriales prácticos y la visión de un desarrollador sobre el mundo web. Descubre cómo los fundamentos pueden ser tu mejor herramienta.
+                        </p>
+                        <a href="https://heipry.github.io/javierdiaz_blog/" class="btn btn-default">Visita el Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="works" class="works-section section-padding">
         <div class="container">
 
@@ -1189,6 +1205,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         </div>
                     </div>
                 </div>
+        </div>
         </div>
     </section>
 <?php

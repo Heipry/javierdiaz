@@ -1342,6 +1342,12 @@ ul.list-check li::before {
   background-size: cover;
   color: #fff;
 }
+.blog-section {
+  background: url(../../assets/images/home.jpg) no-repeat top center #68c3a3;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
 .hire-section-bg {
   padding: 110px 0;
   background: -webkit-linear-gradient(
@@ -1353,11 +1359,11 @@ ul.list-check li::before {
   background: -moz-linear-gradient(top, #68c3a3, rgba(104, 195, 163, 0.7));
   background: linear-gradient(to top, #68c3a3, rgba(104, 195, 163, 0.7));
 }
-.hire-section h2 {
+.hire-section h2, .blog-section h2 {
   font-size: 36px;
   margin-bottom: 40px;
 }
-.hire-section .btn {
+.hire-section .btn, .blog-section .btn {
   padding: 9px 54px;
 }
 .contact-section {
