@@ -176,7 +176,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <li><a href="#skills">Habilidades</a></li>
                         <li><a href="#works">Trabajos</a></li>
                         <li><a href="#contact">Contacto</a></li>
-                        <li><a href="https://heipry.github.io/javierdiaz_blog">Blog</a></li>
+                        <li><a href="https://blog.javierdiaz.com.es">Blog</a></li>
                     </ul>
                 </div>
             </div>
