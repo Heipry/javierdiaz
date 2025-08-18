@@ -1290,20 +1290,20 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 // developer
                             ?>
                                 <h3>¿Buscas alguien que pueda diseñar construir y subirte una web?</h3>
-                                <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por <a href="#works">mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
+                                <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por<a href="https://blog.javierdiaz.com.es/"> mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
 
                             <?php
                             } elseif ($job === 'manager') {
                                 // manager                
                             ?>
                                 <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
-                                <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="#works">mi portfolio</a> y verás lo que he estado haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
+                                <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="https://blog.javierdiaz.com.es/">mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
                             <?php
                             } else {
                                 // Default case (empty or other value)
                             ?>
                                 <h3>¿Buscas a un profesional con sólida experiencia técnica que también sea capaz de formar y guiar a otros en el ámbito del desarrollo web y la gestión digital? </h3>
-                                <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href="#works">mi portfolio</a> para ver los resultados de mi trabajo en estos últimos años. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
+                                <p>Mi trayectoria me ha permitido acumular un amplio conocimiento como desarrollador, gestor de proyectos y especialista en eCommerce. Puedes explorar <a href="https://blog.javierdiaz.com.es/">mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. <br>Actualmente, mi enfoque profesional va más allá de lo puramente técnico: me dedico a <b>compartir conocimientos, estructurar contenidos de calidad y facilitar el aprendizaje en entornos digitales.</b><br> Si necesitas a alguien con profunda experiencia en el sector tecnológico, habilidades pedagógicas demostradas para impartir formación práctica y efectiva, y la capacidad de acompañar a los alumnos en su desarrollo profesional, soy la persona que buscas.<br> Estoy a tu disposición</p>
                             <?php
                             }
                             ?>
