@@ -38,12 +38,18 @@ $resultado = $gsent->fetchAll();
             <?php foreach ($resultado as $dato): ?>
                 <li class="media lista">
                     <div class="pull-left">
-                        <a class="image-link" href="assets/images/works-big/<?php echo $dato['foto']; ?>">
-                            <img class="media-object pad" src="assets/images/works/<?php echo $dato['foto']; ?>" alt="<?php echo $dato['foto']; ?>">
-                        </a>
+
+                        <label class="lightbox-trigger">
+                            <input type="checkbox" id="<?php echo $dato['foto']; ?>" class="lightbox-checkbox" />
+                            <img class="media-object pad lista" src="assets/images/works/<?php echo $dato['foto']; ?>" alt="<?php echo $dato['foto']; ?>">
+                            <label class="lightbox-overlay" for="<?php echo $dato['foto']; ?>">
+                                <img src="assets/images/works-big/<?php echo $dato['foto']; ?>" alt="<?php echo $dato['foto']; ?>" />
+                            </label>
+                        </label>
+
                     </div>
                     <div class=" media-body">
-                            <p class="media-heading"><?php echo $dato['descripcion']; ?></p>
+                        <p class="media-heading"><?php echo $dato['descripcion']; ?></p>
                     </div>
                 </li>
             <?php endforeach; ?>
