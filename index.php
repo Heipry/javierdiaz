@@ -101,6 +101,8 @@ $_SESSION["num2"] = rand(0, 10); ?>
             $job = $_GET['job'] ?? '';
             if ($job === 'developer') {
                 $cvFile = 'Javier_Diaz_CV_Developer.pdf';
+            } elseif ($job === 'manager') {
+                $cvFile = 'Javier_Diaz_CV_IT_Manager.pdf';
             } else {
                 $cvFile = 'Javier_Diaz_CV_Europass.pdf';
             }
@@ -120,9 +122,9 @@ $_SESSION["num2"] = rand(0, 10); ?>
             ?>
                 <h1><span>Web</span> Project Manager</h1>
                 <div class="typewriter">
-                    <p class="line1">Profesional dedicado a la gestión y creación de proyectos web</p>
-                    <p class="line2">También administrador de eCommerce y</p>
-                    <p class="line3">desarrollador PHP especializado en PrestaShop.</p>
+                    <p class="line1">Profesional dedicado a la gestión IT</p>
+                    <p class="line2">Experto en mantenimiento de sistemas</p>
+                    <p class="line3">ERPs, comercio electrónico y soporte técnico</p>
                 </div>
             <?php
             } else {
@@ -232,11 +234,11 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             // manager                
                     ?>
                         <h3>Hoy en día</h3>
-                        <p> Me siento comodo en la gestión de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándolos para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
+                        <p> Me siento comodo en la gestión y soporte de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándo sistemas de servidores para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
                         <h3>¿De dónde vengo?</h3>
-                        <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT, sigo ligado a la personalización de PrestaShop aunque también a WordPress y otros CMSs y me he acostumbrado a las bondades del teletrabajo. </p>
+                        <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT, sigo ligado a la personalización de PrestaShop aunque también a WordPress y otros CMSs no olvidando nunca el soporte y mantenimiento de la infraestructura. </p>
                     <?php
                         } else {
                             // Default case (empty or other value)
@@ -835,7 +837,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="list-text">
                     <img src="/assets/images/docencia4.png" alt="Atención al Alumnado" class="skill-icon wow fadeIn" data-wow-duration="3s">
-                    <span>Adaptabilidad al Cambio</span>
+                    <span>Soporte técnico</span>
                 </div>
             </div>
         </div>
@@ -907,11 +909,6 @@ $_SESSION["num2"] = rand(0, 10); ?>
             </div>
         </div>
         </div>
-    <?php
-            }
-    ?>
-
-
     </section>
     <section class="blog-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
         <div class="hire-section-bg">
@@ -927,6 +924,12 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 </div>
             </div>
         </div>
+    <?php
+            }
+    ?>
+
+
+
     </section>
     <section id="works" class="works-section section-padding">
         <div class="container">
@@ -1036,7 +1039,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     <a href="https://github.com/Heipry" target="_blank">
                         <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
                     </a>
-                    <a href="https://codepen.io/jadigar/" target="_blank">
+                    <a href="https://codepen.io/Heipry" target="_blank">
                         <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
                     </a>
                 </div>
@@ -1056,7 +1059,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <div class="portfolio-bg">
                             <div class="portfolio">
                                 <div class="tt-overlay"></div>
-                                <div class="links links-w"> <a href="https://codepen.io/jadigar/full/weXKam" target="_blank"><i class="fa fa-link"></i></a> <a href="#hangi" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                <div class="links links-w"> <a href="https://codepen.io/heipry/full/weXKam" target="_blank"><i class="fa fa-link"></i></a> <a href="#hangi" class="open-popup-link"><i class="fa fa-list"></i></a>
                                     <div id="hangi" class="white-popup mfp-hide">Minijuego de "el ahorcado" realizado integramente con BootStrap y VanillaJS como recurso de enseñanza
                                     </div>
                                 </div><img src="assets/images/portfolio/proyecto9.jpg" alt="minijuego ahorcado">
@@ -1297,7 +1300,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 // manager                
                             ?>
                                 <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
-                                <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="https://blog.javierdiaz.com.es/">mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
+                                <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en soporte de un ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="https://blog.javierdiaz.com.es/">mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
                             <?php
                             } else {
                                 // Default case (empty or other value)
