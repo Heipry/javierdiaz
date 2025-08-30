@@ -167,7 +167,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt></a>
+                    <a class="navbar-brand" href="#home"><img src="assets/images/logo.png" alt></a>
                 </div>
                 <div class="collapse navbar-collapse" id="custom-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -224,21 +224,21 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             <h3>Hoy en día</h3>
                             <p> Desarrollador y gerente de proyectos web con más de 10 años de experiencia. Experto en PrestaShop y WordPress, así como en
                                 el desarrollo de módulos y diseño personalizado de marca. Hábil en la gestión de equipos, la administración de contenido web y
-                                el mantenimiento de infraestructuras digitales.Acostumbrado a liderar proyectos full stack, incluyendo soporte técnico, gestión de redes sociales y ventas multicanal en marketplaces. Certificado por Google, con dominio de PHP, JavaScript, CSS y HTML. Compagino esta trayectoria técnica con una creciente actividad como formador en desarrollo web.</p> <br>
+                                el mantenimiento de infraestructuras digitales. Acostumbrado a liderar proyectos full stack, incluyendo soporte técnico, gestión de redes sociales y ventas multicanal en marketplaces. Certificado por Google, con dominio de PHP, JavaScript, CSS y HTML. Compagino esta trayectoria técnica con una creciente actividad como formador en desarrollo web.</p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
                         <h3>¿De dónde vengo?</h3>
-                        <p> Mi trayectoria comenzó en el ámbito comercial, liderando un equipo de más de 10 personas en el sector de ventas de cerramientos. Posteriormente fundé un eCommerce propio, lo que impulsó mi reorientación definitiva hacia el desarrollo web. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, trabajando como desarrollador PHP en agencias digitales y evolucionando hasta ocupar el rol de director de tecnología en una filial multinacional, donde gestioné un eCommerce multicanal basado en PrestaShop. Desde entonces, he coordinado numerosos proyectos IT, combinando experiencia técnica con visión de negocio. </p>
+                        <p> Mi trayectoria comenzó en el ámbito comercial, liderando un equipo de más de 10 personas en el sector de ventas de cerramientos. Posteriormente, fundé un eCommerce propio, lo que impulsó mi reorientación definitiva hacia el desarrollo web. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, trabajando como desarrollador PHP en agencias digitales y evolucionando hasta ocupar el rol de director de tecnología en una filial multinacional, donde gestioné un eCommerce multicanal basado en PrestaShop. Desde entonces, he coordinado numerosos proyectos IT, combinando experiencia técnica con visión de negocio. </p>
                     <?php
                         } elseif ($job === 'manager') {
                             // manager                
                     ?>
                         <h3>Hoy en día</h3>
-                        <p> Me siento comodo en la gestión y soporte de proyectos web, ya sea desarrollando sites óptimizados desde cero, actualizándo sistemas de servidores para el día a día, o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
+                        <p> Me siento cómodo en la gestión y soporte de proyectos web, ya sea desarrollando sites optimizados desde cero, actualizando sistemas de servidores para el día a día o gestionando el mantenimiento continuo para maximizar ventas u otros objetivos. </p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
                         <h3>¿De dónde vengo?</h3>
-                        <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT, sigo ligado a la personalización de PrestaShop aunque también a WordPress y otros CMSs no olvidando nunca el soporte y mantenimiento de la infraestructura. </p>
+                        <p> Inicié mi carrera en una pequeña empresa de venta de cerramientos, donde llegué a liderar un equipo de más de 10 personas. Posteriormente, lancé mi propio eCommerce y ofrecí servicios de creación y gestión de webs a clientes y proveedores, lo que me impulsó a reciclarme profesionalmente. Me formé en Desarrollo de Aplicaciones Web y Multiplataforma, y he trabajado como desarrollador PHP en varias agencias digitales y como director de tecnología en una multinacional con eCommerce multicanal basado en PrestaShop y WordPress. Más tarde, inicié el camino de la gestión de proyectos IT, sigo ligado a la personalización de PrestaShop, aunque también a WordPress y otros CMSs, no olvidando nunca el soporte y mantenimiento de la infraestructura. </p>
                     <?php
                         } else {
                             // Default case (empty or other value)
@@ -336,7 +336,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             <span><a href="https://directorio.educa.jcyl.es/m/es/centros/2012/1-42002744-virgen-del-espino" target="_blank">IES Virgen del Espino, Soria, modalidad Online</a></span>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Estudios del Ciclo Formativo de Grado Superior de desarrollo de aplicaciones Web en modalidad online, titulación oficial y homologada que me permite trabajar como desarrollador multimedia y de aplicativos para entornos web. </p>
+                                            <p>Estudios del Ciclo Formativo de Grado Superior de Desarrollo de aplicaciones Web en modalidad online, titulación oficial y homologada que me permite trabajar como desarrollador multimedia y de aplicativos para entornos web. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -434,7 +434,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             <span>Sysprovider SL, Logroño, La Rioja</span>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Como Product Owner, lideré equipos multidisciplinares mediante metodologías ágiles como Scrum y Kanban, para el desarrollo y entrega de productos digitales enfocados en plataformas como PrestaShop y WordPress. Mi rol abarcó la planificación estratégica, la gestión de hosting y el soporte técnico manteniendo comunicación constante con el cliente para asegurarla alineación con los requisitos y la satisfacción de sus necesidades.</p>
+                                            <p>Como Product Owner, lideré equipos multidisciplinares mediante metodologías ágiles como Scrum y Kanban, para el desarrollo y entrega de productos digitales enfocados en plataformas como PrestaShop y WordPress. Mi rol abarcó la planificación estratégica, la gestión de hosting y el soporte técnico, manteniendo comunicación constante con el cliente para asegurarla alineación con los requisitos y la satisfacción de sus necesidades.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1292,15 +1292,15 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             <?php if ($job === 'developer') {
                                 // developer
                             ?>
-                                <h3>¿Buscas alguien que pueda diseñar construir y subirte una web?</h3>
-                                <p>Si lo que necesitas es alguien que te haga una, o varias, páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS´s como Prestashop o WordPress además de HTML5 y CSS (por eso estás viendo esta página) sin embargo creo que lo mejor es que te des una vuelta por<a href="https://blog.javierdiaz.com.es/"> mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Tómalo como un pequeño apunte, no está todo, pero te dará una idea. Saludos </p>
+                                <h3>¿Buscas a alguien que pueda diseñar, construir y subirte una web?</h3>
+                                <p>Si lo que necesitas es alguien que te haga una o varias páginas web, quiero que sepas que también has llegado a tu destino.<br> Yo podría decirte que domino perfectamente CMS como PrestaShop o WordPress además de HTML5 y CSS (por eso estás viendo esta página); sin embargo, creo que lo mejor es que te des una vuelta por<a href="https://blog.javierdiaz.com.es/"> mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Tómalo como un pequeño apunte; no está todo, pero te dará una idea. Saludos. </p>
 
                             <?php
                             } elseif ($job === 'manager') {
                                 // manager                
                             ?>
-                                <h3>¿Buscas alguien que pueda ayudarte con tu proyecto? </h3>
-                                <p>Sé que mi perfil es bastante ecléptico<br> Podría decirte que soy maquetador, o programador, o experto en soporte de un ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="https://blog.javierdiaz.com.es/">mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Sin embargo, puedo decirte que a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, quí me tienes. Saludos </p>
+                                <h3>¿Buscas a alguien que pueda ayudarte con tu proyecto? </h3>
+                                <p>Sé que mi perfil es bastante ecléptico.<br> Podría decirte que soy maquetador, o programador, o experto en soporte de un ecommerce. A lo largo de mi carrera he hecho muchas cosas. Puedes comprobar <a href="https://blog.javierdiaz.com.es/">mi blog</a> para ver lo que he ido haciendo en estos últimos tiempos. Sin embargo, puedo decirte que, a pesar de mi perfil técnico, lo que mejor se me da es coordinar un proyecto. Así que si lo que necesitas es una persona comprometida con su trabajo, aquí me tienes. Saludos. </p>
                             <?php
                             } else {
                                 // Default case (empty or other value)
