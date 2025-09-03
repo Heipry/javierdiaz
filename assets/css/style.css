@@ -1794,7 +1794,7 @@ a.bbutton:hover {
   min-height: 50px;
   align-items: center;
   margin-bottom:20px;
-  display: flex; 
+  display: none; 
   justify-content: center; 
   gap: 30px;
   flex-wrap: wrap;
