@@ -544,7 +544,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 ?>
                     <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
                     <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
-                    <li><a data-group="<?php echo $categorias[2]; ?>">E-commerce</a></li>
+                    <li><a data-group="<?php echo $categorias[2]; ?>">Datos/IA</a></li>
                     <li><a data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
                     <li><a data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
                     <li><a data-group="<?php echo $categorias[5]; ?>">Otros</a></li>
@@ -555,7 +555,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 ?>
                     <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
                     <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
-                    <li><a data-group="<?php echo $categorias[2]; ?>">E-commerce</a></li>
+                    <li><a data-group="<?php echo $categorias[2]; ?>">IA/MarTech</a></li>
                     <li><a data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
                     <li><a data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
                     <li><a data-group="<?php echo $categorias[5]; ?>">Otros</a></li>
@@ -566,7 +566,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                 ?>
                     <li><a class="active" id="categoria_mostrada" data-group="<?php echo $categorias[4]; ?>">Docencia</a></li>
                     <li><a data-group="<?php echo $categorias[1]; ?>">Back End</a></li>
-                    <li><a data-group="<?php echo $categorias[2]; ?>">E-commerce</a></li>
+                    <li><a data-group="<?php echo $categorias[2]; ?>">IA/Ecomm</a></li>
                     <li><a data-group="<?php echo $categorias[0]; ?>">Front/CMS</a></li>
                     <li><a data-group="<?php echo $categorias[3]; ?>">Proyectos</a></li>
                     <li><a data-group="<?php echo $categorias[5]; ?>">Otros</a></li>
