@@ -1032,179 +1032,181 @@ $_SESSION["num2"] = rand(0, 10); ?>
 
 
                     </div>
-                </div>                
+                </div>
                 <div class="resume-title" style="margin-top:10px;">
                     <h3 id="toggle-codelink">Ver más proyectos</h3>
-                </div>                
-                    <div class="codelink text-center">
-                        <a href="https://github.com/Heipry" target="_blank">
-                            <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
-                        </a>
-                        <a href="https://codepen.io/Heipry" target="_blank">
-                            <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
-                        </a>
-                    </div>
-                <?php
+                </div>
+                <div class="codelink text-center">
+                    <a href="https://github.com/Heipry" target="_blank">
+                        <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
+                    </a>
+                    <a href="https://codepen.io/Heipry" target="_blank">
+                        <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
+                    </a>
+                </div>
+            <?php
             } else {
                 // Default case (empty or other value)
-                ?>
-                    <h2 class="section-title wow fadeInUp">Recursos de Formación</h2>
-                    <div class="row">
-                        <div class="grid">
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links links-w"> <a href="https://codepen.io/heipry/full/weXKam" target="_blank"><i class="fa fa-link"></i></a> <a href="#hangi" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="hangi" class="white-popup mfp-hide">Minijuego de "el ahorcado" realizado integramente con BootStrap y VanillaJS como recurso de enseñanza
-                                            </div>
-                                        </div><img src="assets/images/portfolio/proyecto9.jpg" alt="minijuego ahorcado">
-                                        <div class="portfolio-info">
-                                            <h3>Hangi: El ahorcado</h3>
+            ?>
+                <h2 class="section-title wow fadeInUp">Recursos de Formación</h2>
+                <div class="row">
+                    <div class="grid">
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://codepen.io/heipry/full/weXKam" target="_blank"><i class="fa fa-link"></i></a> <a href="#hangi" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="hangi" class="white-popup mfp-hide">Minijuego de "el ahorcado" realizado integramente con BootStrap y VanillaJS como recurso de enseñanza
                                         </div>
+                                    </div><img src="assets/images/portfolio/proyecto9.jpg" alt="minijuego ahorcado">
+                                    <div class="portfolio-info">
+                                        <h3>Hangi: El ahorcado</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links links-w"> <a href="https://heipry.github.io/EjerciciosCSS" target="_blank"><i class="fa fa-link"></i></a> <a href="#css" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="css" class="white-popup mfp-hide">Ejercicios de CSS correspondientes a las prácticas UF1303 del certificado profesional IFCD0110, desarrollados dentro del proyecto de Reskilling europeo para la mejora de competencias digitales, formación y actualización profesional.</div>
-                                        </div>
-                                        <img src="assets/images/portfolio/ejercicios-css.jpg" alt="practicas css">
-                                        <div class="portfolio-info">
-                                            <h3>Prácticas UF1303 del certificado IFCD0110 </h3>
-                                        </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://heipry.github.io/EjerciciosCSS" target="_blank"><i class="fa fa-link"></i></a> <a href="#css" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="css" class="white-popup mfp-hide">Ejercicios de CSS correspondientes a las prácticas UF1303 del certificado profesional IFCD0110, desarrollados dentro del proyecto de Reskilling europeo para la mejora de competencias digitales, formación y actualización profesional.</div>
+                                    </div>
+                                    <img src="assets/images/portfolio/ejercicios-css.jpg" alt="practicas css">
+                                    <div class="portfolio-info">
+                                        <h3>Prácticas UF1303 del certificado IFCD0110 </h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links links-w"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRGKjJ0zpEMICSx8dx-_bQa_pWIYHdXHVvM59yUBgAbqEZGQ/viewform?usp=sharing&ouid=102080009925472955765" target="_blank"><i class="fa fa-link"></i></a> <a href="#WCAG" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="WCAG" class="white-popup mfp-hide">Test de autoevaluación sobre criterios de accesibilidad y sus principios correspondientes(WCAG 2.1). Recurso de las prácticas MF0952 del certificado IFCD0110, desarrollado dentro del proyecto de Reskilling europeo para la mejora de competencias digitales, formación y actualización profesional.</div>
-                                        </div>
-                                        <img src="assets/images/portfolio/test-wcag.jpg" alt="test de autoevaluación">
-                                        <div class="portfolio-info">
-                                            <h3>Test Autoevaluación MF0952 del certificado IFCD0110 </h3>
-                                        </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://heipry.github.io/recursos-python/Analisis_restaurantes.html" target="_blank"><i class="fa fa-link"></i></a> <a href="#EDA" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="EDA" class="white-popup mfp-hide">Proyecto guía para limpieza de datos y detección de insights estratégicos sobre precios y demanda en tiempo real.</div>
+                                    </div>
+                                    <img src="assets/images/portfolio/restaurantes.jpg" alt="Proyecto Analisis de datos con Python">
+                                    <div class="portfolio-info">
+                                        <h3>Limpieza de datos con Python</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links links-w"> <a href="https://gist.github.com/Heipry/0c585a989953f46d56792cb2d93c0a15" target="_blank"><i class="fa fa-link"></i></a> <a href="#gist" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="gist" class="white-popup mfp-hide">
-                                                Listado práctico de atajos de teclado para <strong>Visual Studio Code</strong>, pensado para aumentar la productividad y agilizar el flujo de trabajo de desarrolladores y estudiantes.
-                                                Un recurso con amplia aceptación en la comunidad, respaldado por más de 100 estrellas en GitHub Gist.
-                                            </div>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://gist.github.com/Heipry/0c585a989953f46d56792cb2d93c0a15" target="_blank"><i class="fa fa-link"></i></a> <a href="#gist" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="gist" class="white-popup mfp-hide">
+                                            Listado práctico de atajos de teclado para <strong>Visual Studio Code</strong>, pensado para aumentar la productividad y agilizar el flujo de trabajo de desarrolladores y estudiantes.
+                                            Un recurso con amplia aceptación en la comunidad, respaldado por más de 100 estrellas en GitHub Gist.
+                                        </div>
 
-                                        </div>
-                                        <img src="assets/images/portfolio/gist.jpg" alt="Gist de atajos">
-                                        <div class="portfolio-info">
-                                            <h3>Gist de atajos globales y personalizados de VSCode </h3>
-                                        </div>
+                                    </div>
+                                    <img src="assets/images/portfolio/gist.jpg" alt="Gist de atajos">
+                                    <div class="portfolio-info">
+                                        <h3>Gist de atajos globales y personalizados de VSCode </h3>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                        </div>
                     </div>
-                    <div class="resume-title" style="margin-top:10px;">
-                        <h3 id="toggle-codelink">Ver más recursos</h3>
+                </div>
+                <div class="resume-title" style="margin-top:10px;">
+                    <a href="https://recursos.javierdiaz.com.es/" target="_blank">
+                        <h3>Ver más recursos</h3>
+                    </a>
+                </div>
+                <!-- <div class="codelink text-center">
+                    <div>
+                        <a href="https://github.com/users/Heipry/projects/1" target="_blank">
+                            <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
+                        </a>
+                        <p>Github Pages</p>
                     </div>
-                    <div class="codelink text-center">
-                        <div>
-                            <a href="https://github.com/users/Heipry/projects/1" target="_blank">
-                                <img alt="GitHub icon" src="https://javierdiaz.com.es/assets/firma/gh.png">
-                            </a>
-                            <p>Github Pages</p>
-                        </div>
-                        <div>
-                            <a href="https://codepen.io/collection/ZQYaJb" target="_blank">
-                                <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
-                            </a>
-                            <p>Efectos</p>
-                        </div>
-                        <div>
-                            <a href="https://codepen.io/collection/rBLxPK" target="_blank">
-                                <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png" style="filter: brightness(0) saturate(100%) invert(61%) sepia(55%) saturate(2250%) hue-rotate(117deg) brightness(94%) contrast(101%);">
-                            </a>
-                            <p>Retos</p>
-                        </div>
-                        <div>
-                            <a href="https://codepen.io/collection/EPyxzr" target="_blank">
-                                <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png" style="filter: brightness(0) saturate(100%) invert(46%) sepia(69%) saturate(3202%) hue-rotate(180deg) brightness(102%) contrast(107%);">
-                            </a>
-                            <p>Ejemplos</p>
-                        </div>
-                        <div>
-                            <a href=" https://octagonal-cashew-a93.notion.site/Autoevaluaciones-Google-Forms-24ef9cb236248067b8bbdf3be5e891f9" target="_blank">
-                                <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gf.png">
-                            </a>
-                            <p>Autoevaluaciones</p>
-                        </div>
-                        <div>
-                            <a href="https://gist.github.com/Heipry" target="_blank">
-                                <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gist.png">
-                            </a>
-                            <p>Gists</p>
-                        </div>
+                    <div>
+                        <a href="https://codepen.io/collection/ZQYaJb" target="_blank">
+                            <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png">
+                        </a>
+                        <p>Efectos</p>
                     </div>
+                    <div>
+                        <a href="https://codepen.io/collection/rBLxPK" target="_blank">
+                            <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png" style="filter: brightness(0) saturate(100%) invert(61%) sepia(55%) saturate(2250%) hue-rotate(117deg) brightness(94%) contrast(101%);">
+                        </a>
+                        <p>Retos</p>
+                    </div>
+                    <div>
+                        <a href="https://codepen.io/collection/EPyxzr" target="_blank">
+                            <img alt="Codepen icon" src="https://javierdiaz.com.es/assets/firma/cp.png" style="filter: brightness(0) saturate(100%) invert(46%) sepia(69%) saturate(3202%) hue-rotate(180deg) brightness(102%) contrast(107%);">
+                        </a>
+                        <p>Ejemplos</p>
+                    </div>
+                    <div>
+                        <a href=" https://octagonal-cashew-a93.notion.site/Autoevaluaciones-Google-Forms-24ef9cb236248067b8bbdf3be5e891f9" target="_blank">
+                            <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gf.png">
+                        </a>
+                        <p>Autoevaluaciones</p>
+                    </div>
+                    <div>
+                        <a href="https://gist.github.com/Heipry" target="_blank">
+                            <img alt="Google Forms icon" src="https://javierdiaz.com.es/assets/firma/gist.png">
+                        </a>
+                        <p>Gists</p>
+                    </div>
+                </div>
 
-                    <h3 class="subsection-title wow fadeInUp">Trabajos finalizados</h3>
-                    <div class="row">
-                        <div class="grid">
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links links-w"> <a href="https://www.figma.com/proto/cQ7Uu3ZCcFWOVxFNv8SpeY/App-ShopSaver-(v2)" target="_blank"><i class="fa fa-link"></i></a> <a href="#shopsaver" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="shopsaver" class="white-popup mfp-hide">Aplicación android de gestión de listas de la compra y búsqueda en supermercados online. Código disponible en <a href="https://github.com/Heipry/ShopSaver" target="_blank">https://github.com/Heipry/ShopSaver</a> </div>
-                                        </div>
-                                        <img src="assets/images/portfolio/pr-shopsaver.jpg" alt="image">
-                                        <div class="portfolio-info">
-                                            <h3>ShopSaver: Busca, compara y guarda</h3>
-                                        </div>
+                <h3 class="subsection-title wow fadeInUp">Trabajos finalizados</h3>
+                <div class="row">
+                    <div class="grid">
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://www.figma.com/proto/cQ7Uu3ZCcFWOVxFNv8SpeY/App-ShopSaver-(v2)" target="_blank"><i class="fa fa-link"></i></a> <a href="#shopsaver" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="shopsaver" class="white-popup mfp-hide">Aplicación android de gestión de listas de la compra y búsqueda en supermercados online. Código disponible en <a href="https://github.com/Heipry/ShopSaver" target="_blank">https://github.com/Heipry/ShopSaver</a> </div>
+                                    </div>
+                                    <img src="assets/images/portfolio/pr-shopsaver.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>ShopSaver: Busca, compara y guarda</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay"></div>
-                                        <div class="links links-w"> <a href="https://bierhaus.tienda/" target="_blank"><i class="fa fa-link"></i></a> <a href="#bierhaus" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="bierhaus" class="white-popup mfp-hide">Página web multipropósito. Combina una tienda basada en PrestaShop con sistema de venta de packs, tarjetas regalo y entradas a eventos, con una página web corporativa con conexión a aplicaciones de entrega a domicilio y un backoffice implementado mediante PHP para la gestión de la sección "Nuestros grifos" para visualización en pantallas de gran tamaño
-                                            </div>
-                                        </div><img src="assets/images/portfolio/bierhaus.jpg" alt="image">
-                                        <div class="portfolio-info">
-                                            <h3>Bierhaus Odeon</h3>
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay"></div>
+                                    <div class="links links-w"> <a href="https://bierhaus.tienda/" target="_blank"><i class="fa fa-link"></i></a> <a href="#bierhaus" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="bierhaus" class="white-popup mfp-hide">Página web multipropósito. Combina una tienda basada en PrestaShop con sistema de venta de packs, tarjetas regalo y entradas a eventos, con una página web corporativa con conexión a aplicaciones de entrega a domicilio y un backoffice implementado mediante PHP para la gestión de la sección "Nuestros grifos" para visualización en pantallas de gran tamaño
                                         </div>
+                                    </div><img src="assets/images/portfolio/bierhaus.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Bierhaus Odeon</h3>
                                     </div>
                                 </div>
                             </div>
-                            <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
-                                <div class="portfolio-bg">
-                                    <div class="portfolio">
-                                        <div class="tt-overlay">
+                        </div>
+                        <div class="portfolio-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-bg">
+                                <div class="portfolio">
+                                    <div class="tt-overlay">
+                                    </div>
+                                    <div class="links links-w"> <a href="https://www.enoturismo-ecuestre.com/" target="_blank"><i class="fa fa-link"></i></a> <a href="#enoturismo" class="open-popup-link"><i class="fa fa-list"></i></a>
+                                        <div id="enoturismo" class="white-popup mfp-hide">Página web para servicio de corte turístico. Cambio de logotipos e identidad corporativa, rediseño e implementación de página web mediante WordPress, internacionalización y presencia en internet.
                                         </div>
-                                        <div class="links links-w"> <a href="https://www.enoturismo-ecuestre.com/" target="_blank"><i class="fa fa-link"></i></a> <a href="#enoturismo" class="open-popup-link"><i class="fa fa-list"></i></a>
-                                            <div id="enoturismo" class="white-popup mfp-hide">Página web para servicio de corte turístico. Cambio de logotipos e identidad corporativa, rediseño e implementación de página web mediante WordPress, internacionalización y presencia en internet.
-                                            </div>
-                                        </div><img src="assets/images/portfolio/enoturismo.jpg" alt="image">
-                                        <div class="portfolio-info">
-                                            <h3>Enoturismo Ecuestre</h3>
-                                        </div>
+                                    </div><img src="assets/images/portfolio/enoturismo.jpg" alt="image">
+                                    <div class="portfolio-info">
+                                        <h3>Enoturismo Ecuestre</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+        </div>-->
 
             <?php
             }

@@ -108,9 +108,15 @@
    
 </body>
 <script>
+
       
 function operar(value) {
     eroskiBasic = document.querySelector('input[name=basic]:checked').value;
+    var e, m, l, b, d;
+    if (e != null) {
+        e.close();
+    }else {
+        console.log("Primera búsqueda");
 
     var merca = 'https://soysuper.com/search?q='+value+'&sort=price%3Aasc';   
     var lupa='https://www.lupaonline.com/logrono/catalogsearch/result/index/?cat=&dir=asc&order=price&q='+value;
@@ -121,12 +127,13 @@ function operar(value) {
     }else{
         var eroski='https://supermercado.eroski.es/es/search/results/?q='+value; 
     }
+
+    m = window.open(merca, 'merca');     
+    e = window.open(eroski, 'eroski'); 
+    l = window.open(lupa, 'lupa'); 
+    b = window.open(bonarea, 'bonarea'); 
+    d = window.open(dia, 'dia'); 
     
-    window.open(merca, 'merca'); 
-    window.open(eroski, 'eroski'); 
-    window.open(lupa, 'lupa'); 
-    window.open(bonarea, 'bonarea'); 
-    window.open(dia, 'dia'); 
 }
 document.getElementById("textbox")
             .addEventListener("keyup", function(event) {
