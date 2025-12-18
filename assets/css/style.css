@@ -9,8 +9,7 @@ body {
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: antialiased !important;
 }
-body,
-html {
+body{
   overflow-x: hidden;
 }
 a {
