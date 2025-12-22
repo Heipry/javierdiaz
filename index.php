@@ -245,7 +245,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     ?>
                         <h3>Hoy en día</h3>
                         <p> Especializado en gestión y desarrollo web, fusiono mi sólida experiencia con mi pasión por la docencia para formar a la próxima generación de profesionales. Tras más de una década en el sector, he desarrollado una metodología práctica y adaptativa que va más allá de la teoría.<br>
-                            Como docente en programas de eLearning y reskilling, mi objetivo es dotar a los alumnos de habilidades directamente aplicables al mercado digital. Mi formación se centra en el desarrollo web (HTML, CSS, JavaScript, PHP) y el diseño UX/UI, asegurando que los estudiantes no solo sepan codificar, sino que también comprendan cómo crear productos digitales usables y eficientes.<br>
+                            Como docente habilitado oficialmente (SSCE0110) en programas de eLearning y reskilling, mi objetivo es dotar a los alumnos de habilidades directamente aplicables al mercado digital. Mi formación, que combina el desarrollo de aplicaciones con la especialización avanzada en Python e Inteligencia Artificial, se centra en el desarrollo web, la programación y el diseño UX/UI. Así, aseguro que los estudiantes no solo sepan codificar, sino que también comprendan cómo crear productos digitales usables y eficientes.<br>
                             Mi bagaje en gestión de proyectos me permite aportar una visión integral del sector, preparando a los alumnos con las herramientas y la mentalidad necesarias para tener éxito en cualquier equipo o proyecto. </p> <br>
                     </div>
                     <div class="short-info wow fadeInUp">
@@ -362,13 +362,30 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             </li>
                             <li class="timeline-inverted">
                                 <div class="posted-date">
+                                    <span class="month">2025</span>
+                                </div>
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Habilitación para la Docencia en Grados A, B y C del sistema de Formación Profesional (SSCE0110)</h3>
+                                            <span><a href="https://dacdocencia.com/" target="_blank">DAC Docencia, Valladolid
+                                                </a></span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Formación oficial para la capacitación pedagógica en el sistema de formación profesional que me faculta para programar, impartir, tutorizar y evaluar acciones formativas tanto en modalidad presencial como en teleformación, asegurando la competencia docente necesaria para impartir certificados tanto de la familia de informática y comunicaciones como de otras.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="posted-date">
                                     <span class="month">2024-</span>
                                 </div>
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Master FP Desarrollo de aplicaciones en lenguaje Python <a class="image-link importante" href="assets/images/diploma-daw.jpg"><i class="fa fa-search-plus"></i></a></h3>
-                                            <span><a href="https://directorio.educa.jcyl.es/m/es/centros/2012/1-42002744-virgen-del-espino" target="_blank">CIPFPD La Rioja
+                                            <span><a href="https://fpdrioja.es/" target="_blank">CIPFPD La Rioja
                                                 </a></span>
                                         </div>
                                         <div class="timeline-body">
