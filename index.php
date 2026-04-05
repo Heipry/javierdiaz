@@ -408,6 +408,24 @@ $_SESSION["num2"] = rand(0, 10); ?>
                     </div>
                     <div class="resume">
                         <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+
+                                    <span class="month">2026</span>
+                                </div>
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Docente especialista en programación</h3>
+                                            <span>Adams. Formación, Sevilla</span>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Como Docente titular, impartí el programa formativo de programación en Java (IFCD0052PO) orientado a la inserción laboral siendo responsable de la impartición integral de 13 unidades temáticas, abarcaba desde los fundamentos algorítmicos hasta el desarrollo avanzado con programación orientada a objetos (POO) y bases de datos. Desarrollé una metodología de enseñanza práctica y adaptativa, mediante Adobe Connect, fomentando la participación activa y el aprendizaje colaborativo.                                            
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="posted-date">
                                 <div class="posted-date">
                                     <span class="month">2024-2025</span>
