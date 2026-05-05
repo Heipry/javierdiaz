@@ -379,17 +379,17 @@ $_SESSION["num2"] = rand(0, 10); ?>
                             </li>
                             <li>
                                 <div class="posted-date">
-                                    <span class="month">2024-</span>
+                                    <span class="month">2024-2026</span>
                                 </div>
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
-                                            <h3>Master FP Desarrollo de aplicaciones en lenguaje Python <a class="image-link importante" href="assets/images/diploma-daw.jpg"><i class="fa fa-search-plus"></i></a></h3>
+                                            <h3>Máster FP en Desarrollo de Aplicaciones en Lenguaje Python<a class="image-link importante" href="assets/images/diploma-dam.jpg"><i class="fa fa-search-plus"></i></a></h3>
                                             <span><a href="https://fpdrioja.es/" target="_blank">CIPFPD La Rioja
                                                 </a></span>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Estudiando actualmente el Máster de Formación Profesional en Desarrollo de Aplicaciones en Lenguaje Python. Este programa me capacita para diseñar, desarrollar e implementar aplicaciones avanzadas utilizando Python, aplicando buenas prácticas de programación, automatización y análisis de datos.</p>
+                                            <p>Curso de Especialización de Formación Profesional en Desarrollo de Aplicaciones en Lenguaje Python. Este programa me ha capacitado para diseñar, desarrollar e implementar aplicaciones avanzadas utilizando Python, aplicando buenas prácticas de programación, automatización y análisis de datos.</p>
 
                                         </div>
                                     </div>
@@ -420,7 +420,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             <span>Adams. Formación, Sevilla</span>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Como Docente titular, impartí el programa formativo de programación en Java (IFCD0052PO) orientado a la inserción laboral siendo responsable de la impartición integral de 13 unidades temáticas, abarcaba desde los fundamentos algorítmicos hasta el desarrollo avanzado con programación orientada a objetos (POO) y bases de datos. Desarrollé una metodología de enseñanza práctica y adaptativa, mediante Adobe Connect, fomentando la participación activa y el aprendizaje colaborativo.                                            
+                                            <p>Como Docente titular, impartí el programa formativo de programación en Java (IFCD0052PO) orientado a la inserción laboral siendo responsable de la impartición integral de 13 unidades temáticas, abarcaba desde los fundamentos algorítmicos hasta el desarrollo avanzado con programación orientada a objetos (POO) y bases de datos. Desarrollé una metodología de enseñanza práctica y adaptativa, mediante Adobe Connect, fomentando la participación activa y el aprendizaje colaborativo.
                                             </p>
                                         </div>
                                     </div>
