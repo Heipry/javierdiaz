@@ -384,7 +384,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
-                                            <h3>Máster FP en Desarrollo de Aplicaciones en Lenguaje Python<a class="image-link importante" href="assets/images/diploma-dam.jpg"><i class="fa fa-search-plus"></i></a></h3>
+                                            <h3>Máster FP en Desarrollo de Aplicaciones en Lenguaje Python<a class="image-link importante" href="assets/images/diploma-python.jpg"><i class="fa fa-search-plus"></i></a></h3>
                                             <span><a href="https://fpdrioja.es/" target="_blank">CIPFPD La Rioja
                                                 </a></span>
                                         </div>
@@ -416,11 +416,11 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
-                                            <h3>Docente especialista en programación</h3>
-                                            <span>Adams. Formación, Sevilla</span>
+                                            <h3>Docente de Programación y BI</h3>
+                                            <span>Adams. Formación</span>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Como Docente titular, impartí el programa formativo de programación en Java (IFCD0052PO) orientado a la inserción laboral siendo responsable de la impartición integral de 13 unidades temáticas, abarcaba desde los fundamentos algorítmicos hasta el desarrollo avanzado con programación orientada a objetos (POO) y bases de datos. Desarrollé una metodología de enseñanza práctica y adaptativa, mediante Adobe Connect, fomentando la participación activa y el aprendizaje colaborativo.
+                                            <p>Como docente titular, impartí los programas formativos de Programación en Java (IFCD0052PO) y Business Intelligence (ADGG102PO) en varias ocasiones, orientados a la inserción laboral. Fui responsable de la impartición integral de los contenidos, desde programación orientada a objetos y bases de datos hasta análisis de datos, KPIs y visualización con Power BI y Power Pivot, desarrollando una metodología práctica y adaptativa mediante Adobe Connect.
                                             </p>
                                         </div>
                                     </div>
