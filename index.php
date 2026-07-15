@@ -422,6 +422,10 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                         <div class="timeline-body">
                                             <p>Como docente titular, impartí los programas formativos de Programación en Java (IFCD0052PO) y Business Intelligence (ADGG102PO) en varias ocasiones, orientados a la inserción laboral. Fui responsable de la impartición integral de los contenidos, desde programación orientada a objetos y bases de datos hasta análisis de datos, KPIs y visualización con Power BI y Power Pivot, desarrollando una metodología práctica y adaptativa mediante Adobe Connect.
                                             </p>
+                                            <ul class="experiencia">
+                                                <li>IFCD0052PO: Programación Java (210 h) </li>
+                                                <li>ADGG102PO: Business Intelligence (60 h) <strong>x2</strong></li>                 
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -452,7 +456,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                                 <li>UF1306: Pruebas de funcionalidades y optimización (60 h)</li>
                                                 <li>MF0952: Publicación de páginas web (60 h) <strong>x2</strong></li>
                                             </ul>
-                                            </p>
+
                                         </div>
                                     </div>
                                 </div>
