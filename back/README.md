@@ -1,2 +1,0 @@
-# javierdiaz
-My web Resume
