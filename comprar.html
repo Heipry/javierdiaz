@@ -68,7 +68,7 @@
             cursor: pointer;
             box-shadow: 5px 10px 8px #888888;
         }
-
+    
     </style>
 </head>
 <body>
@@ -76,8 +76,8 @@
         <p>Antes de buscar tienes que permitir ventanas emergentes y loguearte en:</p>
 
         <ul>
-            <li><a href="https://soysuper.com/signin" target="merca">SoySuper</a></li>
-            <li><a href="https://supermercado.eroski.es/es/login/" target="dia">Eroski</a></li>
+            <li><a href="https://soysuper.com/signin" target="all">SoySuper</a></li>
+            <li><a href="https://supermercado.eroski.es/es/login/" target="eroski">Eroski</a></li>
             <li><a href="https://www.lupaonline.com/santander/customer/account/login" target="lupa">Lupa (la sesión caduca)</a></li>
             <li><a href="https://www.bonarea-online.com/es" target="bonarea">Bonarea</a></li>
 			<li><a href="https://www.dia.es/compra-online/login/singlelogin" target="dia">Dia Online</a></li>
@@ -108,11 +108,11 @@
    
 </body>
 <script>
-
       
 function operar(value) {
-    eroskiBasic = document.querySelector('input[name=basic]:checked').value;   
-    var merca = 'https://soysuper.com/search?q='+value+'&sort=price%3Aasc';   
+    eroskiBasic = document.querySelector('input[name=basic]:checked').value;
+    var all = 'https://soysuper.com/search?q='+value+'&sort=price%3Aasc';   
+    var mercadona='https://tienda.mercadona.es/search-results?query='+value;
     var lupa='https://www.lupaonline.com/logrono/catalogsearch/result/index/?cat=&dir=asc&order=price&q='+value;
     var bonarea='https://www.bonarea-online.com/es/shop/find?searchWords='+value;  
     var dia='https://www.dia.es/search?q='+value;
@@ -120,14 +120,13 @@ function operar(value) {
         var eroski='https://supermercado.eroski.es/es/search/results/?q='+value+'%20eroski%20basic';
     }else{
         var eroski='https://supermercado.eroski.es/es/search/results/?q='+value; 
-    }
-
-    window.open(merca, 'merca');     
-    window.open(eroski, 'eroski'); 
+    }    
+    window.open(all, 'all'); 
+    window.open(mercadona, 'mercadona'); 
+    window.open(eroski, 'eroski');
     window.open(lupa, 'lupa'); 
-    window.open(bonarea, 'bonarea'); 
+    window.open(bonarea, 'bonarea');     
     window.open(dia, 'dia'); 
-    
 }
 document.getElementById("textbox")
             .addEventListener("keyup", function(event) {
