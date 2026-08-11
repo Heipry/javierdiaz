@@ -7,9 +7,9 @@ $_SESSION["num2"] = rand(0, 10); ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="vCard de Javier Díaz Garrido">
+    <meta name="description" content="CV de Javier Díaz Garrido. Profesional dedicado a la creación de páginas web, administrador de sistemas informáticos y versado en labores de relaciones públicas">
     <meta name="author" content="Javier Díaz">
-    <title>Yo soy Javier</title>
+    <title>Yo soy Javier. Docente y consultor web</title>
     <link rel="canonical" href="https://javierdiaz.com.es/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel="stylesheet" type="text/css">
@@ -24,11 +24,31 @@ $_SESSION["num2"] = rand(0, 10); ?>
 <script src=https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js></script>
 <script src=https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js></script>
 <![endif]-->
-    <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/images/ico/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/ico/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+    <meta property="og:image" content="https://javierdiaz.com.es/assets/images/home.jpg" />
+    <meta property="og:image:width" content="1800" />
+    <meta property="og:image:height" content="795" />
+    <meta property="og:image:alt" content="Javier Díaz" />
+    <meta property="og:url" content="https://javierdiaz.com.es" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:site_name" content="Yo soy Javier. Docente y consultor web" />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="twitter:site" content="@heipry" />
+    <meta name="theme-color" content="#52b3d9" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Yo soy Javier. Docente y consultor web",
+            "description": "CV de Javier Díaz Garrido. Profesional dedicado a la creación de páginas web, administrador de sistemas informáticos y versado en labores de relaciones públicas"
+        }
+    </script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script>
         function onSubmit(token) {
@@ -424,7 +444,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             </p>
                                             <ul class="experiencia">
                                                 <li>IFCD0052PO: Programación Java (210 h) </li>
-                                                <li>ADGG102PO: Business Intelligence (60 h) <strong>x2</strong></li>                 
+                                                <li>ADGG102PO: Business Intelligence (60 h) <strong>x2</strong></li>
                                             </ul>
                                         </div>
                                     </div>
