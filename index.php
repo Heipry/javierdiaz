@@ -446,6 +446,8 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             <ul class="experiencia">
                                                 <li>IFCD0052PO: Programación Java (210 h) </li>
                                                 <li>ADGG102PO: Business Intelligence (60 h) <strong>x2</strong></li>
+                                                <li>IFCT56: Excel Avanzado y Power BI (150 h)
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
