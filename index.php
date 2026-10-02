@@ -441,7 +441,7 @@ $_SESSION["num2"] = rand(0, 10); ?>
                                             <span>Adams. Formación</span>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Como docente titular, impartí los programas formativos de Programación en Java (IFCD0052PO) y Business Intelligence (ADGG102PO) en varias ocasiones, orientados a la inserción laboral. Fui responsable de la impartición integral de los contenidos, desde programación orientada a objetos y bases de datos hasta análisis de datos, KPIs y visualización con Power BI y Power Pivot, desarrollando una metodología práctica y adaptativa mediante Adobe Connect.
+                                            <p>Como docente titular, impartí distintos programas formativos: Programación en Java, Business Intelligence, Excel y Power BI, orientados a la inserción laboral. Fui responsable de la impartición integral de los contenidos, desde programación orientada a objetos y bases de datos hasta análisis de datos, KPIs y visualización con Power BI y Power Pivot, desarrollando una metodología práctica y adaptativa mediante Adobe Connect.
                                             </p>
                                             <ul class="experiencia">
                                                 <li>IFCD0052PO: Programación Java (210 h) </li>
