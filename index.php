@@ -30,10 +30,11 @@ $_SESSION["num2"] = rand(0, 10); ?>
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-    <meta property="og:image" content="https://javierdiaz.com.es/assets/images/home.jpg" />
+    <meta property="og:image" content="https://javierdiaz.com.es/assets/images/rs-image.jpg" />
     <meta property="og:image:width" content="1800" />
     <meta property="og:image:height" content="795" />
     <meta property="og:image:alt" content="Javier Díaz" />
+    <meta property="og:title" content="Yo soy Javier. Docente y consultor web" />
     <meta property="og:url" content="https://javierdiaz.com.es" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:site_name" content="Yo soy Javier. Docente y consultor web" />
